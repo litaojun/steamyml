@@ -1,0 +1,53 @@
+{
+    "success": true,
+    "envContext": null,
+    "errorContext": null,
+    "pageContext": {
+        "itemCounts": 34,
+        "currentPage": 1,
+        "pageSize": 10,
+        "pageCounts": 4,
+        "targets": [
+            {
+                "tagId": 1,
+                "tagName": "短文"
+            },
+            {
+                "tagId": 2,
+                "tagName": "优选文章"
+            },
+            {
+                "tagId": 3,
+                "tagName": "fff"
+            },
+            {
+                "tagId": 4,
+                "tagName": "积分"
+            },
+            {
+                "tagId": 5,
+                "tagName": "视频"
+            },
+            {
+                "tagId": 6,
+                "tagName": "1"
+            },
+            {
+                "tagId": 7,
+                "tagName": "本版本"
+            },
+            {
+                "tagId": 8,
+                "tagName": "活动"
+            },
+            {
+                "tagId": 9,
+                "tagName": "测试"
+            },
+            {
+                "tagId": 10,
+                "tagName": "登录"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"itemCounts": 1,
+		"currentPage": 1,
+		"pageSize": 10,
+		"pageCounts": 1,
+		"targets": [{
+			"resourceId": 1757,
+			"resourceTypeId": 1,
+			"title": "石舍学校独立微电影-接口自动化-勿动",
+			"cornerMask": "微电影",
+			"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180518140222_238585.jpg",
+			"visitNum": 17,
+			"collectNum": 6,
+			"score": 0.0,
+			"minPrice": null,
+			"maxPrice": null,
+			"saleNum": 0,
+			"address": "",
+			"state": true,
+			"collected": false,
+			"saleOut": false,
+			"timeOut": false
+		}]
+	}
+}

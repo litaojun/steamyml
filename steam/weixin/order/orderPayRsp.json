@@ -1,0 +1,16 @@
+{
+    "code":"000000",
+    "message":"成功",
+    "data":{
+        "type":1,
+        "officialValue":{
+            "appId":"wxa5365dbeaa4265ac",
+            "timeStamp":"1541742646",
+            "nonceStr":"cdfe5ed19ab3443ba16e6b708f14d418",
+            "prePackage":"prepay_id=wx091350463236762b73f4cb820684795885",
+            "signType":"MD5",
+            "paySign":"DF230BAF156F071EF90D3D44B89EEB5A"
+        },
+        "h5Value":null
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "resourceId": 4687,
+        "resourceTypeId": 11,
+        "title": "实现体能感知、智能认知和个性情商的多元发展（逻辑思维者）",
+        "images": [
+            "http://uat-steam.opg.cn/_static/admin/images/resource/20181022141433_123938.jpg"
+        ],
+        "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022141423_519745.jpg",
+        "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022141426_342475.jpg",
+        "content": "<p><img class=\"wscnph\" src=\"http://uat-steam.opg.cn/_static/admin/images/resource/20181022141444_139717.jpg\" data-mce-src=\"../_static/admin/images/resource/20181022141444_139717.jpg\"></p><p>育乐L6 逻辑思维者<br>准备了猜谜游戏，激发孩子对课程主题的好奇，通过线索，建立逻辑思维。假扮游戏中，孩子有机会充分表达意见，推动活动进程，渐渐掌握游戏主动权，领导力更强。活动的设计也将让孩子们自然排队，学会轮流和谦让，培养社交技巧。</p><p><img class=\"wscnph\" src=\"http://uat-steam.opg.cn/_static/admin/images/resource/20181022141458_927217.jpg\" data-mce-src=\"../_static/admin/images/resource/20181022141458_927217.jpg\"></p>",
+        "totalSaleNum": 0,
+        "minPrice": 100,
+        "maxPrice": 100,
+        "dateStr": null,
+        "address": null,
+        "addressDetail": null,
+        "outOfTime": false,
+        "saleOut": true,
+        "deliverType": 0,
+        "shareInfoList": [
+            {
+                "id": 7120,
+                "shareType": 1,
+                "title": "实现体能感知、智能认知和个性情商的多元发展（逻辑思维者）",
+                "description": "准备了猜谜游戏，激发孩子对课程主题的好奇，通过线索，建立逻辑思维",
+                "shareImgUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022141429_216414.jpg"
+            }
+        ],
+        "skuList": [
+            {
+                "skuId": 2538,
+                "skuName": "逻辑思维者",
+                "price": 100,
+                "postPrice": 0,
+                "limitCount": 2,
+                "inventory": 0
+            }
+        ],
+        "state": "00",
+        "collected": false
+    }
+}

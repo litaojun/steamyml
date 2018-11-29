@@ -1,0 +1,17 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "currentPage": 1,
+        "pageCounts": 1,
+        "studyList": [{
+            "resourceId": 4441,
+            "title": "推荐课程010",
+            "payPrice": 0.00,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181010151926_580256.jpeg",
+            "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181010151928_7251.jpeg",
+            "scored": false
+        }],
+        "itemCounts": 1
+    }
+}

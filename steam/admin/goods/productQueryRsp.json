@@ -1,0 +1,55 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "resourceId": 4784,
+        "resourceTypeId": 11,
+        "title": "test1",
+        "subTitle": "商品副标题",
+        "cornerMask": "1111",
+        "baseVisits": 10000,
+        "vendorIdList": [
+            18
+        ],
+        "content": "<p>商品详情</p>",
+        "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174314_395938.jpg",
+        "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174317_419419.jpg",
+        "deliverType": 0,
+        "shareInfoList": [
+            {
+                "id": 7250,
+                "shareType": 1,
+                "title": "分享标题",
+                "description": "分享描述",
+                "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174347_923050.jpg"
+            }
+        ],
+        "province": null,
+        "city": null,
+        "addressDetail": null,
+        "startTime": null,
+        "endTime": null,
+        "offShelfTime": null,
+        "tagIdList": null,
+        "entryIdList": null,
+        "skuList": [
+            {
+                "skuId": 2622,
+                "skuName": "sku名称",
+                "price": 2,
+                "originPrice": 3,
+                "postPrice": 0.01,
+                "limitCount": 5,
+                "inventory": 4,
+                "order": 1
+            }
+        ],
+        "imageList": [
+            {
+                "id": 1890,
+                "order": 1,
+                "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174320_335164.jpg"
+            }
+        ]
+    }
+}

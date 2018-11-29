@@ -1,0 +1,52 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "title": "自动下架课程（标题）",
+        "content": "<p>2课程详情页</p><p>详情内容</p><p>1</p>",
+        "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012105502_877512.jpg",
+        "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012105523_631273.jpg",
+        "originPrice": 0.02,
+        "price": 0.01,
+        "studiedCount": 9,
+        "score": 3.25,
+        "joined": false,
+        "scoreAttached": false,
+        "collected": false,
+        "purchased": false,
+        "vendorInfo": {
+            "vendorId": 15,
+            "vendorName": "哈哈儿童网",
+            "vendorAddress": null,
+            "vendorSummary": "哈哈儿童网是沪上最大的儿童教育、生活服务平台，收录沪上万家商户信息，与多家大品牌教育培训机构合作。涉及儿童教育、儿童摄影、儿童游乐等领域，旨在增加儿童商户网上曝光度，方便有需求的家长及时快捷找到身边最优惠的服务信息，从不同层次上满足家长的需求。"
+        },
+        "courseCategory": {
+            "chapters": [{
+                "chapterId": 502,
+                "chapterName": "收费章节",
+                "sections": [{
+                    "sectionId": 1427,
+                    "sectionName": "王先生的礼物1",
+                    "supportTry": 0,
+                    "materialId": 5
+                }]
+            }]
+        },
+        "skuInfo": {
+            "skuId": 2436,
+            "skuName": "COURSE-SKU",
+            "price": 0.01,
+            "postPrice": 0.01,
+            "limitCount": null,
+            "inventory": 7
+        },
+        "shareInfo": {
+            "id": 7049,
+            "shareType": 7049,
+            "title": "分享想",
+            "description": "分享描述",
+            "shareImgUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012105608_740770.jpg"
+        },
+        "orderId": null
+    }
+}

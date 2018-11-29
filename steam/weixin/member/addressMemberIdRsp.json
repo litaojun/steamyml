@@ -1,0 +1,31 @@
+{
+	"code": "200",
+	"message": "请求成功",
+	"data": [{
+		"id": "47b25914-e3cd-11e8-b1e2-065cc2b35210",
+		"memberId": "2e5a38a1-341a-48a6-bd60-01fd7ebf0690",
+		"phone": "17884937493",
+		"consignee": "富家大室",
+		"province": "浙江省",
+		"city": "杭州市",
+		"county": "上城区",
+		"address": "范德萨发就",
+		"addressCode": "330000,330100,330102",
+		"state": "00",
+		"isDefault": "00",
+		"createTime": "2018-11-09 11:12:24"
+	}, {
+		"id": "3bf954e9-e3cd-11e8-b1e2-065cc2b35210",
+		"memberId": "2e5a38a1-341a-48a6-bd60-01fd7ebf0690",
+		"phone": "15221784610",
+		"consignee": "测试",
+		"province": "河北省",
+		"city": "石家庄市",
+		"county": "长安区",
+		"address": "发简历",
+		"addressCode": "130000,130100,130102",
+		"state": "00",
+		"isDefault": "01",
+		"createTime": "2018-11-09 11:12:04"
+	}]
+}

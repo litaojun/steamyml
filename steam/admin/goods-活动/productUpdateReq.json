@@ -1,0 +1,43 @@
+{
+	"resourceId": {{resourceId}},
+	"resourceTypeId": 12,
+	"title": "修改活动标题",
+	"subTitle": "111122",
+	"cornerMask": "1111",
+	"baseVisits": 10,
+	"vendorIdList": [18],
+	"content": "<p>第三方</p>",
+	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174314_395938.jpg",
+	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174317_419419.jpg",
+	"deliverType": 0,
+	"shareInfoList": [{
+		"id": 7215,
+		"shareType": 1,
+		"title": "222222",
+		"description": "111111",
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174347_923050.jpg"
+	}],
+	"province": "湖北省",
+	"city": "潜江市",
+	"addressDetail": "223",
+	"startTime": 1541132932000,
+	"endTime": 1543552133000,
+	"offShelfTime": null,
+	"tagIdList": [],
+	"entryIdList": [],
+	"skuList": [{
+		"skuId": 2606,
+		"skuName": "三天两夜",
+		"price": 1,
+		"originPrice": 1,
+		"postPrice": 0,
+		"limitCount": 1,
+		"inventory": 1,
+		"order": 1
+	}],
+	"imageList": [{
+		"id": 1874,
+		"order": 1,
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174320_335164.jpg"
+	}]
+}

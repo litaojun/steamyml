@@ -1,0 +1,102 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "itemCounts": 6,
+        "currentPage": 1,
+        "pageSize": 10,
+        "pageCounts": 1,
+        "targets": [
+            {
+                "resourceId": 4432,
+                "resourceTypeId": 13,
+                "courseTitle": "推荐课程001",
+                "merchantId": "53",
+                "baseStudiedCount": 100,
+                "actualStudiedNum": 0,
+                "collectionNum": 3,
+                "charge": 1,
+                "baseScorePersonNum": 100,
+                "score": 0,
+                "scoreForView": 5,
+                "status": "A",
+                "skuId": 2367
+            },
+            {
+                "resourceId": 4545,
+                "resourceTypeId": 13,
+                "courseTitle": "RedHat Linux 运维快速入门技术",
+                "merchantId": "39",
+                "baseStudiedCount": 888,
+                "actualStudiedNum": 0,
+                "collectionNum": 3,
+                "charge": 1,
+                "baseScorePersonNum": 888,
+                "score": 0,
+                "scoreForView": 5,
+                "status": "A",
+                "skuId": 2451
+            },
+            {
+                "resourceId": 4544,
+                "resourceTypeId": 13,
+                "courseTitle": "走进交易的殿堂股票视频教程",
+                "merchantId": "18",
+                "baseStudiedCount": 99999,
+                "actualStudiedNum": 4,
+                "collectionNum": 5,
+                "charge": 1,
+                "baseScorePersonNum": 99999,
+                "score": 5,
+                "scoreForView": 5,
+                "status": "A",
+                "skuId": 2450
+            },
+            {
+                "resourceId": 4165,
+                "resourceTypeId": 13,
+                "courseTitle": "体验课（收费）",
+                "merchantId": "15",
+                "baseStudiedCount": 1000,
+                "actualStudiedNum": 16,
+                "collectionNum": 16,
+                "charge": 1,
+                "baseScorePersonNum": 1000,
+                "score": 2.6,
+                "scoreForView": 4.9880595,
+                "status": "A",
+                "skuId": 2202
+            },
+            {
+                "resourceId": 4542,
+                "resourceTypeId": 13,
+                "courseTitle": "武汉大学AutoCAD技术视频",
+                "merchantId": "1",
+                "baseStudiedCount": 888888,
+                "actualStudiedNum": 0,
+                "collectionNum": 1,
+                "charge": 1,
+                "baseScorePersonNum": 888888,
+                "score": 0,
+                "scoreForView": 5,
+                "status": "A",
+                "skuId": 2448
+            },
+            {
+                "resourceId": 4423,
+                "resourceTypeId": 13,
+                "courseTitle": "0多章节勿删",
+                "merchantId": "39",
+                "baseStudiedCount": 8,
+                "actualStudiedNum": 5,
+                "collectionNum": 5,
+                "charge": 1,
+                "baseScorePersonNum": 8,
+                "score": 2.5,
+                "scoreForView": 4.5,
+                "status": "A",
+                "skuId": 2362
+            }
+        ]
+    }
+}

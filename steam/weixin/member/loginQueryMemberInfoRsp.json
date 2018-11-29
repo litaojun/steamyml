@@ -1,0 +1,31 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"memberId": "2e5a38a1-341a-48a6-bd60-01fd7ebf0690",
+		"memberInfo": {
+			"memberName": "崔义明",
+			"nickname": "崔义明",
+			"phone": "15221874610",
+			"gender": "male",
+			"rqparameter": null,
+			"avatar": "http://thirdwx.qlogo.cn/mmopen/nU2RANchgWvF9nfkicAaQ9IqmqE0cRR0ia7kR8tjSiboeic7DibbfKJ1AKP5KjE89XKU6vTrfrLjiaKgHiaSglRViaL7NZhU85suicq5L/132",
+			"signUp": true,
+			"wxInfo": {
+				"openId": "oJ3wwxO7th7tBYDVGTbZWkqdLt2A",
+				"follow": true,
+				"followTime": "2018-10-24 15:00:30"
+			},
+			"weixinInfo": {
+				"unionId": "oigMM1ocybegsYCwdhEUfowlP8UU",
+				"mpMemberInfo": {
+					"openId": "oJ3wwxO7th7tBYDVGTbZWkqdLt2A",
+					"follow": true,
+					"followTime": "2018-10-24 15:00:30"
+				},
+				"appMemberInfo": null
+			}
+		},
+		"pointInfo": null
+	}
+}

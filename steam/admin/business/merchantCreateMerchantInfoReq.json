@@ -1,0 +1,12 @@
+{
+	"merchantName":"接口新增数据1",
+	"province":"上海市",
+	"city":"上海城区",
+	"detailAddress":"人民广场",
+	"mobilePhone":"13917238111",
+	"servicePhone":"10086",
+	"operateRange":"test",
+    "brandLogoSquare":"",
+	"brandLogoSquare": "http://uat-steam.opg.cn/_static/admin/images/resource/20180820102320_167505.jpg",
+	"brandLogoWith": "http://uat-steam.opg.cn/_static/admin/images/resource/20180820102323_792946.jpg"
+}

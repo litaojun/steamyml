@@ -1,0 +1,8 @@
+{
+	"timestamp": 1541738747808,
+	"status": 500,
+	"error": "Internal Server Error",
+	"exception": "org.springframework.web.multipart.MultipartException",
+	"message": "Could not parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadBase$IOFileUploadException: Processing of multipart/form-data request failed. No space left on device",
+	"path": "/resource/uploadImages"
+}

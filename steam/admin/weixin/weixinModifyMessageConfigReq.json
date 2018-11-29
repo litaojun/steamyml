@@ -1,0 +1,14 @@
+{
+ "wechatMessageConfig": {
+	"id":"e19e1b41-d834-11e8-b1e2-065cc2b35210",
+	"key": "消息关键字-修改",
+	"type": "news",
+	"title": "消息标题",
+	"description": "消息描述",
+	"link": "http://uat-steam.opg.cn/_static/admin/images/resource/20180904171214_515151.jpg",
+	"pictureUrl": null,
+	"welcomeMessage": false,
+	"sortNumber": null,
+	"createTime": "2018-10-25T17:06:49.208Z"
+ }
+}

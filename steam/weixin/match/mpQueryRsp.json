@@ -1,0 +1,34 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"subMatchList": [{
+		"id": 1555,
+		"matchType": 1,
+		"name": "国赛报名10",
+		"state": 0
+	}],
+	"applyInfoList": [{
+		"applyId": 1471022,
+		"applyCode": "1471022",
+		"matchId": 1555,
+		"matchType": 1,
+		"matchName": "国赛报名10",
+		"studentName": null,
+		"province": null,
+		"city": null,
+		"country": "天津市",
+		"group": null,
+		"school": "qinghau清华大学",
+		"nationality": null,
+		"contactName": "李妲",
+		"contactPhone": "15036439652",
+		"subjectList": null,
+		"extraInfo": {
+			"schoolEn": "Shirley",
+			"email": "483282@qq.com",
+			"detailAddress": "西城街",
+			"postCode": "984923"
+		},
+		"uuid": "MTQ3MTAyMgkyZTVhMzhhMS0zNDFhLTQ4YTYtYmQ2MC0wMWZkN2ViZjA2OTA="
+	}]
+}

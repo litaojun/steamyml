@@ -1,0 +1,37 @@
+{
+	"resourceId": null,
+	"title": "test",
+	"subTitle": "商品副标题",
+	"deliverType": 0,
+	"vendorIdList": [18],
+	"resourceTypeId": 11,
+	"baseVisits": 10000,
+	"content": "<p>商品详情</p>",
+	"shareInfoList": [{
+		"id": null,
+		"shareType": 1,
+		"title": "分享标题",
+		"description": "分享描述",
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174347_923050.jpg"
+	}],
+	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174314_395938.jpg",
+	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174317_419419.jpg",
+	"imageList": [{
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174320_335164.jpg",
+		"order": 1
+	}],
+	"cornerMask": "1111",
+	"entryIdList": [],
+	"tagIdList": [],
+	"skuList": [{
+		"skuName": "sku名称",
+		"order": 1,
+		"skuId": null,
+		"price": "2",
+		"originPrice": "3",
+		"inventory": "4",
+		"limitCount": "5",
+		"postPrice": 0.01
+	}],
+	"status": "W"
+}

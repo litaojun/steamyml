@@ -1,0 +1,31 @@
+{
+	"courseTitle": "post新增课程",
+	"content": "<p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>",
+	"cornerMask": null,
+	"merchantId": 15,
+	"baseStudiedCount": 12,
+	"originPrice": 0,
+	"price": 0,
+	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180102_661297.png",
+	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180109_503755.jpg",
+	"title": "java开发课程",
+	"description": "编程入门到实战",
+	"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180114_855402.png",
+	"tagIdList": [],
+	"entryIdList": [],
+	"resourceTypeId": null,
+	"offShelfTime": null,
+	"charge": 0,
+	"courseCategory": [{
+		"chapterName": "1232",
+		"sections": [{
+			"supportTry": 1,
+			"sectionName": "32312",
+			"materialInfo": {
+				"materialTitle": "巴拿马（）",
+				"materialId": 14
+			}
+		}]
+	}],
+	"status": "W"
+}

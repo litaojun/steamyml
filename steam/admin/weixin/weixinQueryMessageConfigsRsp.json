@@ -1,0 +1,132 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "messageConfigPage": {
+        "itemCounts": 35,
+        "currentPage": 1,
+        "pageSize": 10,
+        "pageCounts": 4,
+        "targets": [
+            {
+                "id": "964ec626-df3f-11e8-b1e2-065cc2b35210",
+                "key": "11.3关键字",
+                "type": "text",
+                "title": null,
+                "description": "关键字",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-11-03 16:08:03"
+            },
+            {
+                "id": "a01a6da2-d688-11e8-b1e2-065cc2b35210",
+                "key": "传奇",
+                "type": "text",
+                "title": null,
+                "description": "月亮之上",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-10-23 13:58:12"
+            },
+            {
+                "id": "1a9ef751-ab57-11e8-bb0f-069754669d1a",
+                "key": "发",
+                "type": "text",
+                "title": null,
+                "description": "发送",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-08-29 14:45:23"
+            },
+            {
+                "id": "727f39bd-9ee2-11e8-bb0f-069754669d1a",
+                "key": "你好@!！s？",
+                "type": "text",
+                "title": null,
+                "description": "哈1哈少儿频道欢迎你！",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-08-13 18:20:05"
+            },
+            {
+                "id": "fe90754e-5efa-11e8-a5fb-02bba3c7b1ae",
+                "key": "友宝",
+                "type": "text",
+                "title": null,
+                "description": "欢迎来到steam教育！",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-05-24 10:34:34"
+            },
+            {
+                "id": "b0fc8dc4-54fd-11e8-a5fb-02bba3c7b1ae",
+                "key": "smg少儿",
+                "type": "text",
+                "title": null,
+                "description": "提供丰富多样的亲子类生活服务指南！",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2018-05-11 17:28:40"
+            },
+            {
+                "id": "f3c6417a-c5ec-11e7-99b2-02d22a11ed1a",
+                "key": "混战双11",
+                "type": "text",
+                "title": null,
+                "description": "http://uat-uop-wx.opg.cn/uop/index.html?state=payActivityDetail_5b2f882e-25f9-4044-b1b4-bc93b999c3a2",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2017-11-10 15:58:35"
+            },
+            {
+                "id": "8fb85b68-b478-11e7-be4f-06246539b534",
+                "key": "week43",
+                "type": "text",
+                "title": null,
+                "description": "终于等到你，OPG Club会员福利来咯～戳链接直达抢票入口\n\n带娃看木偶剧《孙悟空三打白骨精》 重温经典神话故事\nhttp://t.cn/RWtJ6Mq\n\n超级飞侠着陆环球金融中心！2000平震撼体验带你上天\nhttp://t.cn/RWtJj0V\n\n植物还是僵尸?《疯狂花店》,暗黑系“养成式”颠覆音乐剧!\nhttp://t.cn/RWtiw9f\n\n私密又浪漫 4000部电影免费看看看！\nhttp://t.cn/RWtiblq",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2017-10-19 10:52:35"
+            },
+            {
+                "id": "69a65fff-afe4-11e7-be4f-06246539b534",
+                "key": "光影",
+                "type": "text",
+                "title": null,
+                "description": "终于等到你！悄悄说将本条微信内容转发到朋友圈并截图给我们，10张网红自拍圣地门票，求带走！\n微信地址 http://t.cn/RONuB7A",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2017-10-13 15:02:01"
+            },
+            {
+                "id": "93e074b6-a44a-11e7-be4f-06246539b534",
+                "key": "928会员日欢迎语",
+                "type": "text",
+                "title": null,
+                "description": "天哪是谁这么有眼光！\n \n魔都最热最in的生活娱乐体验，OPG Club统统帮你一网打尽！\n \n更多精彩点击左下方[抢.福利]，玩起来咯！",
+                "link": null,
+                "pictureUrl": null,
+                "welcomeMessage": false,
+                "sortNumber": 0,
+                "createTime": "2017-09-28 20:43:07"
+            }
+        ]
+    }
+}

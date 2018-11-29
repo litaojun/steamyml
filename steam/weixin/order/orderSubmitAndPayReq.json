@@ -1,0 +1,11 @@
+{
+    "resourceId":1762,
+    "resourceTypeId":11,
+    "skuId":1293,
+    "addressId":"23344de9-d751-11e8-b1e2-065cc2b35210",
+    "payPrice":"0.10",
+    "num":1,
+    "remark":"",
+    "returnUrl":"http://uat-steam.opg.cn/om/index.html?&code=001tBElm0mfl5k1JBfjm0ryRlm0tBElo&state=123321#/submitOrder?type=goods&resourceTypeId=11&id=1762&skuId=1293&skuName=%EF%BC%881-3%E5%B2%81%EF%BC%89%E4%B8%BB%E9%A2%98%E8%AF%BE%E7%A8%8B&count=1&title=%E9%B2%A8%E9%B1%BC%E5%85%AC%E5%9B%AD%E7%AE%80%E5%8D%95%E6%9C%BA%E6%A2%B0%EF%BC%887-12%E5%B2%81%EF%BC%89%E4%B8%BB%E9%A2%98%E8%AF%BE%E7%A8%8B%E3%80%908%E8%AF%BE%E6%97%B6%E3%80%91&price=0.1&deliverType=1&postPrice=0&thumbUrl=http%3A%2F%2Fuat-steam.opg.cn%2F_static%2Fadmin%2Fimages%2Fresource%2F20180524110643_501902.png&payback=1",
+    "payChannelId":100000
+}

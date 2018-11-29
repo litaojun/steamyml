@@ -1,0 +1,111 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "currentPage": 1,
+        "pageSize": 10,
+        "itemCounts": 25,
+        "targets": [
+            {
+                "resourceId": 4184,
+                "resourceTypeId": 1,
+                "title": "全球业务成功案例精选—Makeblock 在全球",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 50
+            },
+            {
+                "resourceId": 2022,
+                "resourceTypeId": 1,
+                "title": "头脑奥林匹克创新大赛2015年赛题5解析",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 1737,
+                "resourceTypeId": 1,
+                "title": "2017年头脑奥林匹克世界决赛闭幕式",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 1757,
+                "resourceTypeId": 1,
+                "title": "石舍学校独立微电影-接口自动化-勿动",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 2020,
+                "resourceTypeId": 1,
+                "title": "头脑奥林匹克创新大赛2015年赛题3解析",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 3352,
+                "resourceTypeId": 1,
+                "title": "10000",
+                "saleNum": 0,
+                "status": "W",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 2096,
+                "resourceTypeId": 1,
+                "title": "新增视频11",
+                "saleNum": 0,
+                "status": "W",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 23
+            },
+            {
+                "resourceId": 3153,
+                "resourceTypeId": 1,
+                "title": "新增测试视频",
+                "saleNum": 0,
+                "status": "D",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 2021,
+                "resourceTypeId": 1,
+                "title": "头脑奥林匹克创新大赛2015年赛题4解析",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            },
+            {
+                "resourceId": 240,
+                "resourceTypeId": 1,
+                "title": "200分钟带你看一场超酷的机器人嘉年华",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": false,
+                "outOfTime": false,
+                "vendorId": 1
+            }
+        ]
+    }
+}

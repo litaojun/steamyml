@@ -1,0 +1,1141 @@
+steam:
+    admin:
+      order:
+        /operation-manage/order/listData:
+            modul: 订单微服务
+            title: 通过不同的条件分页查询订单列表
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/order/listData
+            formatone:
+                - orderListDataReq.json
+                - orderListDataReq.txt
+                - orderListDataRsp.json
+                - orderListDataFmtRsp.json
+        /operation-manage/order/detail:
+            modul: 订单微服务
+            title: 根据订单ID查询订单信息
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/order/detail
+            formatone:
+                - orderDetailReq.json
+                - orderDetailReq.txt
+                - orderDetailRsp.json
+                - orderDetailFmtRsp.json
+        /operation-manage/order/delivery:
+            modul: 订单微服务
+            title: 实物订单发货
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/order/delivery
+            formatone:
+                - orderDeliveryReq.json
+                - orderDeliveryReq.txt
+                - orderDeliveryRsp.json
+                - orderDeliveryFmtRsp.json
+        /operation-manage/order/batchDelivery:
+            modul: 订单微服务
+            title: 订单批量发货
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/order/batchDelivery
+            formatone:
+                - orderBatchDeliveryReq.json
+                - orderBatchDeliveryReq.txt
+                - orderBatchDeliveryRsp.json
+                - orderBatchDeliveryFmtRsp.json
+        /order-service/order/admin/resourceId:
+            modul: 订单微服务
+            title: 通过resourceId查询所有未发货的订单
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/admin/resourceId
+            formatone:
+                - orderaResourceIDReq.json
+                - orderResourceIDReq.txt
+                - orderResourceIDRsp.json
+                - orderResourceIDFmtRsp.json
+      business:
+        /merchant/createMerchantInfo:
+            modul: 商户管理
+            title: 新增商户
+            method: post
+            url: https://uat-steam-api.opg.cn/merchant/createMerchantInfo
+            formatone:
+                - merchantCreateMerchantInfoReq.json
+                - merchantCreateMerchantInfoReq.txt
+                - merchantCreateMerchantInfoRsp.json
+                - merchantCreateMerchantInfoFmtRsp.json
+        /merchant/modifyMerchantInfo:
+            modul: 商户管理
+            title: 修改商户
+            method: post
+            url: https://uat-steam-api.opg.cn/merchant/modifyMerchantInfo
+            formatone:
+                - merchantModifyMerchantInfoReq.json
+                - merchantModifyMerchantInfoReq.txt
+                - merchantModifyMerchantInfoRsp.json
+                - merchantModifyMerchantInfoFmtRsp.json
+        /merchant/removeMerchantInfo:
+            modul: 商户管理
+            title: 删除商户
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant/removeMerchantInfo
+            formatone:
+                - merchantRemoveMerchantInfoReq.json
+                - merchantRemoveMerchantInfoReq.txt
+                - merchantRemoveMerchantInfoRsp.json
+                - merchantRemoveMerchantInfoFmtRsp.json
+        /merchant/queryMerchantInfoById:
+            modul: 商户管理
+            title: 预览商户
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoById
+            formatone:
+                - merchantQueryMerchantInfoByIdReq.json
+                - merchantqueryMerchantInfoByIdReq.txt
+                - merchantqueryMerchantInfoByIdRsp.json
+                - merchantqueryMerchantInfoByIdFmtRsp.json
+        /merchant/queryMerchantInfoByCondtion:
+            modul: 商户管理
+            title: 查询商户信息
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoByCondtion
+            formatone:
+                - merchantQueryMerchantInfoByCondtionReq.json
+                - merchantQueryMerchantInfoByCondtionReq.txt
+                - merchantQueryMerchantInfoByCondtionRsp.json
+                - merchantQueryMerchantInfoByCondtionFmtRsp.json
+      weixin:
+        /operation-manage/weixin/queryTemplateConfig:
+            modul: 微信微服务
+            title: 根据id查询模板消息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryTemplateConfig
+            formatone:
+                - weixinQueryTemplateConfigReq.json
+                - weixinQueryTemplateConfigReq.txt
+                - weixinQueryTemplateConfigRsp.json
+                - weixinQueryTemplateConfigFmtRsp.json
+        /operation-manage/weixin/modifyTemplateConfig:
+            modul: 微信微服务
+            title: 根据id修改模板消息配置
+            method: put
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyTemplateConfig
+            formatone:
+                - weixinModifyTemplateConfigReq.json
+                - weixinModifyTemplateConfigReq.txt
+                - weixinModifyTemplateConfigRsp.json
+                - weixinModifyTemplateConfigFmtRsp.json
+        /operation-manage/weixin/queryMessageConfigs:
+            modul: 微信微服务
+            title: 分页查询微信消息配置列表
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfigs
+            formatone:
+                - weixinQueryMessageConfigsReq.json
+                - weixinQueryMessageConfigsReq.txt
+                - weixinQueryMessageConfigsRsp.json
+                - weixinQueryMessageConfigsFmtRsp.json
+        /operation-manage/weixin/createMessageConfig:
+            modul: 微信微服务
+            title: 创建消息配置
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMessageConfig
+            formatone:
+                - weixinCreateMessageConfigReq.json
+                - weixinCreateMessageConfigReq.txt
+                - weixinCreateMessageConfigRsp.json
+                - weixinCreateMessageConfigFmtRsp.json
+        /operation-manage/weixin/deleteMessageConfig:
+            modul: 微信微服务
+            title: 删除消息配置
+            method: delete
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMessageConfig
+            formatone:
+                - weixinDeleteMessageConfigReq.json
+                - weixinDeleteMessageConfigReq.txt
+                - weixinDeleteMessageConfigRsp.json
+                - weixinDeleteMessageConfigFmtRsp.json
+        /operation-manage/weixin/queryMessageConfig:
+            modul: 微信微服务
+            title: 根据id查询消息配置
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfig
+            formatone:
+                - weixinQueryMessageConfigReq.json
+                - weixinQueryMessageConfigReq.txt
+                - weixinQueryMessageConfigRsp.json
+                - weixinQueryMessageConfigFmtRsp.json
+        /operation-manage/weixin/modifyMessageConfig:
+            modul: 微信微服务
+            title: 修改消息配置
+            method: put
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyMessageConfig
+            formatone:
+                - weixinModifyMessageConfigReq.json
+                - weixinModifyMessageConfigReq.txt
+                - weixinModifyMessageConfigRsp.json
+                - weixinModifyMessageConfigFmtRsp.json
+        /operation-manage/weixin/setWelcomeMessage:
+            modul: 微信微服务
+            title: 设置欢迎语
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/setWelcomeMessage
+            formatone:
+                - weixinSetWelcomeMessageReq.json
+                - weixinSetWelcomeMessageReq.txt
+                - weixinSetWelcomeMessageRsp.json
+                - weixinSetWelcomeMessageFmtRsp.json
+        /operation-manage/weixin/queryMenuByParentId:
+            modul: 微信微服务
+            title: 根据父级id查询菜单信息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
+            formatone:
+                - weixinQueryMenuByParentIdReq.json
+                - weixinQueryMenuByParentIdReq.txt
+                - weixinQueryMenuByParentIdRsp.json
+                - weixinQueryMenuByParentIdFmtRsp.json
+        /operation-manage/weixin/createMenu:
+            modul: 微信微服务
+            title: 创建微信菜单
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMenu
+            formatone:
+                - weixinCreateMenuReq.json
+                - weixinCreateMenuReq.txt
+                - weixinCreateMenuRsp.json
+                - weixinCreateMenuFmtRsp.json
+        /operation-manage/weixin/queryMenuByParentId:
+            modul: 微信微服务
+            title: 根据id查询菜单信息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
+            formatone:
+                - weixinQueryMenuByParentIdReq.json
+                - weixinQueryMenuByParentIdReq.txt
+                - weixinQueryMenuByParentIdRsp.json
+                - weixinQueryMenuByParentIdFmtRsp.json
+        /operation-manage/weixin/queryMenuByParentId:
+            modul: 微信微服务
+            title: 修改菜单
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
+            formatone:
+                - weixinQueryMenuByParentIdReq.json
+                - weixinQueryMenuByParentIdReq.txt
+                - weixinQueryMenuByParentIdRsp.json
+                - weixinQueryMenuByParentIdFmtRsp.json
+        /operation-manage/weixin/publishMenu:
+            modul: 微信微服务
+            title: 发布菜单
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/publishMenu
+            formatone:
+                - weixinPublishMenuReq.json
+                - weixinPublishMenuReq.txt
+                - weixinPublishMenuRsp.json
+                - weixinPublishMenuFmtRsp.json
+        /operation-manage/weixin/deleteMenu:
+            modul: 微信微服务
+            title: 删除菜单
+            method: delete
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMenu
+            formatone:
+                - weixinDeleteMenuReq.json
+                - weixinDeleteMenuReq.txt
+                - weixinDeleteMenuRsp.json
+                - weixinDeleteMenuFmtRsp.json
+      goods:
+        /operation-manage/product/add:
+            modul: 商品管理
+            title: 新增商品
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/add
+            formatone:
+                - productAddReq.json
+                - productAddReq.txt
+                - productAddRsp.json
+                - productAddFmtRsp.json
+        /operation-manage/product/publish:
+            modul: 商品管理
+            title: 发布商品
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/publish
+            formatone:
+                - productPublishReq.json
+                - productPublishReq.txt
+                - productPublishRsp.json
+                - productPublishFmtRsp.json
+        /operation-manage/product/unPublish:
+            modul: 商品管理
+            title: 下架商品
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/unPublish
+            formatone:
+                - productUnPublishReq.json
+                - productUnPublishReq.txt
+                - productUnPublishRsp.json
+                - productUnPublishFmtRsp.json
+        /operation-manage/product/update:
+            modul: 商品管理
+            title: 修改商品
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/update
+            formatone:
+                - productUpdateReq.json
+                - productUpdateReq.txt
+                - productUpdateRsp.json
+                - productUpdateFmtRsp.json
+        /operation-manage/product/queryProducts:
+            modul: 商品管理
+            title: 管理后台分页查询
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
+            formatone:
+                - productQueryProductsReq.json
+                - productQueryProductsReq.txt
+                - productQueryProductsRsp.json
+                - productQueryProductsFmtRsp.json
+        /operation-manage/product/query:
+            modul: 商品管理
+            title: 通过资源id查询商品
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/product/query
+            formatone:
+                - productQueryReq.json
+                - productQueryReq.txt
+                - productQueryRsp.json
+                - productQueryFmtRsp.json
+      permissions:
+        /operation-manage/permission/admin/login:
+            modul: 权限微服务
+            title: 后台登录
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/permission/admin/login
+            formatone:
+                - permissionLoginReq.json
+                - permissionLoginReq.txt
+                - permissionLoginRsp.json
+                - permissionLoginFmtRsp.json
+      match:
+        /operation-manage/match/matchPage:
+            modul: 赛事微服务
+            title: 分页查询赛事
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/match/matchPage
+            formatone:
+                - matchMatchPageReq.json
+                - matchMatchPageReq.txt
+                - matchMatchPageRsp.json
+                - matchMatchPageFmtRsp.json
+        /operation-manage/match/subMatchPage:
+            modul: 赛事微服务
+            title: 查询赛事场次-赛事场次列表接口
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/match/subMatchPage
+            formatone:
+                - matchSubMatchPageReq.json
+                - matchSubMatchPageReq.txt
+                - matchSubMatchPageRsp.json
+                - matchSubMatchPageFmtRsp.json
+        /operation-manage/match/createMatch:
+            modul: 赛事微服务
+            title: 新增赛事
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/match/createMatch
+            formatone:
+                - matchCreateMatchReq.json
+                - matchCreateMatchReq.txt
+                - matchCreateMatchRsp.json
+                - matchCreateMatchFmtRsp.json
+        /operation-manage/match/updateMatchById:
+            modul: 赛事微服务
+            title: 修改赛事
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/match/updateMatchById
+            formatone:
+                - matchUpdateMatchByIdReq.json
+                - matchUpdateMatchByIdReq.txt
+                - matchUpdateMatchByIdRsp.json
+                - matchUpdateMatchByIdFmtRsp.json
+        /operation-manage/match/deleteMatch:
+            modul: 赛事微服务
+            title: 删除赛事
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/match/deleteMatch
+            formatone:
+                - matchDeleteMatchReq.json
+                - matchDeleteMatchReq.txt
+                - matchDeleteMatchRsp.json
+                - matchDeleteMatchFmtRsp.json
+        /operation-manage/match/matchDetail:
+            modul: 赛事微服务
+            title: 查询赛事详情
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/match/matchDetail
+            formatone:
+                - matchMatchDetailReq.json
+                - matchMatchDetailReq.txt
+                - matchMatchDetailRsp.json
+                - matchMatchDetailFmtRsp.json
+        /operation-manage/apply/page:
+            modul: 赛事微服务
+            title: 查询赛事报名列表
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/apply/page
+            formatone:
+                - applyPageReq.json
+                - applyPageReq.txt
+                - applyPageRsp.json
+                - applyPageFmtRsp.json
+      resource:
+        /steam-resource/resource/uploadImages:
+            modul: 资源微服务
+            title: 上传图片获取图片url
+            method: post
+            url: https://uat-steam-api.opg.cn/steam-resource/resource/uploadImages
+            formatone:
+                - resourceUploadImagesReq.json
+                - resourceUploadImagesReq.txt
+                - resourceUploadImagesRsp.json
+                - resourceUploadImagesFmtRsp.json
+        /operation-manage/tag/queryTags:
+            modul: 资源微服务
+            title: 根据关键词分页查询标签
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/tag/queryTags
+            formatone:
+                - tagQueryTagsReq.json
+                - tagQueryTagsReq.txt
+                - tagQueryTagsRsp.json
+                - tagQueryTagsFmtRsp.json
+        /operation-manage/entry/queryEntries:
+            modul: 资源微服务
+            title: 查询分类入口
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/entry/queryEntries
+            formatone:
+                - entryQueryEntriesReq.json
+                - entryQueryEntriesReq.txt
+                - entryQueryEntriesRsp.json
+                - entryQueryEntriesFmtRsp.json
+        /operation-manage/tag/addTag:
+            modul: 资源微服务
+            title: 新增标签
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/tag/addTag
+            formatone:
+                - tagAddTagReq.json
+                - tagAddTagReq.txt
+                - tagAddTagRsp.json
+                - tagAddTagFmtRsp.json
+        /operation-manage/entry/addEntry:
+            modul: 资源微服务
+            title: 新增分类
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/entry/addEntry
+            formatone:
+                - entryAddEntryReq.json
+                - entryAddEntryReq.txt
+                - entryAddEntryRsp.json
+                - entryAddEntryFmtRsp.json
+        /operation-manage/entry/modifyEntry:
+            modul: 资源微服务
+            title: 修改分类
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/entry/modifyEntry
+            formatone:
+                - entryModifyEntryReq.json
+                - entryModifyEntryReq.txt
+                - entryModifyEntryRsp.json
+                - entryModifyEntryFmtRsp.json
+        /operation-manage/entry/removeEntry:
+            modul: 资源微服务
+            title: 删除分类
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/entry/removeEntry
+            formatone:
+                - entryRemoveEntryReq.json
+                - entryRemoveEntryReq.txt
+                - entryRemoveEntryRsp.json
+                - entryRemoveEntryFmtRsp.json
+        /operation-manage/tag/removeTag:
+            modul: 资源微服务
+            title: 删除标签
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/tag/removeTag
+            formatone:
+                - tagRemoveTagReq.json
+                - tagRemoveTagReq.txt
+                - tagRemoveTagRsp.json
+                - tagRemoveTagFmtRsp.json
+      course:
+        /operation-manage/course/createCourse:
+            modul: 课程管理
+            title: 新增课程
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/course/createCourse
+            formatone:
+                - courseCreateCourseReq.json
+                - courseCreateCourseReq.txt
+                - courseCreateCourseRsp.json
+                - courseCreateCourseFmtRsp.json
+        /operation-manage/course/publishCourse:
+            modul: 课程管理
+            title: 发布课程
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/course/publishCourse
+            formatone:
+                - coursePublishCourseReq.json
+                - coursePublishCourseReq.txt
+                - coursePublishCourseRsp.json
+                - coursePublishCourseFmtRsp.json
+        /operation-manage/course/unpublishCourse:
+            modul: 课程管理
+            title: 下架课程
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/course/unpublishCourse
+            formatone:
+                - courseUnpublishCourseReq.json
+                - courseUnpublishCourseReq.txt
+                - courseUnpublishCourseRsp.json
+                - courseUnpublishCourseFmtRsp.json
+        /operation-manage/course/modifyCourse:
+            modul: 课程管理
+            title: 修改课程
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/course/modifyCourse
+            formatone:
+                - courseModifyCourseReq.json
+                - courseModifyCourseReq.txt
+                - courseModifyCourseRsp.json
+                - courseModifyCourseFmtRsp.json
+        /resource-service/resource/visit:
+            modul: 课程管理
+            title: 预览课程
+            method: post
+            url: https://uat-steam-api.opg.cn/resource-service/resource/visit
+            formatone:
+                - resourceVisitReq.json
+                - resourceVisitReq.txt
+                - resourceVisitRsp.json
+                - resourceVisitFmtRsp.json
+        /operation-manage/course/queryCourseByCondition:
+            modul: 课程管理
+            title: 搜索课程
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/course/queryCourseByCondition
+            formatone:
+                - courseQueryCourseByConditionReq.json
+                - courseQueryCourseByConditionReq.txt
+                - courseQueryCourseByConditionRsp.json
+                - courseQueryCourseByConditionFmtRsp.json
+        /operation-manage/course/removeCourse:
+            modul: 课程管理
+            title: 删除课程
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/course/removeCourse
+            formatone:
+                - courseRemoveCourseReq.json
+                - courseRemoveCourseReq.txt
+                - courseRemoveCourseRsp.json
+                - courseRemoveCourseFmtRsp.json
+      media:
+        /operation-manage/material/createMaterial:
+            modul: 媒资管理
+            title: 新增素材
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/material/createMaterial
+            formatone:
+                - materialCreateMaterialReq.json
+                - materialCreateMaterialReq.txt
+                - materialCreateMaterialRsp.json
+                - materialCreateMaterialFmtRsp.json
+        /operation-manage/material/modifyMaterial:
+            modul: 媒资管理
+            title: 修改素材
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/material/modifyMaterial
+            formatone:
+                - materialModifyMaterialReq.json
+                - materialModifyMaterialReq.txt
+                - materialModifyMaterialRsp.json
+                - materialModifyMaterialFmtRsp.json
+        /operation-manage/material/queryAliyunVideoAuth:
+            modul: 媒资管理
+            title: 预览素材
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunVideoAuth
+            formatone:
+                - materialQueryAliyunVideoAuthReq.json
+                - materialQueryAliyunVideoAuthReq.txt
+                - materialQueryAliyunVideoAuthRsp.json
+                - materialQueryAliyunVideoAuthFmtRsp.json
+        /merchant/queryMerchantInfoByCondtion:
+            modul: 媒资管理
+            title: 搜索素材
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoByCondtion
+            formatone:
+                - merchantQueryMerchantInfoByCondtionReq.json
+                - merchantQueryMerchantInfoByCondtionReq.txt
+                - merchantQueryMerchantInfoByCondtionRsp.json
+                - merchantQueryMerchantInfoByCondtionFmtRsp.json
+        /operation-manage/material/queryAliyunUpdateKey:
+            modul: 媒资管理
+            title: 获取阿里云视频上传凭证
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunUpdateKey
+            formatone:
+                - materialQueryAliyunUpdateKeyReq.json
+                - materialQueryAliyunUpdateKeyReq.txt
+                - materialQueryAliyunUpdateKeyRsp.json
+                - materialQueryAliyunUpdateKeyFmtRsp.json
+        /operation-manage/material/removeMaterial:
+            modul: 媒资管理
+            title: 删除素材
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/material/removeMaterial
+            formatone:
+                - materialRemoveMaterialReq.json
+                - materialRemoveMaterialReq.txt
+                - materialRemoveMaterialRsp.json
+                - materialRemoveMaterialFmtRsp.json
+      operate:
+        /operation-manage/featured/queryShowConfigs:
+            modul: 推荐位CMS
+            title: 获取首页配置分页信息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/queryShowConfigs
+            formatone:
+                - featuredQueryShowConfigsReq.json
+                - featuredQueryShowConfigsReqReq.txt
+                - featuredQueryShowConfigsReqRsp.json
+                - featuredQueryShowConfigsReqFmtRsp.json
+        /operation-manage/featured/createConfig:
+            modul: 推荐位CMS
+            title: 新增运营位
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/createConfig
+            formatone:
+                - featuredCreateConfigReq.json
+                - featuredCreateConfigReq.txt
+                - featuredCreateConfigRsp.json
+                - featuredCreateConfigFmtRsp.json
+        /operation-manage/featured/searchResource:
+            modul: 推荐位CMS
+            title: 根据资源类型搜索已发布资源
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/searchResource
+            formatone:
+                - featuredSearchResourceReq.json
+                - featuredSearchResourceReq.txt
+                - featuredSearchResourceRsp.json
+                - featuredSearchResourceFmtRsp.json
+        /operation-manage/featured/modifyIndexConfig:
+            modul: 推荐位CMS
+            title: 修改运营位配置
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/modifyIndexConfig
+            formatone:
+                - featuredModifyIndexConfigReq.json
+                - featuredModifyIndexConfigReq.txt
+                - featuredModifyIndexConfigRsp.json
+                - featuredModifyIndexConfigFmtRsp.json
+        /operation-manage/featured/removeIndexConfig:
+            modul: 推荐位CMS
+            title: 删除运营位配置
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/removeIndexConfig
+            formatone:
+                - featuredRemoveIndexConfigReq.json
+                - featuredRemoveIndexConfigReq.txt
+                - featuredRemoveIndexConfigRsp.json
+                - featuredRemoveIndexConfigFmtRsp.json
+        /operation-manage/featured/moveUpRecord:
+            modul: 推荐位CMS
+            title: 运营位记录上移
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/moveUpRecord
+            formatone:
+                - featuredMoveUpRecordReq.json
+                - featuredMoveUpRecordReq.txt
+                - featuredMoveUpRecordRsp.json
+                - featuredMoveUpRecordFmtRsp.json
+        /operation-manage/featured/moveDownRecord:
+            modul: 推荐位CMS
+            title: 运营位记录下移
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/featured/moveDownRecord
+            formatone:
+                - featuredMoveDownRecordReq.json
+                - featuredMoveDownRecordReq.txt
+                - featuredMoveDownRecordRsp.json
+                - featuredMoveDownRecordFmtRsp.json
+      goods:
+        /operation-manage/product/queryProducts:
+            modul: 活动管理
+            title: 通过活动id搜索
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
+            formatone:
+                - productQueryProductsReq.json
+                - productQueryProductsReq.txt
+                - productQueryProductsRsp.json
+                - productQueryProductsFmtRsp.json
+        /operation-manage/product/queryProducts:
+            modul: 活动管理
+            title: 后台管理分页查询活动
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
+            formatone:
+                - productQueryProductsReq.json
+                - productQueryProductsReq.txt
+                - productQueryProductsRsp.json
+                - productQueryProductsFmtRsp.json
+        /operation-manage/product/add:
+            modul: 活动管理
+            title: 新增活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/add
+            formatone:
+                - productAddReq.json
+                - productAddReq.txt
+                - productAddRsp.json
+                - productAddFmtRsp.json
+        /operation-manage/product/publish:
+            modul: 活动管理
+            title: 发布活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/publish
+            formatone:
+                - productPublishReq.json
+                - productPublishReq.txt
+                - productPublishRsp.json
+                - productPublishFmtRsp.json
+        /operation-manage/product/unPublish:
+            modul: 活动管理
+            title: 下架活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/unPublish
+            formatone:
+                - productUnPublishReq.json
+                - productUnPublishReq.txt
+                - productUnPublishRsp.json
+                - productUnPublishFmtRsp.json
+        /operation-manage/product/update:
+            modul: 活动管理
+            title: 修改活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/product/update
+            formatone:
+                - productUpdateReq.json
+                - productUpdateReq.txt
+                - productUpdateRsp.json
+                - productUpdateFmtRsp.json
+    weixin:
+      member:
+        /passport/verifyCode:
+            modul: 会员微服务
+            title: 获取验证码
+            method: post
+            url: https://uat-steam-api.opg.cn/passport/verifyCode
+            formatone:
+                - passportVerifyCodeReq.json
+                - passportVerifyCodeReq.txt
+                - passportVerifyCodeRsp.json
+                - passportVerifyCodeFmtRsp.json
+        /member/login/memberLogin:
+            modul: 会员微服务
+            title: 会员登录
+            method: post
+            url: https://uat-steam-api.opg.cn/member/login/memberLogin
+            formatone:
+                - loginMemberLoginReq.json
+                - loginMemberLoginReq.txt
+                - loginMemberLoginRsp.json
+                - loginMemberLoginFmtRsp.json
+        /member/login/queryMemberInfo:
+            modul: 会员微服务
+            title: 根据token查询用户信息
+            method: get
+            url: https://uat-steam-api.opg.cn/member/login/queryMemberInfo
+            formatone:
+                - loginQueryMemberInfoReq.json
+                - loginQueryMemberInfoReq.txt
+                - loginQueryMemberInfoRsp.json
+                - loginQueryMemberInfoFmtRsp.json
+        /member-service/members/personalCenter:
+            modul: 会员微服务
+            title: 个人中心接口
+            method: get
+            url: https://uat-steam-api.opg.cn/member-service/members/personalCenter
+            formatone:
+                - membersPersonalCenterReq.json
+                - membersPersonalCenterReq.txt
+                - membersPersonalCenterRsp.json
+                - membersPersonalCenterFmtRsp.json
+        /member-service/behaviour/wechat/share:
+            modul: 会员微服务
+            title: 会员分享行为记录
+            method: post
+            url: https://uat-steam-api.opg.cn/member-service/behaviour/wechat/share
+            formatone:
+                - wechatShareReq.json
+                - wechatShareReq.txt
+                - wechatShareRsp.json
+                - wechatShareFmtRsp.json
+        /match-service/member/apply:
+            modul: 会员微服务
+            title: 小程序报名
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/apply
+            formatone:
+                - memberApplyReq.json
+                - memberApplyReq.txt
+                - memberApplyRsp.json
+                - memberApplyFmtRsp.json
+        /member-service/address-add:
+            modul: 会员微服务
+            title: 会员新增收货地址
+            method: post
+            url: https://uat-steam-api.opg.cn/member-service/address
+            formatone:
+                - AddressAddReq.json
+                - AddressAddReq.txt
+                - AddressAddRsp.json
+                - AddressAddFmtRsp.json
+        /member-service/address-del:
+            modul: 会员微服务
+            title: 会员修改收货地址
+            method: delete
+            url: https://uat-steam-api.opg.cn/member-service/address
+            formatone:
+                - AddressDelReq.json
+                - AddressDelReq.txt
+                - AddressDelRsp.json
+                - AddressDelFmtRsp.json
+        /member-service/address/memberId:
+            modul: 会员微服务
+            title: 会员收货地址查看
+            method: get
+            url: https://uat-steam-api.opg.cn/member-service/address/memberId
+            formatone:
+                - addressMemberIdReq.json
+                - addressMemberIdReq.txt
+                - addressMemberIdRsp.json
+                - addressMemberIdFmtRsp.json
+        /member-service/address/default:
+            modul: 会员微服务
+            title: 设置默认收货地址
+            method: put
+            url: https://uat-steam-api.opg.cn/member-service/address/default
+            formatone:
+                - addressDefaultReq.json
+                - addressDefaultReq.txt
+                - addressDefaultRsp.json
+                - addressDefaultFmtRsp.json
+        /member-service/address:
+            modul: 会员微服务
+            title: 会员地址删除
+            method: delete
+            url: https://uat-steam-api.opg.cn/member-service/address
+            formatone:
+                - AddressReq.json
+                - AddressReq.txt
+                - AddressRsp.json
+                - AddressFmtRsp.json
+        /member-service/changePhoneNo:
+            modul: 会员微服务
+            title: 修改手机号
+            method: post
+            url: https://uat-steam-api.opg.cn/member-service/changePhoneNo
+            formatone:
+                - ChangePhoneNoReq.json
+                - ChangePhoneNoReq.txt
+                - ChangePhoneNoRsp.json
+                - ChangePhoneNoFmtRsp.json
+        /member/collection/queryPage:
+            modul: 会员微服务
+            title: 分页查询会员收藏列表
+            method: get
+            url: https://uat-steam-api.opg.cn/member/collection/queryPage
+            formatone:
+                - collectionQueryPageReq.json
+                - collectionQueryPageReq.txt
+                - collectionQueryPageRsp.json
+                - collectionQueryPageFmtRsp.json
+      search:
+        /steam-search/search/keywordSearch:
+            modul: 搜索微服务
+            title: 用户端搜索
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-search/search/keywordSearch
+            formatone:
+                - searchKeywordSearchReq.json
+                - searchKeywordSearchReq.txt
+                - searchKeywordSearchRsp.json
+                - searchKeywordSearchFmtRsp.json
+        /steam-search/search/keywordSearch:
+            modul: 搜索微服务
+            title: 用户端分页搜索资源
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-search/search/keywordSearch
+            formatone:
+                - searchKeywordSearchReq.json
+                - searchKeywordSearchReq.txt
+                - searchKeywordSearchRsp.json
+                - searchKeywordSearchFmtRsp.json
+        /steam-search/search/keywordSearch:
+            modul: 搜索微服务
+            title: 查询热门关键词
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-search/search/keywordSearch
+            formatone:
+                - searchKeywordSearchReq.json
+                - searchKeywordSearchReq.txt
+                - searchKeywordSearchRsp.json
+                - searchKeywordSearchFmtRsp.json
+      match:
+        /match-service/member/apply:
+            modul: 赛事报名微服务
+            title: 新增报名
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/apply
+            formatone:
+                - memberApplyQinzsReq.json
+                - memberApplyQinzsReq.txt
+                - memberApplyQinzsRsp.json
+                - memberApplyQinzsFmtRsp.json
+            guosFormat:
+                - memberApplyGuosReq.json
+                - memberApplyGuosReq.txt
+                - memberApplyGuosRsp.json
+                - memberApplyGuosFmtRsp.json
+        /match-service/member/wa/query:
+            modul: 赛事报名微服务
+            title: 小程序查看报名信息
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/wa/query
+            formatone:
+                - waQueryReq.json
+                - waQueryReq.txt
+                - waQueryRsp.json
+                - waQueryFmtRsp.json
+        /match-service/member/mp/query:
+            modul: 赛事报名微服务
+            title: 公众号查询报名信息
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/mp/query
+            formatone:
+                - mpQueryReq.json
+                - mpQueryReq.txt
+                - mpQueryRsp.json
+                - mpQueryFmtRsp.json
+        /match-service/member/apply/cancel:
+            modul: 赛事报名微服务
+            title: 取消报名
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/apply/cancel
+            formatone:
+                - applyCancelReq.json
+                - applyCancelReq.txt
+                - applyCancelRsp.json
+                - applyCancelFmtRsp.json
+        /match-service/member/detail/query:
+            modul: 赛事报名微服务
+            title: 获取国赛详细报名信息
+            method: get
+            url: https://uat-steam-api.opg.cn/match-service/member/detail/query
+            formatone:
+                - detailQueryReq.json
+                - detailQueryReq.txt
+                - detailQueryRsp.json
+                - detailQueryFmtRsp.json
+        /match-service/member/apply/detail/save:
+            modul: 赛事报名微服务
+            title: 保存参赛队信息
+            method: post
+            url: https://uat-steam-api.opg.cn/match-service/member/apply/detail/save
+            formatone:
+                - detailSaveReq.json
+                - detailSaveReq.txt
+                - detailSaveRsp.json
+                - detailSaveFmtRsp.json
+      goods:
+        /steam-resource/product/detail:
+            modul: 商品微服务
+            title: 根据资源ID查询商品活动详情
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-resource/product/detail
+            formatone:
+                - productDetailReq.json
+                - productDetailReq.txt
+                - productDetailRsp.json
+                - productDetailFmtRsp.json
+      resource:
+        /resource-service/resource/visit:
+            modul: 微信端资源微服务
+            title: 记录资源访问
+            method: post
+            url: https://uat-steam-api.opg.cn/resource-service/resource/visit
+            formatone:
+                - resourceVisitReq.json
+                - resourceVisitReq.txt
+                - resourceVisitRsp.json
+                - resourceVisitFmtRsp.json
+        /resource-service/resource/collect:
+            modul: 微信端资源微服务
+            title: 收藏资源
+            method: post
+            url: https://uat-steam-api.opg.cn/resource-service/resource/collect
+            formatone:
+                - resourceCollectReq.json
+                - resourceCollectReq.txt
+                - resourceCollectRsp.json
+                - resourceCollectFmtRsp.json
+        /resource-service/resource/cancelCollect:
+            modul: 微信端资源微服务
+            title: 取消收藏
+            method: post
+            url: https://uat-steam-api.opg.cn/resource-service/resource/cancelCollect
+            formatone:
+                - resourceCancelCollectReq.json
+                - resourceCancelCollectReq.txt
+                - resourceCancelCollectRsp.json
+                - resourceCancelCollectFmtRsp.json
+      order:
+        /order-service/order/submitAndPay:
+            modul: 微信端订单微服务
+            title: 订单提交并发起支付
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/submitAndPay
+            formatone:
+                - orderSubmitAndPayReq.json
+                - orderSubmitAndPayReq.txt
+                - orderSubmitAndPayRsp.json
+                - orderSubmitAndPayFmtRsp.json
+        /order-service/order/pay:
+            modul: 微信端订单微服务
+            title: 订单支付
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/pay
+            formatone:
+                - orderPayReq.json
+                - orderPayReq.txt
+                - orderPayRsp.json
+                - orderPayFmtRsp.json
+        /order-service/order/payquery:
+            modul: 微信端订单微服务
+            title: 查询订单支付状态
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/payquery
+            formatone:
+                - orderPayqueryReq.json
+                - orderPayqueryReq.txt
+                - orderPayqueryRsp.json
+                - orderPayqueryFmtRsp.json
+        /order-service/order:
+            modul: 微信端订单微服务
+            title: 查询订单列表
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order
+            formatone:
+                - orderReq.json
+                - orderReq.txt
+                - orderRsp.json
+                - orderFmtRsp.json
+        /order-service/order/cancel:
+            modul: 微信端订单微服务
+            title: 取消订单
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/cancel
+            formatone:
+                - orderCancelReq.json
+                - orderCancelReq.txt
+                - orderCancelRsp.json
+                - orderCancelFmtRsp.json
+        /order-service/order/detail:
+            modul: 微信端订单微服务
+            title: 订单详情
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/order/detail
+            formatone:
+                - orderDetailReq.json
+                - orderDetailReq.txt
+                - orderDetailRsp.json
+                - orderDetailFmtRsp.json
+        /order-service/study/list:
+            modul: 微信端订单微服务
+            title: 我的学习列表
+            method: get
+            url: https://uat-steam-api.opg.cn/order-service/study/list
+            formatone:
+                - studyListReq.json
+                - studyListReq.txt
+                - studyListRsp.json
+                - studyListFmtRsp.json
+        /order-service/score/add:
+            modul: 微信端订单微服务
+            title: 添加评分
+            method: post
+            url: https://uat-steam-api.opg.cn/order-service/score/add
+            formatone:
+                - scoreAddReq.json
+                - scoreAddReq.txt
+                - scoreAddRsp.json
+                - scoreAddFmtRsp.json
+      course:
+        /steam-course/course/queryCourse:
+            modul: 在线课程
+            title: 查询课程信息
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-course/course/queryCourse
+            formatone:
+                - courseQueryCourseReq.json
+                - courseQueryCourseReq.txt
+                - courseQueryCourseRsp.json
+                - courseQueryCourseFmtRsp.json
+        /steam-course/course/queryRecommandCourse:
+            modul: 在线课程
+            title: 查询课程推荐列表
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-course/course/queryRecommandCourse
+            formatone:
+                - courseQueryRecommandCourseReq.json
+                - courseQueryRecommandCourseReq.txt
+                - courseQueryRecommandCourseRsp.json
+                - courseQueryRecommandCourseFmtRsp.json
+        /order-service/study/list:
+            modul: 在线课程
+            title: 分页查询我的学习列表
+            method: get
+            url: https://uat-steam-api.opg.cn/order-service/study/list
+            formatone:
+                - studyListReq.json
+                - studyListReq.txt
+                - studyListRsp.json
+                - studyListFmtRsp.json
+        /steam-course/course/queryAliyunVideoAuth:
+            modul: 在线课程
+            title: 获取阿里云视频播放凭证
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-course/course/queryAliyunVideoAuth
+            formatone:
+                - courseQueryAliyunVideoAuthReq.json
+                - courseQueryAliyunVideoAuthReq.txt
+                - courseQueryAliyunVideoAuthRsp.json
+                - courseQueryAliyunVideoAuthFmtRsp.json
+        /operation-manage/material/queryAliyunVideoAuth:
+            modul: 在线课程
+            title: CMS获取阿里云视频播放凭证信息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunVideoAuth
+            formatone:
+                - materialQueryAliyunVideoAuthReq.json
+                - materialQueryAliyunVideoAuthReq.txt
+                - materialQueryAliyunVideoAuthRsp.json
+                - materialQueryAliyunVideoAuthFmtRsp.json
+config:
+    delay:
+       sign: false
+       time: 90
+    basepath: D:\litaojun\steamyml

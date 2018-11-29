@@ -1,0 +1,25 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"applyId": 1471022,
+		"applyCode": "1471022",
+		"contactName": "李妲",
+		"contactPhone": "15036439652",
+		"matchType": 1,
+		"matchName": "国赛报名10",
+		"school": "qinghau清华大学",
+		"province": null,
+		"city": null,
+		"country": "天津市",
+		"hotelName": null,
+		"hotelAddress": null,
+		"extraInfo": {
+			"schoolEn": "Shirley",
+			"email": "483282@qq.com",
+			"detailAddress": "西城街",
+			"postCode": "984923"
+		},
+		"teamList": null
+	}
+}

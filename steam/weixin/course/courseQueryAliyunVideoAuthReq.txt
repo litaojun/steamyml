@@ -1,0 +1,1 @@
+?courseId=4441&materialId=%(materialId)d

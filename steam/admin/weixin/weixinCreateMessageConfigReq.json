@@ -1,0 +1,11 @@
+{
+	"key": "消息关键字",
+	"type": "news",
+	"title": "消息标题",
+	"description": "消息描述",
+	"link": null,
+	"pictureUrl": null,
+	"welcomeMessage": false,
+	"sortNumber": null,
+	"createTime": "2018-10-25T17:03:49.208Z"
+}

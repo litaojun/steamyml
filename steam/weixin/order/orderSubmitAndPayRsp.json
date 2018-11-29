@@ -1,0 +1,20 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "orderId": "15417312481790000024827",
+        "needPay": true,
+        "payInfo": {
+            "type": 1,
+            "officialValue": {
+                "appId": "wxa5365dbeaa4265ac",
+                "timeStamp": "1541731248",
+                "nonceStr": "ea8485130e6f498aaf3cab1f39cb198c",
+                "prePackage": "prepay_id=wx09104048781531b961edd4b24006297648",
+                "signType": "MD5",
+                "paySign": "CFCC846A424B361827A3DA52FE2A2B0E"
+            },
+            "h5Value": null
+        }
+    }
+}

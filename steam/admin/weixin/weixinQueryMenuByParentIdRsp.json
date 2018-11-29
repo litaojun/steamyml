@@ -1,0 +1,30 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "menuConfigPage": {
+        "itemCounts": 2,
+        "currentPage": 1,
+        "pageSize": 10,
+        "pageCounts": 1,
+        "targets": [
+            {
+                "id": "73ed1a27-c23e-11e8-b8a0-06ae50a69966",
+                "parentId": "343c102a-7aa3-11e8-9033-02a7e93155ea",
+                "menuName": "亲子赛",
+                "menuType": "miniprogram",
+                "menuContent": "亲子赛报名",
+                "pagePath": "pages/signUp/main",
+                "sortNumber": 1
+            },
+            {
+                "id": "7f909806-c0af-11e8-b8a0-06ae50a69966",
+                "parentId": "343c102a-7aa3-11e8-9033-02a7e93155ea",
+                "menuName": "国赛",
+                "menuType": "miniprogram",
+                "menuContent": "国赛报名",
+                "pagePath": "pages/signupN/main",
+                "sortNumber": 2
+            }
+        ]
+    }
+}

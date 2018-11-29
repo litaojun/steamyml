@@ -1,0 +1,41 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"itemCounts": 2,
+		"currentPage": 1,
+		"pageSize": 10,
+		"pageCounts": 1,
+		"targets": [{
+			"id": "18",
+			"applyId": "1808131636946017",
+			"merchantName": "new东方明珠",
+			"province": "北京市",
+			"city": "西城区",
+			"detailAddress": "の21",
+			"mobilePhone": "eeqwe",
+			"servicePhone": "31232",
+			"operateRange": "3213",
+			"brandLogoSquare": "http://uat-steam.opg.cn/_static/admin/images/resource/20180813163640_396279.jpg",
+			"brandLogoWith": "http://uat-steam.opg.cn/_static/admin/images/resource/20180813163642_685931.jpg",
+			"industryQuality": null,
+			"createTime": 1534149403000,
+			"updateTime": null
+		}, {
+			"id": "1",
+			"applyId": "1808131100101001",
+			"merchantName": "东方明珠",
+			"province": "上海市",
+			"city": "徐汇区",
+			"detailAddress": "宜山路757号",
+			"mobilePhone": "13912345678",
+			"servicePhone": "021-34568888",
+			"operateRange": "机器人,编程,课程机器人",
+			"brandLogoSquare": "http://dev-steam.opg.cn/_static/admin/images/resource/20180801112625_490099.jpg",
+			"brandLogoWith": "http://dev-steam.opg.cn/_static/admin/images/resource/20180801112628_380756.jpg",
+			"industryQuality": "http://dev-steam.opg.cn/_static/admin/images/resource/20180801112630_168727.jpg",
+			"createTime": 1534137263000,
+			"updateTime": null
+		}]
+	}
+}

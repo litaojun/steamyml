@@ -1,0 +1,30 @@
+{
+    "code":"000000",
+    "message":"成功",
+    "data":{
+        "orderId":"15403604136350000024827",
+        "title":"鲨鱼公园简单机械（7-12岁）主题课程【8课时】",
+        "skuName":"（1-3岁）主题课程",
+        "resourceId":1762,
+        "resourceTypeId":11,
+        "state":15,
+        "price":0.1,
+        "payPrice":0.1,
+        "postPrice":0,
+        "num":1,
+        "thumbUrl":"http://uat-steam.opg.cn/_static/admin/images/resource/20180524110643_501902.png",
+        "dateStr":null,
+        "addressDesc":null,
+        "timeLeft":null,
+        "payTime":null,
+        "createTime":1540360413000,
+        "remark":"",
+        "ticketNo":null,
+        "deliverAddress":{
+            "name":"金匠世家",
+            "address":"北京市市辖区东城区 叫姐姐大家"
+        },
+        "express":null,
+        "score":null
+    }
+}

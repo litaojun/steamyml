@@ -1,0 +1,37 @@
+	{
+	"resourceId": null,
+	"title": "11.9新增活动",
+	"subTitle": "1111",
+	"deliverType": 0,
+	"vendorIdList": [18],
+	"resourceTypeId": 12,
+	"baseVisits": 10,
+	"content": "<p>第三方</p>",
+	"shareInfoList": [{
+		"id": null,
+		"shareType": 1,
+		"title": "222222",
+		"description": "111111",
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174347_923050.jpg"
+	}],
+	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174314_395938.jpg",
+	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174317_419419.jpg",
+	"imageList": [{
+		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174320_335164.jpg",
+		"order": 1
+	}],
+	"cornerMask": "1111",
+	"entryIdList": [],
+	"tagIdList": [],
+	"skuList": [{
+		"skuName": "三天两夜",
+		"order": 1,
+		"skuId": null,
+		"price": "1",
+		"originPrice": "1",
+		"inventory": "1",
+		"limitCount": "1",
+		"postPrice": 0
+	}],
+	"status": "W"
+}

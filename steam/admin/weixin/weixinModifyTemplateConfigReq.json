@@ -1,0 +1,11 @@
+{
+	"templateConfig": {
+		"id": "dfa5651e-d023-11e7-aa44-02cab2901bce",
+		"templateId": "y7IthNbCQS1_jKyhZHQalUGKvxKjgHUF61xyUiItsms",
+		"templateName": "报名审核失败通知模板",
+		"contentHead": "很遗憾，您未中奖~不要气馁换个姿势继续11！更多精彩活动请持续关注小红巢",
+		"contentTail": "点击查看更多活动报名",
+		"link": "http://dev-uop-wx.opg.cn/uop/index.html?routePath=/detailIndent/%s",
+		"key": null
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "data": {
+        "currentPage": 1,
+        "pageSize": 10,
+        "itemCounts": 1,
+        "targets": [
+            {
+                "resourceId": 898,
+                "resourceTypeId": 12,
+                "title": "时间管理局|开启生存竞速模式！",
+                "saleNum": 0,
+                "status": "A",
+                "saleOut": true,
+                "outOfTime": true,
+                "vendorId": 1
+            }
+        ]
+    }
+}

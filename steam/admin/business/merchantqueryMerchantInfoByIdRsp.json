@@ -1,0 +1,20 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"ffMerchantInfo": {
+		"id": "53",
+		"applyId": "1809291814448044",
+		"merchantName": "新入住商户",
+		"province": "上海市",
+		"city": "黄浦区",
+		"detailAddress": "人民广场",
+		"mobilePhone": "13917238502",
+		"servicePhone": "10086",
+		"operateRange": "test新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\ntest新入住商户\n",
+		"brandLogoSquare": "http://uat-steam.opg.cn/_static/admin/images/resource/20180929181408_145113.jpg",
+		"brandLogoWith": "http://uat-steam.opg.cn/_static/admin/images/resource/20180929181411_559083.jpg",
+		"industryQuality": null,
+		"createTime": 1538216053000,
+		"updateTime": 1539142685000
+	}
+}
