@@ -1134,6 +1134,27 @@ steam:
                 - materialQueryAliyunVideoAuthReq.txt
                 - materialQueryAliyunVideoAuthRsp.json
                 - materialQueryAliyunVideoAuthFmtRsp.json
+      home:
+        /featured/index/configs/queryShowConfigs
+            modul: 推荐位展示
+            title: 获取各种运营位配置数据展示
+            method: get
+            url: https://uat-steam-api.opg.cn/featured/index/configs/queryShowConfigs
+            formatone:
+                - indexConfigsQueryShowConfigsReq.json
+                - indexConfigsQueryShowConfigsReq.txt
+                - indexConfigsQueryShowConfigsRsp.json
+                - ndexConfigsQueryShowConfigsFmtRsp.json
+        /featured/index/configs/pageQueryPositionShows
+            modul: 推荐位展示
+            title: 获取各种运营位配置数据展示
+            method: get
+            url: https://uat-steam-api.opg.cn/featured/index/configs/pageQueryPositionShows
+            formatone:
+                - indexConfigsPageQueryPositionShowsReq.json
+                - indexConfigsPageQueryPositionShowsReq.txt
+                - indexConfigsPageQueryPositionShowsRsp.json
+                - ndexConfigsPageQueryPositionShowsFmtRsp.json
 config:
     delay:
        sign: false
