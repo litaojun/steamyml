@@ -1135,7 +1135,7 @@ steam:
                 - materialQueryAliyunVideoAuthRsp.json
                 - materialQueryAliyunVideoAuthFmtRsp.json
       home:
-        /featured/index/configs/queryShowConfigs
+        /featured/index/configs/queryShowConfigs:
             modul: 推荐位展示
             title: 获取各种运营位配置数据展示
             method: get
@@ -1145,7 +1145,7 @@ steam:
                 - indexConfigsQueryShowConfigsReq.txt
                 - indexConfigsQueryShowConfigsRsp.json
                 - ndexConfigsQueryShowConfigsFmtRsp.json
-        /featured/index/configs/pageQueryPositionShows
+        /featured/index/configs/pageQueryPositionShows:
             modul: 推荐位展示
             title: 获取各种运营位配置数据展示
             method: get
