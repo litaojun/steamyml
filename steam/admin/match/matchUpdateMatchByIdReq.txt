@@ -1,0 +1,6 @@
+{
+	"matchId": %(matchId)d,
+	"matchName": "%(matchName)s",
+	"state": 1
+}
+ 

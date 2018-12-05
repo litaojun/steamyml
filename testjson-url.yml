@@ -243,67 +243,6 @@ steam:
                 - weixinDeleteMenuReq.txt
                 - weixinDeleteMenuRsp.json
                 - weixinDeleteMenuFmtRsp.json
-      goods:
-        /operation-manage/product/add:
-            modul: 商品管理
-            title: 新增商品
-            method: post
-            url: https://uat-steam-api.opg.cn/operation-manage/product/add
-            formatone:
-                - productAddReq.json
-                - productAddReq.txt
-                - productAddRsp.json
-                - productAddFmtRsp.json
-        /operation-manage/product/publish:
-            modul: 商品管理
-            title: 发布商品
-            method: post
-            url: https://uat-steam-api.opg.cn/operation-manage/product/publish
-            formatone:
-                - productPublishReq.json
-                - productPublishReq.txt
-                - productPublishRsp.json
-                - productPublishFmtRsp.json
-        /operation-manage/product/unPublish:
-            modul: 商品管理
-            title: 下架商品
-            method: post
-            url: https://uat-steam-api.opg.cn/operation-manage/product/unPublish
-            formatone:
-                - productUnPublishReq.json
-                - productUnPublishReq.txt
-                - productUnPublishRsp.json
-                - productUnPublishFmtRsp.json
-        /operation-manage/product/update:
-            modul: 商品管理
-            title: 修改商品
-            method: post
-            url: https://uat-steam-api.opg.cn/operation-manage/product/update
-            formatone:
-                - productUpdateReq.json
-                - productUpdateReq.txt
-                - productUpdateRsp.json
-                - productUpdateFmtRsp.json
-        /operation-manage/product/queryProducts:
-            modul: 商品管理
-            title: 管理后台分页查询
-            method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
-            formatone:
-                - productQueryProductsReq.json
-                - productQueryProductsReq.txt
-                - productQueryProductsRsp.json
-                - productQueryProductsFmtRsp.json
-        /operation-manage/product/query:
-            modul: 商品管理
-            title: 通过资源id查询商品
-            method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/product/query
-            formatone:
-                - productQueryReq.json
-                - productQueryReq.txt
-                - productQueryRsp.json
-                - productQueryFmtRsp.json
       permissions:
         /operation-manage/permission/admin/login:
             modul: 权限微服务
@@ -346,6 +285,11 @@ steam:
                 - matchCreateMatchReq.txt
                 - matchCreateMatchRsp.json
                 - matchCreateMatchFmtRsp.json
+            sessionFormat:
+                - matchCreateMatchSessionReq.json
+                - matchCreateMatchSessionReq.txt
+                - matchCreateMatchSessionRsp.json
+                - matchCreateMatchSessionFmtRsp.json
         /operation-manage/match/updateMatchById:
             modul: 赛事微服务
             title: 修改赛事
@@ -356,6 +300,11 @@ steam:
                 - matchUpdateMatchByIdReq.txt
                 - matchUpdateMatchByIdRsp.json
                 - matchUpdateMatchByIdFmtRsp.json
+            sessionFormat:
+                - matchUpdateMatchSessionByIdReq.json
+                - matchUpdateMatchSessionByIdReq.txt
+                - matchUpdateMatchSessionByIdRsp.json
+                - matchUpdateMatchSessionByIdFmtRsp.json
         /operation-manage/match/deleteMatch:
             modul: 赛事微服务
             title: 删除赛事
@@ -366,6 +315,11 @@ steam:
                 - matchDeleteMatchReq.txt
                 - matchDeleteMatchRsp.json
                 - matchDeleteMatchFmtRsp.json
+            sessionFormat:
+                - matchSessionDeleteMatchReq.json
+                - matchSessionDeleteMatchReq.txt
+                - matchSessionDeleteMatchRsp.json
+                - matchSessionDeleteMatchFmtRsp.json
         /operation-manage/match/matchDetail:
             modul: 赛事微服务
             title: 查询赛事详情
@@ -376,6 +330,11 @@ steam:
                 - matchMatchDetailReq.txt
                 - matchMatchDetailRsp.json
                 - matchMatchDetailFmtRsp.json
+            sessionFormat:
+                - sessionMatchDetailReq.json
+                - sessionMatchDetailReq.txt
+                - sessionMatchDetailRsp.json
+                - sessionMatchDetailFmtRsp.json
         /operation-manage/apply/page:
             modul: 赛事微服务
             title: 查询赛事报名列表
@@ -701,6 +660,11 @@ steam:
                 - productAddReq.txt
                 - productAddRsp.json
                 - productAddFmtRsp.json
+            goodsAddReqjson: 
+                - goodsAddReq.json
+                - goodsAddReq.txt
+                - goodsAddRsp.json
+                - goodsAddFmtRsp.json
         /operation-manage/product/publish:
             modul: 活动管理
             title: 发布活动
@@ -708,7 +672,7 @@ steam:
             url: https://uat-steam-api.opg.cn/operation-manage/product/publish
             formatone:
                 - productPublishReq.json
-                - productPublishReq.txt
+                - productUnPublishReq.txt
                 - productPublishRsp.json
                 - productPublishFmtRsp.json
         /operation-manage/product/unPublish:
@@ -731,6 +695,52 @@ steam:
                 - productUpdateReq.txt
                 - productUpdateRsp.json
                 - productUpdateFmtRsp.json
+            goodsAlertReqJson: 
+                - goodsUpdateReq.json
+                - goodsUpdateReq.txt
+                - goodsUpdateRsp.json
+                - goodsUpdateFmtRsp.json
+      article:
+        /operation-manage/media/addMedia: 
+            modul: 内容管理
+            title: 新增文章视频
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/addMedia
+            formatone:
+                - mediaAddReq.json
+                - mediaAddReq.txt
+                - mediaAddRsp.json
+                - mediaAddFmtRsp.json
+        /operation-manage/media/updateMedia: 
+            modul: 内容管理
+            title: 修改文章视频
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/updateMedia
+            formatone:
+                - mediaUpdateReq.json
+                - mediaUpdateReq.txt
+                - mediaUpdateRsp.json
+                - mediaUpdateFmtRsp.json
+        /operation-manage/media/deleteMedia:
+            modul: 内容管理
+            title: 删除文章视频
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/deleteMedia
+            formatone:
+                - mediaDeleteReq.json
+                - mediaDeleteReq.txt
+                - mediaDeleteRsp.json
+                - mediaDeleteFmtRsp.json
+        /operation-manage/media/queryMedias:
+            modul: 内容管理
+            title: 搜索文章视频
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/media/queryMedias
+            formatone:
+                - mediaSearchReq.json
+                - mediaSearchReq.txt
+                - mediaSearchRsp.json
+                - mediaSearchFmtRsp.json
     weixin:
       member:
         /passport/verifyCode:
