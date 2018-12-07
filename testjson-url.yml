@@ -349,7 +349,7 @@ steam:
         /steam-resource/resource/uploadImages:
             modul: 资源微服务
             title: 上传图片获取图片url
-            method: post
+            method: file
             url: https://uat-steam-api.opg.cn/steam-resource/resource/uploadImages
             formatone:
                 - resourceUploadImagesReq.json
@@ -566,9 +566,9 @@ steam:
             url: https://uat-steam-api.opg.cn/operation-manage/featured/queryShowConfigs
             formatone:
                 - featuredQueryShowConfigsReq.json
-                - featuredQueryShowConfigsReqReq.txt
-                - featuredQueryShowConfigsReqRsp.json
-                - featuredQueryShowConfigsReqFmtRsp.json
+                - featuredQueryShowConfigsReq.txt
+                - featuredQueryShowConfigsRsp.json
+                - featuredQueryShowConfigsFmtRsp.json
         /operation-manage/featured/createConfig:
             modul: 推荐位CMS
             title: 新增运营位
