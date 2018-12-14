@@ -1,0 +1,24 @@
+testcases:
+- interfaceName: /operation-manage/course/queryCourseById
+  case:
+  - testPoint: 根据ID查询课程详情
+    preConditions:
+    - setupGetFrsIdFromQryRst
+    operationSteps: compareRetcodeTest
+    testData:
+    - courseTitle: 武汉大学AutoCAD技术视频
+      content: <p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 新增课程
+      title: java开发课程
+      description: 编程入门到实战
+      materialTitle: 巴拿马（）
+      materialId: 14
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

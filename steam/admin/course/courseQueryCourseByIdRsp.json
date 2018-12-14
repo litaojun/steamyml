@@ -1,0 +1,54 @@
+{
+    "code": "000000",
+    "message": "成功",
+    "ffCourseInfo": {
+        "resourceId": 4877,
+        "resourceTypeId": 13,
+        "courseTitle": "新增免费课程",
+        "content": "<p>课程</p>",
+        "cornerMask": "新增免费",
+        "merchantId": "87",
+        "baseStudiedCount": 111111111,
+        "baseScorePersonNum": 111111111,
+        "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181203151620_426072.jpg",
+        "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181203151623_488702.jpg",
+        "offShelfTime": None,
+        "charge": 1,
+        "price": 22.00,
+        "originPrice": 22.00,
+        "title": "课程",
+        "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181203151647_406967.jpg",
+        "description": "课程描述",
+        "tagIdList": None,
+        "entryIdList": None,
+        "courseCategory": [{
+        "chapterId": 718,
+            "chapterName": "第一章",
+            "sections": [{
+            "sectionId": 2680,
+                "sectionName": "第一节",
+                "supportTry": 1,
+                "materialInfo": {
+                    "id": 40,
+                    "materialId": 40,
+                    "materialType": None,
+                    "entryIdList": None,
+                    "merchantId": None,
+                    "materialTitle": "标题！",
+                    "materialUrl": None,
+                    "materialName": "月亮之上.mp4",
+                    "materialTime": None,
+                    "materialSize": None,
+                    "coverUrl": None,
+                    "useNum": None,
+                    "createGmt": None,
+                    "modifyGmt": None
+                   }
+           }]
+        }],
+       "state": None,
+       "skuId": 2667,
+       "supportRefund": False,
+       "accountDivisionRule": None
+    }
+}

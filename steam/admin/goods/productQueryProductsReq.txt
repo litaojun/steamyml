@@ -1,1 +1,1 @@
-?resourceTypeId=1&currentPage=1&pageSize=10
+?resourceTypeId=%(resourceTypeId)d&currentPage=1&pageSize=10&title=%(title)s

@@ -497,6 +497,16 @@ steam:
                 - courseRemoveCourseReq.txt
                 - courseRemoveCourseRsp.json
                 - courseRemoveCourseFmtRsp.json
+        /operation-manage/course/queryCourseById: 
+            modul: 课程管理
+            title: 根据ID查询课程详情
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/course/queryCourseById
+            formatone:
+                - courseQueryCourseByIdReq.json
+                - courseQueryCourseByIdReq.txt
+                - courseQueryCourseByIdRsp.json
+                - courseQueryCourseByIdFmtRsp.json
       media:
         /operation-manage/material/createMaterial:
             modul: 媒资管理
@@ -528,11 +538,11 @@ steam:
                 - materialQueryAliyunVideoAuthReq.txt
                 - materialQueryAliyunVideoAuthRsp.json
                 - materialQueryAliyunVideoAuthFmtRsp.json
-        /merchant/queryMerchantInfoByCondtion:
+        /operation-manage/material/queryMaterialByCondition:
             modul: 媒资管理
             title: 搜索素材
             method: get
-            url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoByCondtion
+            url: https://uat-steam-api.opg.cn/operation-manage/material/queryMaterialByCondition
             formatone:
                 - merchantQueryMerchantInfoByCondtionReq.json
                 - merchantQueryMerchantInfoByCondtionReq.txt
@@ -630,16 +640,16 @@ steam:
                 - featuredMoveDownRecordRsp.json
                 - featuredMoveDownRecordFmtRsp.json
       goods:
-        /operation-manage/product/queryProducts:
+        /operation-manage/product/query:
             modul: 活动管理
             title: 通过活动id搜索
             method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
+            url: https://uat-steam-api.opg.cn/operation-manage/product/query
             formatone:
-                - productQueryProductsReq.json
-                - productQueryProductsReq.txt
-                - productQueryProductsRsp.json
-                - productQueryProductsFmtRsp.json
+                - productQueryReq.json
+                - productQueryReq.txt
+                - productQueryRsp.json
+                - productQueryFmtRsp.json
         /operation-manage/product/queryProducts:
             modul: 活动管理
             title: 后台管理分页查询活动
@@ -904,6 +914,16 @@ steam:
                 - searchKeywordSearchReq.txt
                 - searchKeywordSearchRsp.json
                 - searchKeywordSearchFmtRsp.json
+        /steam-resource/index/configs/searchByEntry:
+            modul: 搜索微服务
+            title: 按分类搜索
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-resource/index/configs/searchByEntry
+            formatone:
+                - indexConfigSearchByEntryReq.json
+                - indexConfigSearchByEntryReq.txt
+                - indexConfigSearchByEntryRsp.json
+                - indexConfigSearchByEntryFmtRsp.json
       match:
         /match-service/member/apply:
             modul: 赛事报名微服务
@@ -1012,6 +1032,16 @@ steam:
                 - resourceCancelCollectReq.txt
                 - resourceCancelCollectRsp.json
                 - resourceCancelCollectFmtRsp.json
+        /steam-media/media/getMediaDetailByID: 
+            modul: 微信端资源微服务
+            title: 用户查看文章视频详情页
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-media/media/getMediaDetailByID
+            formatone:
+                - mediaGetMediaDetailByIdReq.json
+                - mediaGetMediaDetailByIdReq.txt
+                - mediaGetMediaDetailByIdRsp.json
+                - mediaGetMediaDetailByIdFmtRsp.json
       order:
         /order-service/order/submitAndPay:
             modul: 微信端订单微服务
@@ -1134,16 +1164,6 @@ steam:
                 - courseQueryAliyunVideoAuthReq.txt
                 - courseQueryAliyunVideoAuthRsp.json
                 - courseQueryAliyunVideoAuthFmtRsp.json
-        /operation-manage/material/queryAliyunVideoAuth:
-            modul: 在线课程
-            title: CMS获取阿里云视频播放凭证信息
-            method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunVideoAuth
-            formatone:
-                - materialQueryAliyunVideoAuthReq.json
-                - materialQueryAliyunVideoAuthReq.txt
-                - materialQueryAliyunVideoAuthRsp.json
-                - materialQueryAliyunVideoAuthFmtRsp.json
       home:
         /featured/index/configs/queryShowConfigs:
             modul: 推荐位展示

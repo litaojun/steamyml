@@ -1,0 +1,16 @@
+{
+    "id": 36,
+    "materialId": 36,
+    "materialType": 1,
+    "entryIdList": [7, 72, 75],
+    "merchantId": 87,
+    "materialTitle": "%(materialTitleAlert)s",
+    "materialUrl": "c85ec1bf1e44450798ef44c83aa91f4d",
+    "materialName": "687201651EE9736BB4BE244A7246F4B5.mp4",
+    "materialTime": 224211,
+    "materialSize": 21370,
+    "coverUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181023163220_801138.jpg",
+    "useNum": 5,
+    "createGmt": 1540283587000,
+    "modifyGmt": 1544671315000
+}

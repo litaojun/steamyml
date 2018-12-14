@@ -1,0 +1,36 @@
+{
+	"courseTitle": "%(courseTitle)s",
+	"content": "%(content)s",
+	"cornerMask": None,
+	"merchantId": 15,
+	"baseStudiedCount": 12,
+	"originPrice": 0,
+	"price": 0,
+	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180102_661297.png",
+	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180109_503755.jpg",
+	"title": "%(title)s",
+	"description": "%(description)s",
+	"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180114_855402.png",
+	"tagIdList": [],
+	"entryIdList": [],
+	"resourceTypeId": None,
+	"offShelfTime": None,
+	"charge": 0,
+	"courseCategory": [{
+		"chapterName": "1232",
+		"sections": [{
+			"supportTry": 1,
+			"sectionName": "32312",
+			"materialInfo": {
+				"materialTitle": "%(materialTitle)s",
+				"materialId": %(materialId)d
+			}
+		}]
+	}],
+	"status": "W",
+	"supportRefund": False,
+	"accountDivisionRule": {
+		"commissionRate": 0,
+		"opgDivisionRate": 0
+	}
+}
