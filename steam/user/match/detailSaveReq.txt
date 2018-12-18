@@ -1,0 +1,30 @@
+{
+	"uuid": "%(uuid)s",
+	"applyId": %(applyId)d,
+	"hotelName": "酒店",
+	"hotelAddress": "地址",
+	"teamList": [{
+		"subjectName": "博物馆",
+		"group": "幼儿组",
+		"coachList": [{
+			"name": "教练",
+			"sex": "男"
+		}, {
+			"name": "",
+			"sex": ""
+		}, {
+			"name": "",
+			"sex": ""
+		}],
+		"teamMemberList": [{
+			"teamMemberName": "队员1",
+			"teamMemberSex": "女",
+			"teamMemberAge": "21",
+			"teamMemberGrade": "2",
+			"teamMemberClass": "3",
+			"teamMemberSchoolID": "31424112",
+			"teamMemberID": "312312472975937498",
+			"teamMemberPhone": "15221874610"
+		}]
+	}]
+}

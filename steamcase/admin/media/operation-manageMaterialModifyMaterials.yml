@@ -9,7 +9,7 @@ testcases:
     -  materialType: 2,
        entryIdList: [72]
        merchantId: "53"
-       materialTitleAlert: 1023普通视频
+       materialTitle: 1023普通视频
        materialTitleAlert: 1023普通视频-修改
        caseid: add_material
        testPoint: 删除一个素材

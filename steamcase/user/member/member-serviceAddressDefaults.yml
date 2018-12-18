@@ -1,9 +1,10 @@
 testcases:
-- interfaceName: /member-service/address-add
+- interfaceName: /member-service/address/default
   case:
-  - testPoint: 用户新增地址
+  - testPoint: 设置默认收货地址
     preConditions:
-    - tearDownUserAddressId
+    - setupUserAddAddress
+    - setupGetUserAddressId
     - tearDownDelUserAddress
     operationSteps: compareRetcodeTest
     testData:
@@ -17,6 +18,11 @@ testcases:
       county: 东城区
       isDefault: '01'
       caseid: user_add_address_1
-      testPoint: 用户新增地址
+      testPoint: 设置默认收货地址
     expectedResult:
       code: '200'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '200'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

@@ -751,7 +751,7 @@ steam:
                 - mediaSearchReq.txt
                 - mediaSearchRsp.json
                 - mediaSearchFmtRsp.json
-    weixin:
+    user:
       member:
         /passport/verifyCode:
             modul: 会员微服务
@@ -846,23 +846,13 @@ steam:
         /member-service/address/default:
             modul: 会员微服务
             title: 设置默认收货地址
-            method: put
+            method: put-get
             url: https://uat-steam-api.opg.cn/member-service/address/default
             formatone:
                 - addressDefaultReq.json
                 - addressDefaultReq.txt
                 - addressDefaultRsp.json
                 - addressDefaultFmtRsp.json
-        /member-service/address:
-            modul: 会员微服务
-            title: 会员地址删除
-            method: delete
-            url: https://uat-steam-api.opg.cn/member-service/address
-            formatone:
-                - AddressReq.json
-                - AddressReq.txt
-                - AddressRsp.json
-                - AddressFmtRsp.json
         /member-service/changePhoneNo:
             modul: 会员微服务
             title: 修改手机号
@@ -974,7 +964,7 @@ steam:
             modul: 赛事报名微服务
             title: 获取国赛详细报名信息
             method: get
-            url: https://uat-steam-api.opg.cn/match-service/member/detail/query
+            url: http://uat-steam-api.opg.cn/match-service/member/apply/detail/query
             formatone:
                 - detailQueryReq.json
                 - detailQueryReq.txt
