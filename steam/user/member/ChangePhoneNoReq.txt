@@ -1,0 +1,6 @@
+{
+    "memberId":"%(memberId)s" ,
+    "oldPhoneNo":"%(oldPhoneNo)s" ,
+    "newPhoneNo":"%(newPhoneNo)s" ,
+    "verifyCode":"%(alterPhoneNoVfycode)s"
+}

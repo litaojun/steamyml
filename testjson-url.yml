@@ -763,6 +763,11 @@ steam:
                 - passportVerifyCodeReq.txt
                 - passportVerifyCodeRsp.json
                 - passportVerifyCodeFmtRsp.json
+            alertPhoneFormat:
+                - passportAlertVerifyCodeReq.json
+                - passportAlertVerifyCodeReq.txt
+                - passportAlertVerifyCodeRsp.json
+                - passportAlertVerifyCodeFmtRsp.json
         /member/login/memberLogin:
             modul: 会员微服务
             title: 会员登录
@@ -857,7 +862,7 @@ steam:
             modul: 会员微服务
             title: 修改手机号
             method: post
-            url: https://uat-steam-api.opg.cn/member-service/changePhoneNo
+            url: https://uat-steam-api.opg.cn/passport/changePhoneNo
             formatone:
                 - ChangePhoneNoReq.json
                 - ChangePhoneNoReq.txt

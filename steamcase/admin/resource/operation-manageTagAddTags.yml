@@ -1,23 +1,16 @@
 testcases:
-- interfaceName: /member-service/changePhoneNo
+- interfaceName: /operation-manage/tag/addTag
   case:
-  - testPoint: 修改手机号
+  - testPoint: 新增标签
     preConditions:
-    - setupSendVerifyCode
-    - setupSetRspToNone
-    - tearDownExchangeOldNewPhoneNo
-    - tearDownSendVerifyCode
-    - tearDownChangePhone
+    - ''
     operationSteps: compareRetcodeTest
     testData:
-    - phoneNo: '18916899938'
-      oldPhoneNo: '18916899938'
-      newPhoneNo: '18516099506'
-      alertScenes: MP
+    - title: 美式外教科学营---1
+      subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      alterPhoneReqFile: alertPhoneFormat
       caseid: activity_alert_1
-      testPoint: 修改手机号
+      testPoint: 修改活动正常
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

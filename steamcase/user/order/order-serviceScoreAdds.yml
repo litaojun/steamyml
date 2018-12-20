@@ -1,0 +1,29 @@
+testcases:
+- interfaceName: /order-service/score/add
+  case:
+  - testPoint: 添加评分
+    preConditions:
+    - setupgetFirstResourceId
+    - setupGetSkuId
+    - setupUserOrderActivity
+    - tearDownDelOrderData
+    - tearDownDelUserScoreData
+    operationSteps: compareRetcodeTest
+    testData:
+    - keyword: 长江三峡STEM科考课程第七课
+      phoneNo: '18916899938'
+      reqjsonfile: formatone
+      score: 3
+      caseid: score_add_1
+      testPoint: 添加评分
+      addressId: 1
+      num: "1"
+      resourceTypeId: 13
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
