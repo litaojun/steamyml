@@ -1,0 +1,28 @@
+testcases:
+- interfaceName: /operation-manage/featured/moveUpRecord
+  case:
+  - testPoint: 运营位记录上移
+    preConditions:
+    - setupGetFirstSearchResource
+    - setupAddOperPosition
+    - setupGetFirstConfigResource
+    - setupListOrderUp
+    - tearDownDelOneOperpsn
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 让MakeX成为青少年释放自我的舞台-接口自动化-勿动
+      picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
+      listOrder: 1
+      position: '01'
+      resourceTypeId: 2
+      specificTypeName: 文章
+      displayType: '2'
+      caseid: operpsn_add_1
+      testPoint: 运营位记录上移
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

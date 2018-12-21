@@ -3,15 +3,15 @@ testcases:
   case:
   - testPoint: 新增标签
     preConditions:
-    - ''
+    - tearDownGetTagId
+    - tearDownRemoveTag
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
+    - tagName: 美式外教科学营
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
-      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+      caseid: tag_add_1
+      testPoint: 新增标签
     expectedResult:
       code: '000000'
       compare:

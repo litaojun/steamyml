@@ -1,11 +1,11 @@
 {
-	"title"        :  "%(title)s",
-	"picPath"      :  "%(picPath)s",
-	"position"     :  "%(position)s",
-	"oldListOrder" :  %(oldListOrder)d,
-	"listOrder"    :  %(listOrder)d,
-	"displayType"  :  None,
-	"resourceId"   :  None,
-	"itemId"       :  %(resourceId)d,
-	"id": %(id)d
+    "title"        :  "%(alertTitle)s",
+    "picPath"      :  "%(alertPicPath)s",
+    "position"     :  "%(position)s",
+    "oldListOrder" :  %(listOrder)d,
+    "listOrder"    :  %(listOrder)d,
+    "displayType"  :  None,
+    "resourceId"   :  None,
+    "itemId"       :  %(alertResourceId)d,
+    "id": %(id)d
 }

@@ -1,6 +1,13 @@
 {
- "position":"01",
- "listOrder":4,
- "id":1537
-
+	"id": %(id)d ,
+	"resourceId": %(resourceId)d ,
+	"position": "%(position)s" ,
+	"listOrder": %(listOrder)d ,
+	"picPath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022170302_472652.jpg" ,
+	"createTime": None ,
+	"updateTime": None ,
+	"title": "%(title)s",
+	"displayType": None ,
+	"resourceType": %(resourceTypeId)d ,
+	"specificType": "%(specificTypeName)s"
 }

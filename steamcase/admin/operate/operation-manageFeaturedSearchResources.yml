@@ -1,0 +1,98 @@
+testcases:
+- interfaceName: /operation-manage/featured/searchResource
+  case:
+  - testPoint: 根据资源类型搜索已发布文章
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 让MakeX成为青少年释放自我的舞台-接口自动化-勿动
+      resourceTypeId: 2
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 根据资源类型搜索已发布文章
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
+  - testPoint: 根据资源类型搜索已发布视频
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 石舍学校独立微电影-接口自动化-勿动
+      resourceTypeId: 1
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 根据资源类型搜索已发布视频
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
+  - testPoint: 根据资源类型搜索已发布商品
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 早教学习儿童编程机器人套件益智智能机器人-接口自动化-勿动
+      resourceTypeId: 11
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 根据资源类型搜索已发布商品
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
+  - testPoint: 根据资源类型搜索已发布活动
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 山野少年之户外实战技巧-接口自动化-勿动
+      resourceTypeId: 12
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 根据资源类型搜索已发布活动
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
+  - testPoint: 根据资源类型搜索已发布课程
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 长江三峡STEM科考课程第七课
+      resourceTypeId: 13
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 根据资源类型搜索已发布课程
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

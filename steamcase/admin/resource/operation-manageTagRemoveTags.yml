@@ -3,13 +3,13 @@ testcases:
   case:
   - testPoint: 删除标签
     preConditions:
-    - ''
+    - setupGetTagId
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
+    - tagName: 美式外教科学营
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: tag_remove_1
       testPoint: 修改活动正常
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:

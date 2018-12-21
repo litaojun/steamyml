@@ -1,0 +1,5 @@
+{ 
+    "key": "%(key)s", 
+    "currentPage": 1, 
+    "pageSize": 10000
+}
