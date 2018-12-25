@@ -13,7 +13,7 @@ testcases:
       content: <p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>
       reqjsonfile: formatone
       caseid: activity_alert_1
-      testPoint: 新增课程
+      testPoint: 修改课程
       title: java开发课程
       description: 编程入门到实战
       materialTitle: 巴拿马（）
