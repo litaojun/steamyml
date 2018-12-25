@@ -1,7 +1,7 @@
 {
      "resourceId": %(resourceId)d ,
-     "courseTitle": "JAVA开发高级入门篇-修改",
-     "content": "<p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>",
+     "courseTitle": "%(alterCourseTitle)s",
+     "content": "%(content)s",
      "cornerMask": None,
      "merchantId": 15,
      "baseStudiedCount": 12,
@@ -28,5 +28,11 @@
                             }
          }]
     }],
-   "status": "W"
+   "status": "W",
+   	"skuId": %(skuId)d,
+    "supportRefund": False,
+    "accountDivisionRule": {
+    "commissionRate": 0,
+     "opgDivisionRate": 0
+    }
 }
