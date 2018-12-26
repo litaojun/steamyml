@@ -15,6 +15,7 @@ testcases:
       newPhoneNo: '18516099506'
       alertScenes: MP
       reqjsonfile: formatone
+      scenes: OTP
       alterPhoneReqFile: alertPhoneFormat
       caseid: activity_alert_1
       testPoint: 修改手机号
