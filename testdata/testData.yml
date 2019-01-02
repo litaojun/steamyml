@@ -1,14 +1,60 @@
 testdata: 
-  - dataType: 1
+  - resourceTypeId: 1
+    mark: 文章
+    apiInterface: /operation-manage/product/queryProducts
+    data: 
       -  title: 高校寒假时长为何相差近20天？
-         status: 1
-         apiInterface: 
-         reqType: 
+         status: A
          dataPath: data1School.yml
       -  title: 2018中国双一流大学排名出炉，6所高校跌出中国200强
-         status: 2
+         status: A
          dataPath: data1China.yml
-    dataType: 2
+      -  title: 让MakeX成为青少年释放自我的舞台
+         status: A
+         dataPath: data1China.yml
+  - resourceTypeId: 2
+    mark: 视频
+    apiInterface: /operation-manage/product/queryProducts
+    data:
       -  title: 奥林匹克大赛2017年12月北京赛区-自动化
-         status: 2
+         status: A
+         skuName:
          dataPath: data1China.yml
+      -  title: 创客教育儿童早教学习接口自动化
+         skuName: 体验课
+         status: A
+         dataPath: data1China.yml
+      -  title: 让MakeX成为青少年释放自我的舞台
+         status: A
+  - resourceTypeId: 11
+    mark: 活动
+    apiInterface: /operation-manage/media/queryMedias
+    data: 
+      - title: 山野少年之户外实战技巧
+        status: A
+        skuName: 
+        dataPath: 
+  - resourceTypeId: 12
+    apiInterface: /operation-manage/media/queryMedias
+    data: 
+      - title: 早鸟价接口自动化
+        status: A
+        skuName: 价格（成人）
+        dataPath: 
+      - title: 醉清迈
+        status: A
+  - resourceTypeId: 13
+    mark: 商品
+    apiInterface: /operation-manage/course/queryCourseByCondition
+    data:
+      - title: 武汉大学AutoCAD技术视频
+        chapterName: 第一章 AutoCAD2007入门基础
+        sectionName: AutoCAD 的基本功能
+        status: A
+        dataPath: 
+      - title: 体验课
+        chapterName: 第一章
+        sectionName: 1、
+        dataPath: 
+      - title: 长江三峡STEM科考课程第七课
+        dataPath: 
