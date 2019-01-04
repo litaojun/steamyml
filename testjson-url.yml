@@ -751,6 +751,16 @@ steam:
                 - mediaSearchReq.txt
                 - mediaSearchRsp.json
                 - mediaSearchFmtRsp.json
+        /operation-manage/media/resetMediaState:
+            modul: 内容管理
+            title: 上架下架文章视频
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/resetMediaState
+            formatone:
+                - mediaResetMediaReq.json
+                - mediaResetMediaReq.txt
+                - mediaResetMediaRsp.json
+                - mediaResetMediaFmtRsp.json
     user:
       member:
         /passport/verifyCode:

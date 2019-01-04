@@ -1,0 +1,40 @@
+testcases:
+- interfaceName: /operation-manage/media/resetMediaState
+  case:
+  - testPoint: 下架文章视频
+    preConditions:
+    - setupGetFirstMedia
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 高校寒假时长为何相差近20天？
+      status: D
+      resourceTypeId: 2
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 修改活动正常
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
+  - testPoint: 上架文章视频
+    preConditions:
+    - setupGetFirstMedia
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 高校寒假时长为何相差近20天？
+      status: A
+      resourceTypeId: 2
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 修改活动正常
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
