@@ -1,60 +1,128 @@
 testdata: 
-  - resourceTypeId: 1
+  - apiInterface: /operation-manage/media/queryMedias
     mark: 文章
-    apiInterface: /operation-manage/product/queryProducts
     data: 
       -  title: 高校寒假时长为何相差近20天？
          status: A
-         dataPath: data1School.yml
+         resourceTypeId: 1
+         dataPath: media1Article.yml
       -  title: 2018中国双一流大学排名出炉，6所高校跌出中国200强
          status: A
-         dataPath: data1China.yml
+         resourceTypeId: 1
+         dataPath: media2Article.yml
       -  title: 让MakeX成为青少年释放自我的舞台
          status: A
-         dataPath: data1China.yml
-  - resourceTypeId: 2
+         resourceTypeId: 1
+         dataPath: media3Article.yml
+  - apiInterface: /operation-manage/media/queryMedias
     mark: 视频
-    apiInterface: /operation-manage/product/queryProducts
     data:
       -  title: 奥林匹克大赛2017年12月北京赛区-自动化
          status: A
+         resourceTypeId: 2
          skuName:
-         dataPath: data1China.yml
+         dataPath: media1Media.yml
       -  title: 创客教育儿童早教学习接口自动化
          skuName: 体验课
+         resourceTypeId: 2
          status: A
-         dataPath: data1China.yml
+         dataPath: media2Media.yml
       -  title: 让MakeX成为青少年释放自我的舞台
+         resourceTypeId: 2
          status: A
   - resourceTypeId: 11
     mark: 活动
-    apiInterface: /operation-manage/media/queryMedias
+    apiInterface: /operation-manage/product/queryProducts
     data: 
       - title: 山野少年之户外实战技巧
         status: A
+        resourceTypeId: 11
         skuName: 
-        dataPath: 
-  - resourceTypeId: 12
-    apiInterface: /operation-manage/media/queryMedias
+        dataPath: product1Activity.yml
+  - apiInterface: /operation-manage/product/queryProducts
+    mark: 商品
     data: 
       - title: 早鸟价接口自动化
         status: A
+        resourceTypeId: 12
         skuName: 价格（成人）
-        dataPath: 
+        dataPath: product1Goods.yml
       - title: 醉清迈
         status: A
-  - resourceTypeId: 13
-    mark: 商品
-    apiInterface: /operation-manage/course/queryCourseByCondition
+        dataPath: product2Goods.yml
+  - apiInterface: /operation-manage/course/queryCourseByCondition
+    mark: 课程
     data:
       - title: 武汉大学AutoCAD技术视频
         chapterName: 第一章 AutoCAD2007入门基础
         sectionName: AutoCAD 的基本功能
         status: A
-        dataPath: 
+        resourceTypeId: 13
+        dataPath: course1Course.yml
       - title: 体验课
         chapterName: 第一章
         sectionName: 1、
-        dataPath: 
+        resourceTypeId: 13
+        dataPath: course2Course.yml
       - title: 长江三峡STEM科考课程第七课
-        dataPath: 
+        resourceTypeId: 13
+        dataPath: course3Course.yml
+  - apiInterface: /operation-manage/match/subMatchPage
+    mark: 赛事
+    data:
+      - matchName: 自动化测试专用-勿动
+        matchId: 22
+        name: 亲子擂台赛
+        state: 2
+        applyNum: 1
+        limitCount: 13
+        dataPath: match1QinzSub.yml
+      - matchName: 自动化测试专用-未开始-勿动
+        matchId: 22
+        name: 亲子擂台赛
+        state: 1
+        applyNum: 1
+        limitCount: 13
+        dataPath: match2QinzSub.yml
+      - matchName: 自动化测试专用-已满额-勿动
+        matchId: 22
+        name: 亲子擂台赛
+        state: 2
+        applyNum: 2
+        limitCount: 2
+        dataPath: match3QinzSub.yml
+      - matchName: 自动化测试专用-已结束-勿动
+        matchId: 22
+        name: 亲子擂台赛
+        state: 3
+        applyNum: 1
+        limitCount: 13
+        dataPath: match4QinzSub.yml
+      - matchName: 自动化测试专用-勿动
+        matchId: 200
+        name: 国赛
+        state: 2
+        applyNum: 1
+        limitCount: 13
+        dataPath: match1GuosSub.yml
+      - matchName: 自动化测试专用-未开始-勿动
+        matchId: 200
+        name: 国赛
+        state: 1
+        applyNum: 1
+        limitCount: 13
+        dataPath: match2GuosSub.yml
+      - matchName: 自动化测试专用-已满额-勿动
+        matchId: 200
+        name: 国赛
+        state: 2
+        applyNum: 2
+        limitCount: 2
+        dataPath: match3GuosSub.yml
+      - matchName: 自动化测试专用-已结束-勿动
+        matchId: 200
+        name: 国赛
+        state: 3
+        applyNum: 1
+        limitCount: 13
+        dataPath: match4GuosSub.yml

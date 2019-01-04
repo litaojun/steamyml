@@ -1,0 +1,24 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"itemCounts": 1,
+		"currentPage": 1,
+		"pageSize": 10,
+		"pageCounts": 1,
+		"targets": [{
+			"id": 4962,
+			"resourceTypeId": 2,
+			"cornerMask": "文章",
+			"title": "高校寒假时长为何相差近20天？",
+			"status": "A",
+			"vendorId": 93,
+			"vendorName": "企业名称房间里三企业名称房间里三企业名称房间里三企业名称房间",
+			"baseVisits": 8888888,
+			"baseCollects": 888888,
+			"actualVisits": 29,
+			"actualCollects": 3,
+			"type": null
+		}]
+	}
+}
