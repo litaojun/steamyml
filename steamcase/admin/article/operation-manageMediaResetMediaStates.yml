@@ -1,4 +1,4 @@
-testcases:
+﻿testcases:
 - interfaceName: /operation-manage/media/resetMediaState
   case:
   - testPoint: 下架文章视频
@@ -11,7 +11,7 @@ testcases:
       resourceTypeId: 2
       reqjsonfile: formatone
       caseid: activity_alert_1
-      testPoint: 修改活动正常
+      testPoint: 下架文章视频
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'
@@ -30,7 +30,7 @@ testcases:
       resourceTypeId: 2
       reqjsonfile: formatone
       caseid: activity_alert_1
-      testPoint: 修改活动正常
+      testPoint: 上架文章视频
     expectedResult:
       code: '000000'
       compare:

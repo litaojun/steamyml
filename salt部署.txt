@@ -1,0 +1,1 @@
+sudo salt-call state.sls steam pillar='{"_pkg": "s3://opg205nx-default/packages/steam/steam-config/steam-config-1.0.0-20181130-145104-master-53674a9b.jar"}'

@@ -1,7 +1,7 @@
-testcases:
+﻿testcases:
 - interfaceName: /steam-resource/product/detail
   case:
-  - testPoint: 查看一个活动
+  - testPoint: 查看一个商品
     preConditions:
     - setupgetFirstResourceId
     operationSteps: compareRetcodeTest
@@ -15,7 +15,7 @@ testcases:
       testPoint: 查看一个活动
     expectedResult:
       code: '000000'
-  - testPoint: 查看一个商品
+  - testPoint: 查看一个活动
     preConditions:
     - setupgetFirstResourceId
     operationSteps: compareRetcodeTest

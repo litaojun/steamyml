@@ -4,69 +4,126 @@ testdata:
     data: 
       -  title: 高校寒假时长为何相差近20天？
          status: A
-         resourceTypeId: 1
+         resourceTypeId: 2
          dataPath: media1Article.yml
+         casefile: 
+             -  operation-manageMediaResetMediaStates.yml
       -  title: 2018中国双一流大学排名出炉，6所高校跌出中国200强
          status: A
-         resourceTypeId: 1
+         resourceTypeId: 2
          dataPath: media2Article.yml
+         casefile: None
       -  title: 让MakeX成为青少年释放自我的舞台
          status: A
-         resourceTypeId: 1
+         resourceTypeId: 2
          dataPath: media3Article.yml
+         casefile: 
+             -  steam-mediamediagetMediaDetailByID.yml
+                operation-managemediaqueryMedias.yml
+                operation-managemediaqueryMediaByIDs.yml
   - apiInterface: /operation-manage/media/queryMedias
     mark: 视频
     data:
       -  title: 奥林匹克大赛2017年12月北京赛区-自动化
          status: A
-         resourceTypeId: 2
+         resourceTypeId: 1
          skuName:
          dataPath: media1Media.yml
+         casefile: 
+             -  steam-mediamediagetMediaDetailByID.yml
       -  title: 创客教育儿童早教学习接口自动化
          skuName: 体验课
-         resourceTypeId: 2
+         resourceTypeId: 1
          status: A
          dataPath: media2Media.yml
+         casefile: 
+             -  operation-manageproductquerys.yml
+                operation-managemediaqueryMedias.yml
       -  title: 让MakeX成为青少年释放自我的舞台
-         resourceTypeId: 2
+         resourceTypeId: 1
          status: A
-  - resourceTypeId: 11
-    mark: 活动
-    apiInterface: /operation-manage/product/queryProducts
+         dataPath: media3Media.yml
+         casefile: 
+             -  steam-mediamediagetMediaDetailByID.yml
+                operation-managemediaqueryMediaByIDs.yml
+  - apiInterface: /operation-manage/product/queryProducts
+    mark: 商品
     data: 
       - title: 山野少年之户外实战技巧
         status: A
         resourceTypeId: 11
         skuName: 
-        dataPath: product1Activity.yml
+        dataPath: product1Goods.yml
+        casefile: 
+           -  steam-resourceproductdetails.yml
+      - title: 创客教育儿童早教学习接口自动化
+        status: A
+        resourceTypeId: 11
+        skuName: 体验课
+        dataPath: product2Goods.yml
+        casefile: 
+            -  order-serviceordersubmitAndPays.yml
+      - title: 早教学习儿童编程机器人套件益智智能机器人
+        status: A
+        resourceTypeId: 11
+        dataPath: product3Goods.yml
+        casefile: 
+             -  member-servicememberspersonalCenters.yml
+             -  steam-searchsearchkeywordSearchs.yml
   - apiInterface: /operation-manage/product/queryProducts
-    mark: 商品
+    mark: 活动
     data: 
       - title: 早鸟价接口自动化
         status: A
         resourceTypeId: 12
         skuName: 价格（成人）
-        dataPath: product1Goods.yml
+        dataPath: product1Activity.yml
+        casefile: 
+            -  order-serviceordercancels.yml
+               order-serviceorderdetails.yml
+               order-serviceorderpayquery.yml
+               order-service-orderpay-query.yml
+               order-serviceorders.yml
+               order-serviceordersubmitAndPays.yml
+               operation-manageproductquerys.yml
       - title: 醉清迈
+        resourceTypeId: 12
         status: A
-        dataPath: product2Goods.yml
+        dataPath: product2Activity.yml
+        casefile: 
+           -  steam-resourceproductdetails.yml
+           -  steam-searchsearchkeywordSearchs.yml
   - apiInterface: /operation-manage/course/queryCourseByCondition
     mark: 课程
     data:
-      - title: 武汉大学AutoCAD技术视频
+      - courseTitle: 武汉大学AutoCAD技术视频
         chapterName: 第一章 AutoCAD2007入门基础
         sectionName: AutoCAD 的基本功能
         status: A
         resourceTypeId: 13
         dataPath: course1Course.yml
-      - title: 体验课
+        casefile: 
+            -  order-servicestudylists.yml
+               resource-serviceresourcecancelCollects.yml
+               resource-serviceresourcecollects.yml
+               steam-coursecoursequeryAliyunVideoAuths.yml
+               steam-coursecoursequeryCourses.yml
+               steam-coursecoursequeryRecommandCourses.yml
+               operation-manageCourseQueryCourseByConditions.yml
+      - courseTitle: 体验课
         chapterName: 第一章
         sectionName: 1、
+        status: A
         resourceTypeId: 13
         dataPath: course2Course.yml
-      - title: 长江三峡STEM科考课程第七课
+        casefile: 
+             -  membercollectionqueryPages.yml
+      - courseTitle: 长江三峡STEM科考课程第七课
         resourceTypeId: 13
+        status: A
         dataPath: course3Course.yml
+        casefile: 
+           -  order-serviceScoreAdds.yml
   - apiInterface: /operation-manage/match/subMatchPage
     mark: 赛事
     data:
@@ -74,55 +131,71 @@ testdata:
         matchId: 22
         name: 亲子擂台赛
         state: 2
+        pageSize: 50
         applyNum: 1
         limitCount: 13
         dataPath: match1QinzSub.yml
+        casefile: None
       - matchName: 自动化测试专用-未开始-勿动
         matchId: 22
         name: 亲子擂台赛
         state: 1
         applyNum: 1
+        pageSize: 50
         limitCount: 13
         dataPath: match2QinzSub.yml
+        casefile: None
       - matchName: 自动化测试专用-已满额-勿动
         matchId: 22
         name: 亲子擂台赛
         state: 2
+        pageSize: 50
         applyNum: 2
         limitCount: 2
         dataPath: match3QinzSub.yml
+        casefile: None
       - matchName: 自动化测试专用-已结束-勿动
         matchId: 22
         name: 亲子擂台赛
         state: 3
+        pageSize: 50
         applyNum: 1
         limitCount: 13
         dataPath: match4QinzSub.yml
-      - matchName: 自动化测试专用-勿动
+        casefile: None
+      - matchName: 国赛-正常-自动化测试-勿动
         matchId: 200
         name: 国赛
         state: 2
+        pageSize: 50
         applyNum: 1
         limitCount: 13
         dataPath: match1GuosSub.yml
-      - matchName: 自动化测试专用-未开始-勿动
+        casefile: None
+      - matchName: 国赛-未开始-自动化测试-勿动
         matchId: 200
         name: 国赛
         state: 1
+        pageSize: 50
         applyNum: 1
         limitCount: 13
         dataPath: match2GuosSub.yml
-      - matchName: 自动化测试专用-已满额-勿动
+        casefile: None
+      - matchName: 国赛-已满员-自动化测试-勿动
         matchId: 200
         name: 国赛
         state: 2
+        pageSize: 50
         applyNum: 2
         limitCount: 2
         dataPath: match3GuosSub.yml
-      - matchName: 自动化测试专用-已结束-勿动
+        casefile: None
+      - matchName: 国赛-已结束-自动化测试-勿动
         matchId: 200
         name: 国赛
         state: 3
+        pageSize: 50
         applyNum: 1
         limitCount: 13
         dataPath: match4GuosSub.yml
+        casefile: None

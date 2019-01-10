@@ -1,0 +1,50 @@
+data:
+   - code: '000000'
+     apiInterface: /operation-manage/course/createCourse
+     reqType: data
+     data:
+        courseTitle: 武汉大学AutoCAD技术视频
+        content: <p>通过对本课程的学习，使得学生基本了解我国民法的基本内容，掌握公民享有的基本民事权利，能够利用所学的理论知识分析和解决民事纠纷。</p>
+        cornerMask: 课程
+        merchantId: 87
+        baseStudiedCount: 3
+        originPrice: 553
+        price: 33
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150116_254045.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150118_631486.jpg
+        title: 武汉理工大学民法学-分享标题
+        description: 武汉理工大学民法学-分享描述
+        picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150234_478202.jpg
+        tagIdList: [2]
+        entryIdList: [73]
+        resourceTypeId: None
+        offShelfTime: None
+        charge: 1
+        courseCategory:
+        - chapterName: 第一章 AutoCAD2007入门基础
+          sections:
+          - supportTry: 1
+            sectionName: AutoCAD 的基本功能
+            materialInfo: {materialTitle: 新增, materialId: 41}
+          - supportTry: 0
+            sectionName: 民法的调整对象及其产生
+            materialInfo: {materialTitle: 标题！, materialId: 40}
+        - chapterName: 民法的基本原则
+          sections:
+          - supportTry: 0
+            sectionName: 平等原则、意思自治原则、诚信原则
+            materialInfo: {materialTitle: 回归_新增收费视频, materialId: 27}
+          - supportTry: 0
+            sectionName: 意思自治原则、诚信原则
+            materialInfo: {materialTitle: 素材s, materialId: 21}
+        supportRefund: False
+        accountDivisionRule: {commissionRate: '55', opgDivisionRate: '55'}
+        prize: False
+        status: W
+   - code: '100001'
+     apiInterface: /operation-manage/course/publishCourse
+     reqType: post
+     data:
+       title: 武汉大学AutoCAD技术视频
+       subtitle: 武汉大学AutoCAD技术视频
+       status: A

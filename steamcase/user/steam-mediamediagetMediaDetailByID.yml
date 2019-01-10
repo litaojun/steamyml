@@ -1,4 +1,4 @@
-testcases:
+﻿testcases:
 - interfaceName: /steam-media/media/getMediaDetailByID
   case:
   - testPoint: 查看一个文章
@@ -21,7 +21,7 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - resourceTypeId: 2
-      keyword: 墨西哥全国机器人大赛ROBOMATH
+      keyword: 奥林匹克大赛2017年12月北京赛区-自动化
       phoneNo: '18916899938'
       caseid: media_view_1
       testPoint: 查看一个视频

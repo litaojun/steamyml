@@ -1,4 +1,4 @@
-testcases:
+﻿testcases:
 - interfaceName: /operation-manage/media/queryMedias
   case:
   - testPoint: 搜索一个文章
@@ -20,7 +20,7 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - resourceTypeId: 2
-      title: 墨西哥全国机器人大赛ROBOMATH
+      title: 创客教育儿童早教学习接口自动化
       caseid: media_view_1
       testPoint: 搜索一个视频
     expectedResult:

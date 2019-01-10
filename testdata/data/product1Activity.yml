@@ -1,0 +1,51 @@
+data:
+   - code: '000000'
+     apiInterface: /operation-manage/product/add
+     reqType: post
+     data:
+        resourceId: ''
+        title: 早鸟价接口自动化
+        subTitle: 早鸟价接口自动化
+        deliverType: 1
+        vendorIdList: [87]
+        baseVisits: 0
+        resourceTypeId: 12
+        content: <p>活动年龄:3-12岁</p><p>活动时间:60-90天/场/周</p><p>活动目标:强化情商技巧，致力于提高孩子自信心、探索欲、变现力、责任感、独立性、自我控制、情绪管理等</p>
+        shareInfoList:
+        - {shareType: 1, title: 儿童EQ拓展俱乐部（快乐周末）-分享标题, description: 儿童EQ拓展俱乐部（快乐周末）-分享标题儿童EQ拓展俱乐部（快乐周末）-分享标题,picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190107170257_499150.jpg'}
+        province: 上海市
+        city: 静安区
+        tempCity: 上海城区
+        area: 静安区
+        addressDetail: 济南路588弄2号楼
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190107170206_677494.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190107170208_990269.jpg
+        imageList:
+        - {picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190107170217_816794.jpg',order: 1}
+        - {picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190107170218_813355.jpg',order: 2}
+        startTime: 1546851740000
+        endTime: 1549702941000
+        cornerMask: 活动
+        offShelfTime: &id001 !!net.sf.json.JSONNull {}
+        entryIdList: [73]
+        tagIdList: [7]
+        skuList:
+        - skuName: 价格（成人）
+          skuId: None
+          order: 1
+          price: '2'
+          originPrice: '344'
+          inventory: '55'
+          limitCount: '5'
+          postPrice: 0
+        supportRefund: false
+        accountDivisionRule: {commissionRate: 0, opgDivisionRate: 0}
+        prize: false
+        status: W
+   - code: '100001'
+     apiInterface: /operation-manage/product/publish
+     reqType: post
+     data:
+       title: 早鸟价接口自动化
+       subtitle: 早鸟价接口自动化
+       status: A

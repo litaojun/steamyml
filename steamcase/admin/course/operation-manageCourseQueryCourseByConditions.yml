@@ -1,4 +1,4 @@
-testcases:
+﻿testcases:
 - interfaceName: /operation-manage/course/queryCourseByCondition
   case:
   - testPoint: 搜索课程
@@ -6,7 +6,7 @@ testcases:
     - ''
     operationSteps: compareRetcodeTest
     testData:
-    - courseTitle: 彩虹小白马20章20节
+    - courseTitle: 武汉大学AutoCAD技术视频
       content: <p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>
       reqjsonfile: formatone
       caseid: activity_alert_1

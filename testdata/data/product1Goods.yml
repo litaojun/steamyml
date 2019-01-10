@@ -1,0 +1,46 @@
+data:
+   - code: '000000'
+     apiInterface: /operation-manage/product/add
+     reqType: post
+     data:
+        resourceId: None
+        title: 山野少年之户外实战技巧
+        subTitle: 山野少年之户外实战技巧
+        deliverType: 1
+        vendorIdList: [87]
+        resourceTypeId: 11
+        baseVisits: 0
+        content: <p>放任型的爸爸妈妈，在与孩子做教练沟通的时会有几个方法。</p>
+        shareInfoList:
+        - id: None
+          shareType: 1
+          title: 分享标题-孩子脾气差
+          description: 第二种教养风格，是属于反对型。
+          picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190108144227_682967.jpg
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108144149_469422.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108144151_529786.jpg
+        imageList:
+        - {picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190108144156_694839.jpg',order: 1}
+        cornerMask: 商品
+        entryIdList: [74]
+        tagIdList: [7]
+        skuList:
+        - skuName: 第一步
+          order: 1
+          skuId: None
+          price: '1'
+          originPrice: '5545'
+          inventory: '3'
+          limitCount: '1'
+          postPrice: 0
+        supportRefund: False
+        accountDivisionRule: {commissionRate: '5', opgDivisionRate: '55'}
+        prize: false
+        status: W
+   - code: '100001'
+     apiInterface: /operation-manage/product/publish
+     reqType: post
+     data:
+       title: 山野少年之户外实战技巧
+       subtitle: 山野少年之户外实战技巧
+       status: A
