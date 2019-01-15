@@ -32,5 +32,6 @@
 	"accountDivisionRule": {
 		"commissionRate": 0,
 		"opgDivisionRate": 0
-	}
+	},
+        "prize": False
 }

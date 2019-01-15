@@ -1,7 +1,7 @@
 data:
-   - code: '000000'
+   - code: '100001'
      apiInterface: /operation-manage/course/createCourse
-     reqType: post
+     reqType: data
      data:
         courseTitle: 长江三峡STEM科考课程第七课
         content: <p>通过对本课程的学习，使得学生基本了解我国民法的基本内容，掌握公民享有的基本民事权利，能够利用所学的理论知识分析和解决民事纠纷。</p>
@@ -17,8 +17,8 @@ data:
         picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150234_478202.jpg
         tagIdList: [2]
         entryIdList: [73]
-        resourceTypeId: None
-        offShelfTime: None
+        resourceTypeId: null
+        offShelfTime: null
         charge: 1
         courseCategory:
         - chapterName: 第一章 民法概述
@@ -37,11 +37,11 @@ data:
           - supportTry: 0
             sectionName: 意思自治原则、诚信原则
             materialInfo: {materialTitle: 素材s, materialId: 21}
-        supportRefund: False
+        supportRefund: false
         accountDivisionRule: {commissionRate: '55', opgDivisionRate: '55'}
-        prize: False
+        prize: false
         status: W
-   - code: '100001'
+   - code: '100002'
      apiInterface: /operation-manage/course/publishCourse
      reqType: post
      data:

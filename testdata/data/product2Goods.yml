@@ -1,9 +1,9 @@
 data:
-   - code: '000000'
+   - code: '100001'
      apiInterface: /operation-manage/product/add
-     reqType: post
+     reqType: data
      data:
-        resourceId: None
+        resourceId: null
         title: 创客教育儿童早教学习接口自动化
         subTitle: 创客教育儿童早教学习接口自动化
         deliverType: 1
@@ -12,7 +12,7 @@ data:
         baseVisits: 0
         content: <p>放任型的爸爸妈妈，在与孩子做教练沟通的时会有几个方法。</p>
         shareInfoList:
-        - id: None
+        - id: null
           shareType: 1
           title: 分享标题-孩子脾气差
           description: 第二种教养风格，是属于反对型。
@@ -27,17 +27,17 @@ data:
         skuList:
         - skuName: 体验课
           order: 1
-          skuId: None
+          skuId: null
           price: '1'
           originPrice: '5545'
           inventory: '3'
           limitCount: '1'
           postPrice: 0
-        supportRefund: False
+        supportRefund: false
         accountDivisionRule: {commissionRate: '5', opgDivisionRate: '55'}
-        prize: False
+        prize: false
         status: W
-   - code: '100001'
+   - code: '100002'
      apiInterface: /operation-manage/product/publish
      reqType: post
      data:

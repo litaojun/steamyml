@@ -60,5 +60,6 @@
     },
     "tempCity": "上海城区",
     "area": "黄浦区",
-    "state": 1
+    "state": "W",
+    "prize": False
 }

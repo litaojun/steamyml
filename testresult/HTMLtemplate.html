@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>小红巢测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-01-09 16:34:05</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:01.435144</p>
-<p class='attribute'><strong>Status:</strong> Pass 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-01-15 16:25:17</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.962097</p>
+<p class='attribute'><strong>Status:</strong> Error 1</p>
 
 <p class='description'>用例测试情况</p>
 </div>
@@ -221,55 +221,43 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>/operation-manage/match/subMatchPage</td>
-    <td>2</td>
-    <td>2</td>
+<tr class='errorClass'>
+    <td>/operation-manage/material/queryAliyunUpdateKey</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>match_query_1_查询国赛下所有场次</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>activity_alert_1_修改活动正常</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 
+ft1.1: Traceback (most recent call last):
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 118, in compareRetcodeTest
+    self.rsp  = self.myservice.sendHttpReq()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 52, in sendHttpReq
+    reqdata        = reqDataFmt % self.inputKV
+TypeError: must be real number, not dict
+Traceback (most recent call last):
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 118, in compareRetcodeTest
+    self.rsp  = self.myservice.sendHttpReq()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 52, in sendHttpReq
+    reqdata        = reqDataFmt % self.inputKV
+TypeError: must be real number, not dict
 
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>match_query_2_查询亲子擂台赛下所有场次</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
-
-    <div id='div_pt1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.2: 
 
         </pre>
     </div>
@@ -280,10 +268,10 @@ pt1.2:
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>2</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td>&nbsp;</td>
 </tr>
 </table>

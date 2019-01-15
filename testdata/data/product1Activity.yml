@@ -1,9 +1,9 @@
 data:
-   - code: '000000'
+   - code: '100001'
      apiInterface: /operation-manage/product/add
-     reqType: post
+     reqType: data
      data:
-        resourceId: ''
+        resourceId: null
         title: 早鸟价接口自动化
         subTitle: 早鸟价接口自动化
         deliverType: 1
@@ -26,12 +26,12 @@ data:
         startTime: 1546851740000
         endTime: 1549702941000
         cornerMask: 活动
-        offShelfTime: &id001 !!net.sf.json.JSONNull {}
+        offShelfTime: null
         entryIdList: [73]
         tagIdList: [7]
         skuList:
         - skuName: 价格（成人）
-          skuId: None
+          skuId: null
           order: 1
           price: '2'
           originPrice: '344'
@@ -42,7 +42,7 @@ data:
         accountDivisionRule: {commissionRate: 0, opgDivisionRate: 0}
         prize: false
         status: W
-   - code: '100001'
+   - code: '100002'
      apiInterface: /operation-manage/product/publish
      reqType: post
      data:

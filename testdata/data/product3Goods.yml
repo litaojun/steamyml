@@ -4,8 +4,8 @@ data:
      reqType: data
      data:
         resourceId: null
-        title: 山野少年之户外实战技巧
-        subTitle: 山野少年之户外实战技巧
+        title: 早教学习儿童编程机器人套件益智智能机器人
+        subTitle: 早教学习儿童编程机器人套件益智智能机器人
         deliverType: 1
         vendorIdList: [87]
         resourceTypeId: 11
@@ -25,7 +25,7 @@ data:
         entryIdList: [74]
         tagIdList: [7]
         skuList:
-        - skuName: 第一步
+        - skuName: 体验课
           order: 1
           skuId: null
           price: '1'
@@ -41,6 +41,6 @@ data:
      apiInterface: /operation-manage/product/publish
      reqType: post
      data:
-       title: 山野少年之户外实战技巧
-       subtitle: 山野少年之户外实战技巧
+       title: 早教学习儿童编程机器人套件益智智能机器人
+       subtitle: 早教学习儿童编程机器人套件益智智能机器人
        status: A

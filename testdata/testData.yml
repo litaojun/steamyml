@@ -23,7 +23,7 @@ testdata:
                 operation-managemediaqueryMediaByIDs.yml
   - apiInterface: /operation-manage/media/queryMedias
     mark: 视频
-    data:
+    data: 
       -  title: 奥林匹克大赛2017年12月北京赛区-自动化
          status: A
          resourceTypeId: 1
@@ -45,7 +45,7 @@ testdata:
          dataPath: media3Media.yml
          casefile: 
              -  steam-mediamediagetMediaDetailByID.yml
-                operation-managemediaqueryMediaByIDs.yml
+             -  operation-managemediaqueryMediaByIDs.yml
   - apiInterface: /operation-manage/product/queryProducts
     mark: 商品
     data: 

@@ -21,7 +21,7 @@
     operationSteps: compareRetcodeTest
     testData:
     - resourceTypeId: 2
-      keyword: 奥林匹克大赛2017年12月北京赛区-自动化
+      keyword: 奥林匹克大赛2017年12月北京赛区
       phoneNo: '18916899938'
       caseid: media_view_1
       testPoint: 查看一个视频

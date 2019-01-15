@@ -1,4 +1,4 @@
-{
+﻿{
 	"resourceId": 1703,
 	"resourceTypeId": 11,
 	"title": "%(title)s",
@@ -57,5 +57,6 @@
 	"accountDivisionRule": {
 		"commissionRate": 33,
 		"opgDivisionRate": 22
-	}
+	},
+        "prize": False
 }

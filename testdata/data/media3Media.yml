@@ -1,5 +1,5 @@
 data:
-   - code: '000000'
+   - code: '100001'
      apiInterface: /operation-manage/media/addMedia
      reqType: post
      data:
@@ -22,7 +22,7 @@ data:
         entryIds: [73]
         matchId: 22
         status: W
-   - code: '100001'
+   - code: '100002'
      apiInterface: /operation-manage/media/resetMediaState
      reqType: post
      data:
