@@ -1,4 +1,4 @@
-testcases:
+﻿testcases:
 - interfaceName: /operation-manage/featured/moveDownRecord
   case:
   - testPoint: 运营位记录下移
@@ -10,7 +10,7 @@ testcases:
     - tearDownDelOneOperpsn
     operationSteps: compareRetcodeTest
     testData:
-    - title: 让MakeX成为青少年释放自我的舞台-接口自动化-勿动
+    - title: 让MakeX成为青少年释放自我的舞台
       picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
       listOrder: 1
       position: '01'

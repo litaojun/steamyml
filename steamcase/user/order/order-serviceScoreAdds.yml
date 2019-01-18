@@ -5,6 +5,9 @@ testcases:
     preConditions:
     - setupgetFirstResourceId
     - setupGetSkuId
+    - setupGetOrderIdByTitle
+    - setupDownDelOrderData
+    - setupDelUserScoreData
     - setupUserOrderActivity
     - tearDownDelOrderData
     - tearDownDelUserScoreData
@@ -18,6 +21,7 @@ testcases:
       testPoint: 添加评分
       addressId: 1
       num: "1"
+      orderStatus: ""
       resourceTypeId: 13
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:

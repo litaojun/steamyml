@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>小红巢测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-01-15 16:25:17</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.962097</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-01-16 17:46:45</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:02.566000</p>
+<p class='attribute'><strong>Status:</strong> Error 2</p>
 
 <p class='description'>用例测试情况</p>
 </div>
@@ -222,16 +222,16 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='errorClass'>
-    <td>/operation-manage/material/queryAliyunUpdateKey</td>
-    <td>1</td>
+    <td>/steam-media/media/getMediaDetailByID</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>activity_alert_1_修改活动正常</div></td>
+    <td class='errorCase'><div class='testcase'>article_view_1_查看一个文章</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -246,17 +246,81 @@ function showOutput(id, name) {
         <pre>
         
 ft1.1: Traceback (most recent call last):
-  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 118, in compareRetcodeTest
-    self.rsp  = self.myservice.sendHttpReq()
-  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 52, in sendHttpReq
-    reqdata        = reqDataFmt % self.inputKV
-TypeError: must be real number, not dict
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 32, in setUp
+    self.getInputDataInit()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\steamLog.py", line 52, in getInputDataInit
+    memberId               = qmIdSer.getMemberIdFromRsp(response=rsp)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\login\QueryMemberIdService.py", line 40, in getMemberIdFromRsp
+    return query_json(json_content = json.loads(response),
+  File "D:\python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 Traceback (most recent call last):
-  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 118, in compareRetcodeTest
-    self.rsp  = self.myservice.sendHttpReq()
-  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 52, in sendHttpReq
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 32, in setUp
+    self.getInputDataInit()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\steamLog.py", line 52, in getInputDataInit
+    memberId               = qmIdSer.getMemberIdFromRsp(response=rsp)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\login\QueryMemberIdService.py", line 40, in getMemberIdFromRsp
+    return query_json(json_content = json.loads(response),
+  File "D:\python\Python36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "D:\python\Python36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\python\Python36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>media_view_1_查看一个视频</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 46, in setUp
+    self.myservice.ifacedict[pre][1]()
+  File "D:\litaojun\workspace\unittestExBase\opg\util\uopService.py", line 22, in wrapper
+    rsp = fun(*args, **kwargs)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\search\weixinSearchService.py", line 68, in setInPutData
+    resourceId = self.getFirstActivityIdByRsp(queryRsp=self.rsp)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\search\weixinSearchService.py", line 46, in getFirstActivityIdByRsp
+    queryRsp = self.sendHttpReq()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 53, in sendHttpReq
     reqdata        = reqDataFmt % self.inputKV
-TypeError: must be real number, not dict
+KeyError: 'memberId'
+Traceback (most recent call last):
+  File "D:\litaojun\workspace\unittestExBase\opg\unit\parametrized.py", line 46, in setUp
+    self.myservice.ifacedict[pre][1]()
+  File "D:\litaojun\workspace\unittestExBase\opg\util\uopService.py", line 22, in wrapper
+    rsp = fun(*args, **kwargs)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\search\weixinSearchService.py", line 68, in setInPutData
+    resourceId = self.getFirstActivityIdByRsp(queryRsp=self.rsp)
+  File "D:\litaojun\workspace\steamOmTest\steam\user\search\weixinSearchService.py", line 46, in getFirstActivityIdByRsp
+    queryRsp = self.sendHttpReq()
+  File "D:\litaojun\workspace\steamOmTest\steam\util\httpUopService.py", line 53, in sendHttpReq
+    reqdata        = reqDataFmt % self.inputKV
+KeyError: 'memberId'
 
 
         </pre>
@@ -268,10 +332,10 @@ TypeError: must be real number, not dict
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>1</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
+    <td>2</td>
     <td>&nbsp;</td>
 </tr>
 </table>
