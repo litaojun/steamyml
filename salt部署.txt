@@ -1,3 +1,9 @@
+微服务部署：
 sudo salt-call state.sls steam pillar='{"_pkg": "s3://opg205nx-default/packages/steam/steam-config/steam-config-1.0.0-20181130-145104-master-53674a9b.jar"}'
 sudo salt-call state.sls steam pillar='{"_pkg": "s3://opg205nx-default/packages/steam/steam-member/steam-member-1.6.0-20190107-145742-master-9b4d2143.jar"}'
-steam-member-1.6.0-20190107-145742-master-9b4d2143.jar
+
+重启微服务:
+sudo supervisorctl restart all
+
+重建索引:
+redis中删除resource lock(lock下面steam-search开头的键),然后重启search微服务

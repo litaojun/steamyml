@@ -9,7 +9,7 @@ data:
         merchantId: 87
         baseStudiedCount: 3
         originPrice: 553
-        price: 33
+        price: 0
         thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150116_254045.jpg
         bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150118_631486.jpg
         title: 武汉理工大学民法学-分享标题
@@ -38,7 +38,7 @@ data:
             sectionName: 意思自治原则、诚信原则
             materialInfo: {materialTitle: 素材s, materialId: 21}
         supportRefund: false
-        accountDivisionRule: {commissionRate: '55', opgDivisionRate: '55'}
+        accountDivisionRule: {commissionRate: 0, opgDivisionRate: 0}
         prize: false
         status: W
    - code: '100002'

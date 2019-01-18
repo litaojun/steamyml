@@ -8,6 +8,7 @@
     operationSteps: compareRetcodeTest
     testData:
     - title: 让MakeX成为青少年释放自我的舞台
+      resourceTypeId: 2
       picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425112224_258421.jpg
       position: '03'
       oldListOrder: 1

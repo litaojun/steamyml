@@ -1,13 +1,10 @@
-testcases:
+﻿testcases:
 - interfaceName: /order-service/score/add
   case:
   - testPoint: 添加评分
     preConditions:
     - setupgetFirstResourceId
     - setupGetSkuId
-    - setupGetOrderIdByTitle
-    - setupDownDelOrderData
-    - setupDelUserScoreData
     - setupUserOrderActivity
     - tearDownDelOrderData
     - tearDownDelUserScoreData
