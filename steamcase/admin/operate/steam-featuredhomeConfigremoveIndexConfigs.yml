@@ -1,8 +1,9 @@
 ﻿testcases:
 - interfaceName: /operation-manage/featured/removeIndexConfig
   case:
-  - testPoint: 删除一个运营位配置
+  - testPoint: 删除'首页更多精彩'的一个文章配置
     preConditions:
+    - setupGetFirstMedia
     - setupAddOperPosition
     - setupGetFirstConfigResource
     operationSteps: compareRetcodeTest
@@ -15,8 +16,7 @@
       listOrder: 1
       displayType: '1'
       itemId: 121
-      resourceId: 1696
       caseid: operpsn_del_1
-      testPoint: 删除一个运营位配置
+      testPoint: 删除'首页更多精彩'的一个文章配置
     expectedResult:
       code: '000000'
