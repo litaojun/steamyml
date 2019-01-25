@@ -4,10 +4,11 @@ testcases:
   - testPoint: 新增抽奖活动
     preConditions:
     - tearDownGetResourceIdByLotyTitle
+    - tearDownGetLotteryIdByRsp
     - tearDBdel_t_resource
     - tearDBdel_t_lottery_info
     - tearDBdel_t_prize_info
-    - tearDBt_prize_roster
+    - tearDBdel_t_prize_roster
     - tearDBdel_t_luck_draw_record
     operationSteps: compareRetcodeTest
     testData:

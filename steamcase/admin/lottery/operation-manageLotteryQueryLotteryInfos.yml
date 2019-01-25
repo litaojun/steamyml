@@ -4,6 +4,7 @@ testcases:
   - testPoint: 查看抽奖活动详情信息
     preConditions:
     - setupGetResourceIdByLotyTitle
+    - setupGetLotteryIdByRsp
     operationSteps: compareRetcodeTest
     testData:
     - lotyName: 东方明珠2019年会抽奖
