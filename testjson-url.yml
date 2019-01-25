@@ -761,6 +761,57 @@ steam:
                 - mediaResetMediaReq.txt
                 - mediaResetMediaRsp.json
                 - mediaResetMediaFmtRsp.json
+      lottery: 
+        /operation-manage/lottery/createLotteryInfo: 
+            modul: 抽奖管理
+            title: 新增抽奖活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/createLotteryInfo
+            formatone:
+                - lotteryCreateLotteryInfoReq.json
+                - lotteryCreateLotteryInfoReq.txt
+                - lotteryCreateLotteryInfoRsp.json
+                - lotteryCreateLotteryInfoFmtRsp.json
+        /operation-manage/lottery/queryLotteryList: 
+            modul: 抽奖管理
+            title: 抽奖活动列表
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryLotteryList
+            formatone:
+                - lotteryQueryLotteryListReq.json
+                - lotteryQueryLotteryListReq.txt
+                - lotteryQueryLotteryListRsp.json
+                - lotteryQueryLotteryListFmtRsp.json
+        /operation-manage/lottery/releaseOrOfflineLottery: 
+            modul: 抽奖管理
+            title: 上架下架抽奖活动
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/releaseOrOfflineLottery
+            formatone:
+                - lotteryReleaseOrOfflineLotteryReq.json
+                - lotteryReleaseOrOfflineLotteryReq.txt
+                - lotteryReleaseOrOfflineLotteryRsp.json
+                - lotteryReleaseOrOfflineLotteryFmtRsp.json
+        /operation-manage/lottery/queryPrizeRoster: 
+            modul: 抽奖管理
+            title: 查看中奖名单
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeRoster
+            formatone:
+                - lotteryQueryPrizeRosterReq.json
+                - lotteryQueryPrizeRosterReq.txt
+                - lotteryQueryPrizeRosterRsp.json
+                - lotteryQueryPrizeRosterFmtRsp.json
+        /operation-manage/lottery/queryPrizeInventory: 
+            modul: 抽奖管理
+            title: 查看奖品库存
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeInventory
+            formatone:
+                - lotteryQueryPrizeInventoryReq.json
+                - lotteryQueryPrizeInventoryReq.txt
+                - lotteryQueryPrizeInventoryRsp.json
+                - lotteryQueryPrizeInventoryFmtRsp.json
     user:
       member:
         /passport/verifyCode:
@@ -888,6 +939,26 @@ steam:
                 - collectionQueryPageReq.txt
                 - collectionQueryPageRsp.json
                 - collectionQueryPageFmtRsp.json
+        /point-service/member/queryMemberPointLogs: 
+            modul: 会员微服务
+            title: 我的积分列表
+            method: get
+            url: https://uat-steam-api.opg.cn/point-service/member/queryMemberPointLogs
+            formatone:
+                - memberQueryMemberPointLogsReq.json
+                - memberQueryMemberPointLogsReq.txt
+                - memberQueryMemberPointLogsRsp.json
+                - memberQueryMemberPointLogsFmtRsp.json
+        /member-service/checkIn/daily: 
+            modul: 会员微服务
+            title: 签到获取积分
+            method: post
+            url: https://uat-steam-api.opg.cn/member-service/checkIn/daily
+            formatone:
+                - checkInDailyReq.json
+                - checkInDailyReq.txt
+                - checkInDailyRsp.json
+                - checkInDailyFmtRsp.json
       search:
         /steam-search/search/keywordSearch:
             modul: 搜索微服务
@@ -1190,6 +1261,27 @@ steam:
                 - indexConfigsPageQueryPositionShowsReq.txt
                 - indexConfigsPageQueryPositionShowsRsp.json
                 - ndexConfigsPageQueryPositionShowsFmtRsp.json
+      lottery: 
+        /steam-lottery/lottery/detail: 
+            modul: 用户抽奖
+            title: 微信用户浏览抽奖活动详情
+            method: get
+            url: https://uat-steam-api.opg.cn/steam-lottery/lottery/detail
+            formatone:
+                - lotteryDetailReq.json
+                - lotteryDetailReq.txt
+                - lotteryDetailRsp.json
+                - lotteryDetailFmtRsp.json
+        /steam-lottery/lottery/draw: 
+            modul: 用户抽奖
+            title: 用户抽奖
+            method: post
+            url: https://uat-steam-api.opg.cn/steam-lottery/lottery/draw
+            formatone:
+                - lotteryDrawReq.json
+                - lotteryDrawReq.txt
+                - lotteryDrawRsp.json
+                - lotteryDrawFmtRsp.json
 config:
     delay:
        sign: false

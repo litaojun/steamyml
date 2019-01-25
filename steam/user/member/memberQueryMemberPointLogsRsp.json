@@ -1,0 +1,42 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"totalPoint": 51789,
+	"pointRecordPage": {
+		"itemCounts": 135,
+		"currentPage": 1,
+		"pageSize": 10,
+		"pageCounts": 14,
+		"targets": [{
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -111
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -59
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员签到",
+			"pointChangeValue": 200
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -1
+		}, {
+			"recordMessage": "会员抽奖",
+			"pointChangeValue": -59
+		}]
+	}
+}

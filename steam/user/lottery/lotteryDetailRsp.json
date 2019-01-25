@@ -1,0 +1,48 @@
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"id": 5237,
+		"lotteryId": 15,
+		"lotteryType": "01001",
+		"lotteryTitle": "大转盘抽奖",
+		"state": "00",
+		"startTime": null,
+		"endTime": null,
+		"pointCosts": 1,
+		"describing": "活动规则：\n\n1.奖品\n\n2.活动\n\n3.课程",
+		"salesVolume": 1142,
+		"backgroundUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110161645_34087.jpg",
+		"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110143124_934772.jpg",
+		"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110143121_695551.jpg",
+		"shareIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110143127_876954.jpg",
+		"shareTitle": "bookairpro",
+		"shareDescription": "pro",
+		"prizeList": [{
+			"prizeId": 5209,
+			"resourceTypeId": "11",
+			"prizeTitle": "笔记本（奖品）",
+			"prizeIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190108111336_270341.jpg"
+		}, {
+			"prizeId": 5209,
+			"resourceTypeId": "11",
+			"prizeTitle": "笔记本（奖品）",
+			"prizeIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190108111336_270341.jpg"
+		}, {
+			"prizeId": 5236,
+			"resourceTypeId": "13",
+			"prizeTitle": "book（奖品）",
+			"prizeIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110142905_20098.jpg"
+		}, {
+			"prizeId": 5235,
+			"resourceTypeId": "12",
+			"prizeTitle": "萍果（奖品）",
+			"prizeIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110142740_517544.jpg"
+		}, {
+			"prizeId": 5234,
+			"resourceTypeId": "11",
+			"prizeTitle": "苹果（奖品）",
+			"prizeIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190110142450_552412.jpg"
+		}]
+	}
+}

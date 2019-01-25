@@ -1,0 +1,53 @@
+{
+    "lotteryTitle": "东方明珠2019年会抽奖",
+    "lotteryType": "01001",
+    "startTime": 1548149240000,
+    "endTime": 1548926843000,
+    "pointCosts": "99",
+    "describing": "1   奖品11个\n2  人人有分\n3  测试数据",
+    "baseVolume": "5",
+    "prizeProbability": "100",
+    "backgroundUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172709_514810.jpg",
+    "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172711_227384.jpg",
+    "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172714_775244.png",
+    "shareTitle": "年会抽奖了",
+    "shareIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172716_790885.jpg",
+    "shareDescription": "快来",
+    "prizeList": [{
+        "resourceTypeId": 13,
+        "prizeTitle": "课程奖品1",
+        "prizeIcon": null,
+        "inventoryCount": 0,
+        "skuId": 3214,
+        "skuList": [{
+           "id": 3214,
+           "name": "COURSE-SKU",
+           "inventoryCount": 0
+       }],
+         "prizeWeight": "0.3"
+    }, {
+        "resourceTypeId": 11,
+        "prizeTitle": "苹果（奖品）",
+        "prizeIcon": null,
+        "inventoryCount": 56,
+        "skuId": 2949,
+        "skuList": [{
+            "id": 2949,
+            "name": "air",
+            "inventoryCount": 56
+        }],
+       "prizeWeight": "0.3"
+    }, {
+        "resourceTypeId": 11,
+        "prizeTitle": "商品奖品（已禁用）",
+        "prizeIcon": null,
+        "inventoryCount": 1,
+        "skuId": 3194,
+        "skuList": [{
+            "id": 3194,
+            "name": "sku名称(0/15)",
+            "inventoryCount": 1
+         }],
+       "prizeWeight": "0.4"
+     }]
+}

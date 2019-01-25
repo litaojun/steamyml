@@ -1,0 +1,21 @@
+testcases:
+- interfaceName: /steam-lottery/lottery/detail
+  case:
+  - testPoint: 微信用户浏览抽奖活动详情
+    preConditions:
+    - setupGetResourceIdByLotyTitle
+    operationSteps: compareRetcodeTest
+    testData:
+    - lotyName: 东方明珠2019年会抽奖
+      subTitle: 东方明珠2019年会抽奖
+      reqjsonfile: formatone
+      caseid: lottery_detail_1
+      testPoint: 微信用户浏览抽奖活动详情
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

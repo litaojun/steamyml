@@ -1,0 +1,4 @@
+{ 
+  "lotteryId":%(lotteryId)d,
+  "lotteryType":"01001"
+}
