@@ -7,3 +7,6 @@ sudo supervisorctl restart all
 
 重建索引:
 redis中删除resource lock(lock下面steam-search开头的键),然后重启search微服务
+
+
+

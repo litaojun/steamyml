@@ -1,68 +1,68 @@
 steam:
     admin:
       order:
-        /operation-manage/order/listData:
+        /operation-manage/order/listData: 
             modul: 订单微服务
             title: 通过不同的条件分页查询订单列表
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/order/listData
-            formatone:
+            formatone: 
                 - orderListDataReq.json
                 - orderListDataReq.txt
                 - orderListDataRsp.json
                 - orderListDataFmtRsp.json
-        /operation-manage/order/detail:
+        /operation-manage/order/detail: 
             modul: 订单微服务
             title: 根据订单ID查询订单信息
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/order/detail
-            formatone:
+            formatone: 
                 - orderDetailReq.json
                 - orderDetailReq.txt
                 - orderDetailRsp.json
                 - orderDetailFmtRsp.json
-        /operation-manage/order/delivery:
+        /operation-manage/order/delivery: 
             modul: 订单微服务
             title: 实物订单发货
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/order/delivery
-            formatone:
+            formatone: 
                 - orderDeliveryReq.json
                 - orderDeliveryReq.txt
                 - orderDeliveryRsp.json
                 - orderDeliveryFmtRsp.json
-        /operation-manage/order/batchDelivery:
+        /operation-manage/order/batchDelivery: 
             modul: 订单微服务
             title: 订单批量发货
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/order/batchDelivery
-            formatone:
+            formatone: 
                 - orderBatchDeliveryReq.json
                 - orderBatchDeliveryReq.txt
                 - orderBatchDeliveryRsp.json
                 - orderBatchDeliveryFmtRsp.json
-        /order-service/order/admin/resourceId:
+        /order-service/order/admin/resourceId: 
             modul: 订单微服务
             title: 通过resourceId查询所有未发货的订单
             method: post
             url: https://uat-steam-api.opg.cn/order-service/order/admin/resourceId
-            formatone:
+            formatone: 
                 - orderaResourceIDReq.json
                 - orderResourceIDReq.txt
                 - orderResourceIDRsp.json
                 - orderResourceIDFmtRsp.json
-      business:
-        /merchant/createMerchantInfo:
+      business: 
+        /merchant/createMerchantInfo: 
             modul: 商户管理
             title: 新增商户
             method: post
             url: https://uat-steam-api.opg.cn/merchant/createMerchantInfo
-            formatone:
+            formatone: 
                 - merchantCreateMerchantInfoReq.json
                 - merchantCreateMerchantInfoReq.txt
                 - merchantCreateMerchantInfoRsp.json
                 - merchantCreateMerchantInfoFmtRsp.json
-        /merchant/modifyMerchantInfo:
+        /merchant/modifyMerchantInfo: 
             modul: 商户管理
             title: 修改商户
             method: post
@@ -72,12 +72,12 @@ steam:
                 - merchantModifyMerchantInfoReq.txt
                 - merchantModifyMerchantInfoRsp.json
                 - merchantModifyMerchantInfoFmtRsp.json
-        /merchant/removeMerchantInfo:
+        /merchant/removeMerchantInfo: 
             modul: 商户管理
             title: 删除商户
             method: get
             url: https://uat-steam-api.opg.cn/merchant/removeMerchantInfo
-            formatone:
+            formatone: 
                 - merchantRemoveMerchantInfoReq.json
                 - merchantRemoveMerchantInfoReq.txt
                 - merchantRemoveMerchantInfoRsp.json
@@ -87,17 +87,17 @@ steam:
             title: 预览商户
             method: get
             url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoById
-            formatone:
+            formatone: 
                 - merchantQueryMerchantInfoByIdReq.json
                 - merchantqueryMerchantInfoByIdReq.txt
                 - merchantqueryMerchantInfoByIdRsp.json
                 - merchantqueryMerchantInfoByIdFmtRsp.json
-        /merchant/queryMerchantInfoByCondtion:
+        /merchant/queryMerchantInfoByCondtion: 
             modul: 商户管理
             title: 查询商户信息
             method: get
             url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoByCondtion
-            formatone:
+            formatone: 
                 - merchantQueryMerchantInfoByCondtionReq.json
                 - merchantQueryMerchantInfoByCondtionReq.txt
                 - merchantQueryMerchantInfoByCondtionRsp.json
@@ -710,7 +710,7 @@ steam:
                 - goodsUpdateReq.txt
                 - goodsUpdateRsp.json
                 - goodsUpdateFmtRsp.json
-      article:
+      article: 
         /operation-manage/media/addMedia: 
             modul: 内容管理
             title: 新增文章视频
@@ -795,7 +795,7 @@ steam:
         /operation-manage/lottery/queryPrizeRoster: 
             modul: 抽奖管理
             title: 查看中奖名单
-            method: post
+            method: get
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeRoster
             formatone:
                 - lotteryQueryPrizeRosterReq.json
@@ -805,13 +805,23 @@ steam:
         /operation-manage/lottery/queryPrizeInventory: 
             modul: 抽奖管理
             title: 查看奖品库存
-            method: post
+            method: get
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeInventory
             formatone:
                 - lotteryQueryPrizeInventoryReq.json
                 - lotteryQueryPrizeInventoryReq.txt
                 - lotteryQueryPrizeInventoryRsp.json
                 - lotteryQueryPrizeInventoryFmtRsp.json
+        /operation-manage/lottery/queryLotteryInfo: 
+            modul: 抽奖管理
+            title: 查看抽奖活动详情信息
+            method: get
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryLotteryInfo
+            formatone:
+                - lotteryQueryLotteryInfoReq.json
+                - lotteryQueryLotteryInfoReq.txt
+                - lotteryQueryLotteryInfoRsp.json
+                - lotteryQueryLotteryInfoFmtRsp.json
     user:
       member:
         /passport/verifyCode:

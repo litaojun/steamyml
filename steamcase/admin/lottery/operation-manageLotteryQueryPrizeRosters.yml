@@ -3,14 +3,13 @@ testcases:
   case:
   - testPoint: 查看中奖名单
     preConditions:
-    - ''
+    - setupGetResourceIdByLotyTitle
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
+    - lotyName: 东方明珠2019年会抽奖
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      caseid: lottery_queryPrizeRoster_1
+      testPoint: 查看中奖名单
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

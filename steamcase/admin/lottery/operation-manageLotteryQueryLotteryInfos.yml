@@ -1,15 +1,16 @@
 testcases:
-- interfaceName: /operation-manage/lottery/queryPrizeInventory
+- interfaceName: /operation-manage/lottery/queryLotteryInfo
   case:
-  - testPoint: 查看奖品库存
+  - testPoint: 查看抽奖活动详情信息
     preConditions:
     - setupGetResourceIdByLotyTitle
     operationSteps: compareRetcodeTest
     testData:
     - lotyName: 东方明珠2019年会抽奖
+      subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: lottery_queryPrizeInventory_1
-      testPoint: 查看奖品库存
+      caseid: lottery_queryLotteryInfo_1
+      testPoint: 查看抽奖活动详情信息
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

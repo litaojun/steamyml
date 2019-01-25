@@ -1,0 +1,33 @@
+{
+    "code": "000000",
+    "message": "³É¹¦",
+    "ffLotteryInfo": {
+        "id": 23,
+        "resourceId": 5554,
+        "lotteryTitle": "555",
+		"lotteryType": "01001",
+		"startTime": null,
+		"endTime": null,
+		"pointCosts": 1,
+		"describing": "555",
+		"baseVolume": 555,
+		"prizeProbability": 10.0,
+		"backgroundUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122101853_715228.png",
+		"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122101902_755739.png",
+		"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122101908_350285.png",
+		"shareTitle": "111",
+		"shareIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122101915_348287.png",
+		"shareDescription": "111",
+		"prizeList": [{
+			"id": 552,
+			"resourceId": 5554,
+			"skuId": 3239,
+			"resourceTypeId": "11",
+			"prizeTitle": "test111",
+			"prizeIcon": null,
+			"prizeWeight": 1.0,
+			"inventoryCount": 312
+		}],
+		"state": 0
+	}
+}

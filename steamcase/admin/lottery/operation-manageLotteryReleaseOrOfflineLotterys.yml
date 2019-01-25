@@ -1,16 +1,25 @@
 testcases:
 - interfaceName: /operation-manage/lottery/releaseOrOfflineLottery
   case:
-  - testPoint: 上架下架抽奖活动
+  - testPoint: 上下架抽奖活动
     preConditions:
-    - ''
+    - setupGetResourceIdByLotyTitle
+    - setupStateToStart
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
+    - lotyName: 腊八节活动来了
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      state: '2'
+      startState: '0'
+      caseid: lottery_down_1
+      testPoint: 下架抽奖活动
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    - lotyName: 腊八节活动来了
+      reqjsonfile: formatone
+      state: '0'
+      startState: '2'
+      caseid: lottery_up_1
+      testPoint: 上架抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

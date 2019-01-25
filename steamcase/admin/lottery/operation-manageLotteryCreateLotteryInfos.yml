@@ -3,14 +3,18 @@ testcases:
   case:
   - testPoint: 新增抽奖活动
     preConditions:
-    - ''
+    - tearDownGetResourceIdByLotyTitle
+    - tearDBdel_t_resource
+    - tearDBdel_t_lottery_info
+    - tearDBdel_t_prize_info
+    - tearDBt_prize_roster
+    - tearDBdel_t_luck_draw_record
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
+    - lotyName: 美式外教科学营---1
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      caseid: lottery_add_1
+      testPoint: 新增抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

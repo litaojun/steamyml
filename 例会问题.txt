@@ -17,3 +17,6 @@ http://10.205.255.241:8181/tsrun/prop/queryRunProcess  查询用例执行是否�
 
 http://10.205.255.241:8181/timer/prop/timeCheckData    数据检查定时任务
 http://10.205.255.241:8181/timer/prop/timeRefreshToken 定时刷新token
+
+http://10.205.255.241:8181/load/prop/genTestclass      加载测试类
+http://10.205.255.241:8181/load/prop/genTestdata       加载测试数据

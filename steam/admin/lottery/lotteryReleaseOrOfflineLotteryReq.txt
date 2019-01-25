@@ -1,0 +1,4 @@
+{
+   "resourceId": %(resourceId)d,
+   "state": "%(state)s"
+}
