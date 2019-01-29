@@ -1,3 +1,0 @@
-resource-serviceresourcecancelThumbUps.yml
-resource-serviceresourcethumbUps.yml
-steam-searchsearchqueryKeywordss.yml
