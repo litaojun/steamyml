@@ -1,0 +1,140 @@
+{
+   "code": "000000",
+   "message": "成功",
+   "merchantName": "上海道客网络科技有限公司",
+   "logoUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181203095915_519524.jpg",
+   "introduction": "上海道客网络科技为企业提供数字转型一体化的解決方案,\r\n用户购买产品后付款后,\r\n道客公司将为企业提供技术实施。",
+   "products": {
+      "itemCounts": 5,
+      "currentPage": 1,
+      "pageSize": 2147483647,
+      "pageCounts": 1,
+      "targets": [
+         {
+            "resourceId": 4543,
+            "resourceType": 13,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012145740_499872.jpg",
+            "title": "北师大小学一年级语文上册",
+            "address": "",
+            "price": 0.0
+         },
+         {
+            "resourceId": 5231,
+            "resourceType": 13,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190109174649_367679.jpg",
+            "title": "行政管理（收费）",
+            "address": "",
+            "price": 299.0
+         },
+         {
+            "resourceId": 5320,
+            "resourceType": 13,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190108150116_254045.jpg",
+            "title": "长江三峡STEM科考课程第七课",
+            "address": "",
+            "price": 0.0
+         },
+         {
+            "resourceId": 5318,
+            "resourceType": 13,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190108150116_254045.jpg",
+            "title": "武汉大学AutoCAD技术视频",
+            "address": "",
+            "price": 33.0
+         },
+         {
+            "resourceId": 2003,
+            "resourceType": 12,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180523113427_419296.jpg",
+            "title": "早鸟价接口自动化-勿动",
+            "address": "内蒙古自治区呼伦贝尔市海拉尔区 额尔古纳市 莫尔道嘎镇 白鹿岛 恩和俄罗斯民族乡 满洲里市\t\t\t\t\t",
+            "price": 3980.0
+         }
+      ]
+   },
+   "medias": {
+      "itemCounts": 11,
+      "currentPage": 1,
+      "pageSize": 2147483647,
+      "pageCounts": 1,
+      "targets": [
+         {
+            "resourceId": 2019,
+            "resourceType": 1,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180525144846_89939.jpg",
+            "title": "头脑奥林匹克创新大赛2015年赛题2解析",
+            "address": ""
+         },
+         {
+            "resourceId": 294,
+            "resourceType": 1,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180426095636_173676.jpg",
+            "title": "CES亮点速递！央视专访CES创始人&CEO王建军",
+            "address": ""
+         },
+         {
+            "resourceId": 4666,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022111204_262675.jpg",
+            "title": "家庭教育三个关键词：陪伴、阅读、习惯",
+            "address": ""
+         },
+         {
+            "resourceId": 4667,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022111652_988727.jpg",
+            "title": "你们知道“穷清华，富北大，不要命的中科大”是什么意思吗？",
+            "address": ""
+         },
+         {
+            "resourceId": 5316,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190104162814_925005.jpg",
+            "title": "让MakeX成为青少年释放自我的舞台",
+            "address": ""
+         },
+         {
+            "resourceId": 5317,
+            "resourceType": 1,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190107145143_670020.jpg",
+            "title": "奥林匹克大赛2017年12月北京赛区-自动化",
+            "address": ""
+         },
+         {
+            "resourceId": 4668,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022112445_316915.jpg",
+            "title": "家校合作如何更科学更有效",
+            "address": ""
+         },
+         {
+            "resourceId": 5314,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190104162814_925005.jpg",
+            "title": "高校寒假时长为何相差近20天？",
+            "address": ""
+         },
+         {
+            "resourceId": 5315,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190104162814_925005.jpg",
+            "title": "2018中国双一流大学排名出炉，6所高校跌出中国200强",
+            "address": ""
+         },
+         {
+            "resourceId": 4663,
+            "resourceType": 2,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181022105519_7089.jpg",
+            "title": "香港教育局：卓越奖学金计划9日起接受申请",
+            "address": ""
+         },
+         {
+            "resourceId": 5270,
+            "resourceType": 1,
+            "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190107145143_670020.jpg",
+            "title": "让MakeX成为青少年释放自我的舞台",
+            "address": ""
+         }
+      ]
+   }
+}

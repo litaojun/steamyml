@@ -1,18 +1,16 @@
 testcases:
-- interfaceName: /steam-lottery/lottery/draw
+- interfaceName: /ticket-service/merchant/certificateTicket
   case:
-  - testPoint: 用户抽奖
+  - testPoint: 商户核销订单
     preConditions:
-    - setupGetResourceIdByLotyTitle
-    - setupGetLotteryIdByRsp
+    - ''
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 东方明珠2019年会抽奖
-      phoneNo: '18916899938'
+    - title: 美式外教科学营---1
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
       caseid: activity_alert_1
-      testPoint: 用户抽奖-东方明珠2019年会抽奖
+      testPoint: 修改活动正常
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

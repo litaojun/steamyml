@@ -1,18 +1,17 @@
 testcases:
-- interfaceName: /steam-lottery/lottery/draw
+- interfaceName: /merchant-service/merchant/queryMerchantResources
   case:
-  - testPoint: 用户抽奖
+  - testPoint: 商户页
     preConditions:
-    - setupGetResourceIdByLotyTitle
-    - setupGetLotteryIdByRsp
+    - ''
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 东方明珠2019年会抽奖
+    - merchantName: 上海道客网络科技有限公司
       phoneNo: '18916899938'
-      subTitle: 美式外教科学营-活动副标题
+      merchantId: 87
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 用户抽奖-东方明珠2019年会抽奖
+      caseid: merchant_list_1
+      testPoint: 商户页商品和文章视频列表
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

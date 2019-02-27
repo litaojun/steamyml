@@ -1292,6 +1292,67 @@ steam:
                 - lotteryDrawReq.txt
                 - lotteryDrawRsp.json
                 - lotteryDrawFmtRsp.json
+      merchant:
+        /merchant-service/merchant/queryMerchantResources:
+            modul: 商户页
+            title: 商户页
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant-service/merchant/queryMerchantResources
+            formatone:
+                - merchantQueryMerchantResourcesReq.json
+                - merchantQueryMerchantResourcesReq.txt
+                - merchantQueryMerchantResourcesRsp.json
+                - merchantQueryMerchantResourcesFmtRsp.json
+        /merchant/passport/verifyCode:
+            modul: 商户页
+            title: 商户获取登录验证码
+            method: post
+            url: https://uat-steam-api.opg.cn/merchant/passport/verifyCode
+            formatone:
+                - passportVerifyCodeReq.json
+                - passportVerifyCodeReq.txt
+                - passportVerifyCodeRsp.json
+                - passportVerifyCodeFmtRsp.json
+        /merchant-service/merchant/login:
+            modul: 商户页
+            title: 商户登录
+            method: post
+            url: https://uat-steam-api.opg.cn/merchant-service/merchant/login
+            formatone:
+                - merchantLoginReq.json
+                - merchantLoginReq.txt
+                - merchantLoginRsp.json
+                - merchantLoginFmtRsp.json
+        /merchant/order/mail:
+            modul: 商户页
+            title: 商户获取订单邮件
+            method: get
+            url: https://uat-steam-api.opg.cn/merchant/order/mail
+            formatone:
+                - orderMailReq.json
+                - orderMailReq.txt
+                - orderMailRsp.json
+                - orderMailFmtRsp.json
+        /ticket-service/merchant/queryCertificate:
+            modul: 商户页
+            title: 查询订单状态
+            method: get
+            url: https://uat-steam-api.opg.cn/ticket-service/merchant/queryCertificate
+            formatone:
+                - merchantQueryCertificateReq.json
+                - merchantQueryCertificateReq.txt
+                - merchantQueryCertificateRsp.json
+                - merchantQueryCertificateFmtRsp.json
+        /ticket-service/merchant/certificateTicket:
+            modul: 商户页
+            title: 商户核销订单
+            method: post
+            url: https://uat-steam-api.opg.cn/ticket-service/merchant/certificateTicket
+            formatone:
+                - merchantCertificateTicketReq.json
+                - merchantCertificateTicketReq.txt
+                - merchantCertificateTicketRsp.json
+                - merchantCertificateTicketFmtRsp.json
 config:
     delay:
        sign: false

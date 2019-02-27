@@ -1,0 +1,20 @@
+testcases:
+- interfaceName: /merchant/order/mail
+  case:
+  - testPoint: 商户获取订单邮件
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 美式外教科学营---1
+      phoneNo: 18916899938
+      reqjsonfile: formatone
+      caseid: merchant_ordermail_1
+      testPoint: 商户获取订单邮件
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
