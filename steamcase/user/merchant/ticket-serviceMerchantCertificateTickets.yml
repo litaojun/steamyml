@@ -3,11 +3,13 @@ testcases:
   case:
   - testPoint: 商户核销订单
     preConditions:
-    - ''
+    - setupGetResourceIdByLotyTitle
+    - setupGetLotteryIdByRsp
+    - setupUserLotterDray
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
+    - lotyName: 百视通抽奖大派送
+      phoneNo: '18916899938'
       reqjsonfile: formatone
       caseid: activity_alert_1
       testPoint: 修改活动正常
