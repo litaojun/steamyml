@@ -1,16 +1,21 @@
 testcases:
 - interfaceName: /ticket-service/merchant/queryCertificate
   case:
-  - testPoint: 查询订单状态
+  - testPoint: 查询卷码状态-可使用
     preConditions:
-    - ''
+    - setupGetResourceIdByLotyTitle
+    - setupGetLotteryIdByRsp
+    - setupUserLotterDray
+    - setupGetFirstKsyOrderIdByTitle
+    - setupGetTicketNo
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
+    - lotyName: 百视通抽奖大派送
+      phoneNo: '18916899938'
+      orderStatus: ""
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      caseid: merchant_queryCertificate_1
+      testPoint: 查询卷码状态-可使用
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

@@ -1,4 +1,4 @@
-{
+﻿{
     "code": "000000",
     "message": "成功",
     "data": {
@@ -10,9 +10,9 @@
             "skuName": "（1-3岁）主题课程",
             "resourceTypeId": 11,
             "resourceId": 1762,
-            "state": "11",
+            "state": "11",                  #100  中奖未使用，101  中奖已使用，102   中奖已过期   # 11 待付款，12 待发货，"" 全部
             "price": 0.10,
-            "postPrice": 0.00,
+            "postPrice": 0.00
             "totalPrice": 0.10,
             "num": 1,
             "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180524110643_501902.png",

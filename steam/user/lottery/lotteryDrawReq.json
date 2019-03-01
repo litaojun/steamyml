@@ -1,4 +1,4 @@
 { 
-  "lotteryId":15,
-  "lotteryType":"01001"
+  "lotteryId":15,             #抽奖活动ID
+  "lotteryType":"01001"       #抽奖类型，目前只一种类型，固定为01001
 }

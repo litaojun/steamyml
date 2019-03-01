@@ -3,9 +3,9 @@
    "message":"成功",
    "drawResult":{
                  "drawId":579512,
-                 "prizeState":"00",
-                 "prizeId":null,
-                 "resourceTypeId":null,
-                 "prizeTitle":null
+                 "prizeState":"00",   #中奖状态，00:未中奖，01：中奖
+                 "prizeId":null,      #抽奖活动对应中奖的SKU
+                 "resourceTypeId":null,#中奖SKU对应的资源类型
+                 "prizeTitle":null     #中奖SKU对应的资源标题
                 }
 }

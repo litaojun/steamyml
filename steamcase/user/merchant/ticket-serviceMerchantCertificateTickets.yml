@@ -1,18 +1,21 @@
 testcases:
 - interfaceName: /ticket-service/merchant/certificateTicket
   case:
-  - testPoint: 商户核销订单
+  - testPoint: 商户核销券码
     preConditions:
     - setupGetResourceIdByLotyTitle
     - setupGetLotteryIdByRsp
     - setupUserLotterDray
+    - setupGetFirstKsyOrderIdByTitle
+    - setupGetTicketNo
     operationSteps: compareRetcodeTest
     testData:
     - lotyName: 百视通抽奖大派送
       phoneNo: '18916899938'
+      orderStatus: ""
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      caseid: merchant_ticket_1
+      testPoint: 商户核销券码
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'
