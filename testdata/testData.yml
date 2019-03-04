@@ -70,6 +70,13 @@ testdata:
         casefile: 
              -  member-servicememberspersonalCenters.yml
              -  steam-searchsearchkeywordSearchs.yml
+      - title: IPTV优惠券
+        status: A
+        resourceTypeId: 11
+        dataPath: product4Goods.yml
+        casefile: 
+             -  member-servicememberspersonalCenters.yml
+             -  steam-searchsearchkeywordSearchs.yml
   - apiInterface: /operation-manage/product/queryProducts
     mark: 活动
     data: 
@@ -90,6 +97,13 @@ testdata:
         resourceTypeId: 12
         status: A
         dataPath: product2Activity.yml
+        casefile: 
+           -  steam-resourceproductdetails.yml
+           -  steam-searchsearchkeywordSearchs.yml
+      - title: 迪士尼抵扣券
+        resourceTypeId: 12
+        status: A
+        dataPath: product3Activity.yml
         casefile: 
            -  steam-resourceproductdetails.yml
            -  steam-searchsearchkeywordSearchs.yml
@@ -124,6 +138,23 @@ testdata:
         dataPath: course3Course.yml
         casefile: 
            -  order-serviceScoreAdds.yml
+  - apiInterface: /operation-manage/lottery/queryLotteryList
+    mark: 抽奖
+    data: 
+      - title: 百视通抽奖大派送
+        status: 0
+        resourceTypeId: 12
+        dataPath: product1Lottery.yml
+        casefile: 
+            -  order-serviceordercancels.yml
+               order-serviceorderdetails.yml
+      - title: 东方明珠2019年会抽奖
+        status: 0
+        resourceTypeId: 12
+        dataPath: product2Lottery.yml
+        casefile: 
+            -  order-serviceordercancels.yml
+               order-serviceorderdetails.yml
   - apiInterface: /operation-manage/match/subMatchPage
     mark: 赛事
     data:

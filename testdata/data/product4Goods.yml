@@ -1,0 +1,47 @@
+data:
+   - code: '100001'
+     apiInterface: /operation-manage/product/add
+     reqType: data
+     data:
+        resourceId: null
+        title: IPTV优惠券
+        subTitle: IPTV优惠券-测试
+        deliverType: 1
+        vendorIdList: [105]
+        resourceTypeId: 11
+        baseVisits: 0
+        content: <p>放任型的爸爸妈妈，在与孩子做教练沟通的时会有几个方法。</p>
+        shareInfoList:
+        - id: None
+          shareType: 1
+          title: IPTV优惠券-分享标题
+          description: IPTV优惠券-分享标题IPTV优惠券-分享标题
+          picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190221165438_313054.png
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190221165357_138079.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190221165402_78186.jpg
+        imageList:
+        - {picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190221165447_848122.jpg',order: 1}
+        cornerMask: 商品
+        entryIdList: []
+        tagIdList: []
+        skuList:
+        - skuName: IPTV免费1个月
+          order: 1
+          skuId: None
+          price: '100'
+          originPrice: '100'
+          inventory: '9991'
+          limitCount: None
+          postPrice: 0
+          validPeriod: None
+        supportRefund: false
+        accountDivisionRule: {commissionRate: '5', opgDivisionRate: '55'}
+        prize: true
+        status: W
+   - code: '100002'
+     apiInterface: /operation-manage/product/publish
+     reqType: post
+     data:
+       title: IPTV优惠券
+       subtitle: IPTV优惠券
+       status: A

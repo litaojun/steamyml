@@ -1,0 +1,44 @@
+data:
+   - code: '100001'
+     apiInterface: /operation-manage/lottery/createLotteryInfo
+     reqType: data
+     data:
+        lotteryTitle: 百视通抽奖大派送
+        lotteryType: '01001'
+        startTime: 1551628800000
+        endTime: 1617120000000
+        pointCosts: '6'
+        describing: "1 测试\n2 游玩\n3 开始"
+        baseVolume: '1'
+        prizeProbability: '100'
+        backgroundUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190304174105_388786.jpg
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190304174107_8417.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190304174110_376976.jpg
+        shareTitle: 百视通抽奖大派送-分享
+        shareIcon: http://uat-steam.opg.cn/_static/admin/images/resource/20190304174112_393369.jpg
+        shareDescription: 百视通抽奖大派送-分享
+        prizeList:
+        - resourceTypeId: 11
+          prizeTitle: IPTV优惠券
+          prizeIcon: None
+          inventoryCount: 9982
+          skuId: 3475
+          skuList:
+          - {id: 3475, name: IPTV免费1个月, inventoryCount: 9982}
+          prizeWeight: '0.5'
+        - resourceTypeId: 12
+          prizeTitle: 迪士尼抵扣券
+          prizeIcon: *id001
+          inventoryCount: 9991
+          skuId: 3476
+          skuList:
+          - {id: 3476, name: 抵扣券100元, inventoryCount: 9991}
+          prizeWeight: '0.5'
+   - code: '100002'
+     apiInterface: /operation-manage/lottery/releaseOrOfflineLottery
+     reqType: post
+     data:
+       title: 百视通抽奖大派送
+       subtitle: 百视通抽奖大派送
+       state: 0
+       status: A
