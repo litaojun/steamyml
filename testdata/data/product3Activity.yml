@@ -1,7 +1,7 @@
 data:
    - code: '000000'
      apiInterface: /operation-manage/product/add
-     reqType: post
+     reqType: data
      data:
         resourceId: ''
         title: 迪士尼抵扣券

@@ -141,14 +141,14 @@ testdata:
   - apiInterface: /operation-manage/lottery/queryLotteryList
     mark: 抽奖
     data: 
-      - title: 百视通抽奖大派送
+      - lotteryTitle: 百视通抽奖大派送
         status: 0
         resourceTypeId: 12
         dataPath: product1Lottery.yml
         casefile: 
             -  order-serviceordercancels.yml
                order-serviceorderdetails.yml
-      - title: 东方明珠2019年会抽奖
+      - lotteryTitle: 东方明珠2019年会抽奖
         status: 0
         resourceTypeId: 12
         dataPath: product2Lottery.yml

@@ -28,7 +28,7 @@ data:
           prizeWeight: '0.5'
         - resourceTypeId: 12
           prizeTitle: 迪士尼抵扣券
-          prizeIcon: *id001
+          prizeIcon: None
           inventoryCount: 9991
           skuId: 3476
           skuList:
