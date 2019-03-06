@@ -1,9 +1,9 @@
 data:
    - code: '100001'
      apiInterface: /operation-manage/product/add
-     reqType: post
+     reqType: data
      data:
-        resourceId: null
+        resourceId: None
         title: 醉清迈
         subTitle: 醉清迈
         deliverType: 1
@@ -12,8 +12,7 @@ data:
         resourceTypeId: 12
         content: <p>活动年龄:3-12岁</p><p>活动时间:60-90天/场/周</p><p>活动目标:强化情商技巧，致力于提高孩子自信心、探索欲、变现力、责任感、独立性、自我控制、情绪管理等</p>
         shareInfoList:
-        - {shareType: 1, title: 儿童EQ拓展俱乐部（快乐周末）-分享标题, description: 儿童EQ拓展俱乐部（快乐周末）-分享标题儿童EQ拓展俱乐部（快乐周末）-分享标题,
-          picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190107170257_499150.jpg'}
+        - {shareType: 1, title: 儿童EQ拓展俱乐部（快乐周末）-分享标题, description: 儿童EQ拓展俱乐部（快乐周末）-分享标题儿童EQ拓展俱乐部（快乐周末）-分享标题,picturePath: 'http://uat-steam.opg.cn/_static/admin/images/resource/20190107170257_499150.jpg'}
         province: 上海市
         city: 静安区
         tempCity: 上海城区
@@ -29,12 +28,12 @@ data:
         startTime: 1546851740000
         endTime: 1549702941000
         cornerMask: 活动
-        offShelfTime: null
+        offShelfTime: None
         entryIdList: [73]
         tagIdList: [7]
         skuList:
         - skuName: 第一场
-          skuId: null
+          skuId: None
           order: 1
           price: '2'
           originPrice: '344'
