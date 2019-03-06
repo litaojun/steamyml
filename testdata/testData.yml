@@ -156,6 +156,8 @@ testdata:
       - lotteryTitle: 百视通抽奖大派送
         status: 0
         resourceTypeId: 12
+        currentPage: 1
+        pageSize: 50
         dataPath: product1Lottery.yml
         casefile: 
             -  order-serviceordercancels.yml
@@ -163,6 +165,8 @@ testdata:
       - lotteryTitle: 东方明珠2019年会抽奖
         status: 0
         resourceTypeId: 12
+        currentPage: 1
+        pageSize: 50
         dataPath: product2Lottery.yml
         casefile: 
             -  order-serviceordercancels.yml
