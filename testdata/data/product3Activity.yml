@@ -1,5 +1,5 @@
 data:
-   - code: '000000'
+   - code: '100001'
      apiInterface: /operation-manage/product/add
      reqType: data
      data:
@@ -42,7 +42,7 @@ data:
         accountDivisionRule: {commissionRate: 0, opgDivisionRate: 0}
         prize: True
         status: W
-   - code: '100001'
+   - code: '100002'
      apiInterface: /operation-manage/product/publish
      reqType: post
      data:
