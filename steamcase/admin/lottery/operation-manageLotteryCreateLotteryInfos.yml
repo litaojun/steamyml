@@ -14,6 +14,8 @@ testcases:
     testData:
     - lotyName: 美式外教科学营---1
       reqjsonfile: formatone
+      currentPage: 1
+      pageSize: 50
       caseid: lottery_add_1
       testPoint: 新增抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882

@@ -10,6 +10,8 @@ testcases:
     - lotyName: 东方明珠2019年会抽奖
       phoneNo: '18916899938'
       subTitle: 美式外教科学营-活动副标题
+      currentPage: 1
+      pageSize: 50
       reqjsonfile: formatone
       caseid: activity_alert_1
       testPoint: 用户抽奖-东方明珠2019年会抽奖

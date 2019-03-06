@@ -9,6 +9,8 @@ testcases:
     testData:
     - lotyName: 东方明珠2019年会抽奖
       subTitle: 美式外教科学营-活动副标题
+      currentPage: 1
+      pageSize: 50
       reqjsonfile: formatone
       caseid: lottery_queryLotteryInfo_1
       testPoint: 查看抽奖活动详情信息

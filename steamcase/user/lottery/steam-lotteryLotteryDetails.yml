@@ -8,6 +8,8 @@ testcases:
     testData:
     - lotyName: 东方明珠2019年会抽奖
       subTitle: 东方明珠2019年会抽奖
+      currentPage: 1
+      pageSize: 50
       reqjsonfile: formatone
       caseid: lottery_detail_1
       testPoint: 微信用户浏览抽奖活动详情
