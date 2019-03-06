@@ -1,0 +1,31 @@
+data:
+   - code: '100001'
+     apiInterface: /operation-manage/media/addMedia
+     reqType: post
+     data:
+        type: 1
+        title: 石舍学校独立微电影-接口自动化-勿动
+        subtitle: 石舍学校独立微电影-接口自动化-勿动
+        content: <p>长江，从青藏高原的涓涓细流，出千峡、纳万川，汇集成波涛滚滚的大江，横贯中华大地，万千姿态、雄伟壮观。她滔滔东去的江水，浇灌着神州华夏；甘甜纯美的乳汁，养育着炎黄子孙。</p><p>然而，随着长江流域生态环境保护和经济发展的矛盾日益严重，发展的可持续性面临严峻挑战。</p>
+        cornerMask: 文章
+        vendorId: 92
+        baseVisits: 0
+        baseCollects: 0
+        shareTitle: 住房租金抵扣个税 房东为何不乐意？-分享标题
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190107145143_670020.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190107145146_769411.jpg
+        shareDescription: 长江，从青藏高原的涓涓细流，出千峡、纳万川
+        shareImgUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190107145159_11469.jpg
+        link: e0508aab9vp
+        resourceTypeId: 1
+        tags: [7]
+        entryIds: [73]
+        matchId: 22
+        status: W
+   - code: '100002'
+     apiInterface: /operation-manage/media/resetMediaState
+     reqType: post
+     data:
+       title: 石舍学校独立微电影-接口自动化-勿动
+       subtitle: 石舍学校独立微电影-接口自动化-勿动
+       status: A

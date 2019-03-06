@@ -4,8 +4,8 @@ data:
      reqType: data
      data:
         resourceId: null
-        title: 早教学习儿童编程机器人套件益智智能机器人-接口自动化-勿动
-        subTitle: 早教学习儿童编程机器人套件益智智能机器人-接口自动化-勿动
+        title: 创客教育儿童早教学习接口自动化
+        subTitle: 创客教育儿童早教学习接口自动化
         deliverType: 1
         vendorIdList: [87]
         resourceTypeId: 11
@@ -41,6 +41,6 @@ data:
      apiInterface: /operation-manage/product/publish
      reqType: post
      data:
-       title: 早教学习儿童编程机器人套件益智智能机器人
-       subtitle: 早教学习儿童编程机器人套件益智智能机器人
+       title: 创客教育儿童早教学习接口自动化
+       subtitle: 创客教育儿童早教学习接口自动化
        status: A

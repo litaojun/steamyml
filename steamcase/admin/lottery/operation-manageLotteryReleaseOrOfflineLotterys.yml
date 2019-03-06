@@ -11,6 +11,8 @@ testcases:
       reqjsonfile: formatone
       state: '2'
       startState: '0'
+      currentPage: 1
+      pageSize: 50
       caseid: lottery_down_1
       testPoint: 下架抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
@@ -18,6 +20,8 @@ testcases:
       reqjsonfile: formatone
       state: '0'
       startState: '2'
+      currentPage: 1
+      pageSize: 50
       caseid: lottery_up_1
       testPoint: 上架抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882

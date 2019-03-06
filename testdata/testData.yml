@@ -46,6 +46,12 @@ testdata:
          casefile: 
              -  steam-mediamediagetMediaDetailByID.yml
              -  operation-managemediaqueryMediaByIDs.yml
+      -  title: 石舍学校独立微电影-接口自动化-勿动
+         resourceTypeId: 1
+         status: A
+         dataPath: media3Media.yml
+         casefile: 
+             -  steam-featuredhomeConfigcreateConfigs.yml
   - apiInterface: /operation-manage/product/queryProducts
     mark: 商品
     data: 
@@ -107,6 +113,12 @@ testdata:
         casefile: 
            -  steam-resourceproductdetails.yml
            -  steam-searchsearchkeywordSearchs.yml
+      - title: 山野少年之户外实战技巧-接口自动化-勿动
+        resourceTypeId: 12
+        status: A
+        dataPath: product4Activity.yml
+        casefile: 
+           -  steam-featuredhomeConfigcreateConfigs.yml
   - apiInterface: /operation-manage/course/queryCourseByCondition
     mark: 课程
     data:
