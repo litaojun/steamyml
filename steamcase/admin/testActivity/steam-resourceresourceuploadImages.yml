@@ -3,7 +3,7 @@ testcases:
   case:
   - testPoint: 上传一个图片
     preConditions:
-    - ''
+    - setupAddFilePath
     operationSteps: compareRetcodeTest
     testData:
     - file: Desert.jpg
