@@ -254,6 +254,16 @@ steam:
                 - permissionLoginReq.txt
                 - permissionLoginRsp.json
                 - permissionLoginFmtRsp.json
+        /operation-manage/permission/admin/SmsCodeSend:
+            modul: 权限微服务
+            title: 验证码
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/permission/admin/SmsCodeSend
+            formatone:
+                - permissionSmsCodeSendReq.json
+                - permissionSmsCodeSendReq.txt
+                - permissionSmsCodeSendRsp.json
+                - permissionSmsCodeSendFmtRsp.json
       match:
         /operation-manage/match/matchPage:
             modul: 赛事微服务

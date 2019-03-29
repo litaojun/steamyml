@@ -1,0 +1,97 @@
+CMS登录，商户，运营人员和管理员
+https://uat-steam-api.opg.cn/operation-manage/permission/admin/SmsCodeSend
+POST
+{"phoneNo":"18916899938"}
+{"code":"000000","message":"成功","data":{"leaseRetryNum":3}}
+
+
+https://uat-steam-api.opg.cn/operation-manage/permission/admin/login
+POST
+{"phoneNo":"18916899938","code":"430280"}
+{"code":"000000","message":"成功","data":{"token":"bb60b9a5b74a44809a31a47bb470a9db","roleCode":"cms-operations"}}
+
+
+
+
+
+微信用户登录
+https://uat-steam-api.opg.cn/passport/verifyCode
+{
+    "phoneNo":"1522187461"
+}
+{
+	"code": "000000",
+	"message": "成功",
+	"data": {
+		"leaseRetryNum": "0",
+		"forbiddenHours": "0"
+	}
+}
+
+https://uat-steam-api.opg.cn/member/login/memberLogin
+{
+	"loginName": "15221874610",
+	"loginType": "NM",
+	"password": "000000",
+	"inviterId": "",
+	"partnerInfo": {
+		"partnerName": "WX",
+		"partnerMemberId": "oJ3wwxO7th7tBYDVGTbZWkqdLt2A"
+	},
+	"adInfo": {
+		"source": "",
+		"medium": "",
+		"campaign": "",
+		"content": "",
+		"term": "",
+		"sourceType": ""
+	}
+}
+{
+	"code": "000000",
+	"message": "成功",
+	"token": "63e1931225a64e65913800dfa5f50b70"
+}
+
+
+
+商户核销登录
+https://uat-steam-api.opg.cn/merchant/passport/verifyCode
+{
+   "phoneNo": "18916899938"
+}
+{
+   "code": "000000",
+   "message": "成功",
+   "data": {
+      "leaseRetryNum": 1
+   }
+}
+
+
+https://uat-steam-api.opg.cn/merchant-service/merchant/login
+{
+   "phoneNo": "18916899938",
+   "code": "559519"
+}
+
+{
+   "code": "000000",
+   "message": "成功",
+   "token": "a51a62e36fe34816981307511c7c0874",
+   "info": {
+      "merchantName": "中国建筑集团",
+      "logoUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190220143319_730746.jpg"
+   }
+}
+
+CMS:
+STEAM_PERMISSION:SMS_CODE_INFO:18916899938_819195
+
+核销：
+steam-merchant:SMS:18916899938_572842
+steam-merchant:SMS:18916899938_COUNT
+
+微信用户：
+PASSPORT_VERIFY_CODE:OTP:18916899938_000000
+
