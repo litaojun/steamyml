@@ -1313,6 +1313,8 @@ steam:
                 - merchantQueryMerchantResourcesReq.txt
                 - merchantQueryMerchantResourcesRsp.json
                 - merchantQueryMerchantResourcesFmtRsp.json
+    merchants: 
+      login: 
         /merchant/passport/verifyCode:
             modul: 商户页
             title: 商户获取登录验证码
@@ -1333,6 +1335,7 @@ steam:
                 - merchantLoginReq.txt
                 - merchantLoginRsp.json
                 - merchantLoginFmtRsp.json
+      mail: 
         /merchant/order/mail:
             modul: 商户页
             title: 商户获取订单邮件
@@ -1343,6 +1346,7 @@ steam:
                 - orderMailReq.txt
                 - orderMailRsp.json
                 - orderMailFmtRsp.json
+      certificate: 
         /ticket-service/merchant/queryCertificate:
             modul: 商户页
             title: 查询订单状态
