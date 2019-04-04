@@ -5,6 +5,7 @@ steam:
             modul: 订单微服务
             title: 通过不同的条件分页查询订单列表
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/order/listData
             formatone: 
                 - orderListDataReq.json
@@ -15,6 +16,7 @@ steam:
             modul: 订单微服务
             title: 根据订单ID查询订单信息
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/order/detail
             formatone: 
                 - orderDetailReq.json
@@ -25,6 +27,7 @@ steam:
             modul: 订单微服务
             title: 实物订单发货
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/order/delivery
             formatone: 
                 - orderDeliveryReq.json
@@ -35,6 +38,7 @@ steam:
             modul: 订单微服务
             title: 订单批量发货
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/order/batchDelivery
             formatone: 
                 - orderBatchDeliveryReq.json
@@ -45,6 +49,7 @@ steam:
             modul: 订单微服务
             title: 通过resourceId查询所有未发货的订单
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/order-service/order/admin/resourceId
             formatone: 
                 - orderaResourceIDReq.json
@@ -55,6 +60,7 @@ steam:
         /merchant/createMerchantInfo: 
             modul: 商户管理
             title: 新增商户
+            permission: operate
             method: post
             url: https://uat-steam-api.opg.cn/merchant/createMerchantInfo
             formatone: 
@@ -65,6 +71,7 @@ steam:
         /merchant/modifyMerchantInfo: 
             modul: 商户管理
             title: 修改商户
+            permission: operate
             method: post
             url: https://uat-steam-api.opg.cn/merchant/modifyMerchantInfo
             formatone:
@@ -75,6 +82,7 @@ steam:
         /merchant/removeMerchantInfo: 
             modul: 商户管理
             title: 删除商户
+            permission: operate
             method: get
             url: https://uat-steam-api.opg.cn/merchant/removeMerchantInfo
             formatone: 
@@ -85,6 +93,7 @@ steam:
         /merchant/queryMerchantInfoById:
             modul: 商户管理
             title: 预览商户
+            permission: operate
             method: get
             url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoById
             formatone: 
@@ -96,6 +105,7 @@ steam:
             modul: 商户管理
             title: 查询商户信息
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/merchant/queryMerchantInfoByCondtion
             formatone: 
                 - merchantQueryMerchantInfoByCondtionReq.json
@@ -106,6 +116,7 @@ steam:
         /operation-manage/weixin/queryTemplateConfig:
             modul: 微信微服务
             title: 根据id查询模板消息
+            permission: operate
             method: get
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryTemplateConfig
             formatone:
@@ -117,6 +128,7 @@ steam:
             modul: 微信微服务
             title: 根据id修改模板消息配置
             method: put
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyTemplateConfig
             formatone:
                 - weixinModifyTemplateConfigReq.json
@@ -127,6 +139,7 @@ steam:
             modul: 微信微服务
             title: 分页查询微信消息配置列表
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfigs
             formatone:
                 - weixinQueryMessageConfigsReq.json
@@ -137,6 +150,7 @@ steam:
             modul: 微信微服务
             title: 创建消息配置
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMessageConfig
             formatone:
                 - weixinCreateMessageConfigReq.json
@@ -147,6 +161,7 @@ steam:
             modul: 微信微服务
             title: 删除消息配置
             method: delete
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMessageConfig
             formatone:
                 - weixinDeleteMessageConfigReq.json
@@ -156,6 +171,7 @@ steam:
         /operation-manage/weixin/queryMessageConfig:
             modul: 微信微服务
             title: 根据id查询消息配置
+            permission: operate
             method: get
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfig
             formatone:
@@ -166,6 +182,7 @@ steam:
         /operation-manage/weixin/modifyMessageConfig:
             modul: 微信微服务
             title: 修改消息配置
+            permission: operate
             method: put
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyMessageConfig
             formatone:
@@ -176,6 +193,7 @@ steam:
         /operation-manage/weixin/setWelcomeMessage:
             modul: 微信微服务
             title: 设置欢迎语
+            permission: operate
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/setWelcomeMessage
             formatone:
@@ -186,6 +204,7 @@ steam:
         /operation-manage/weixin/queryMenuByParentId:
             modul: 微信微服务
             title: 根据父级id查询菜单信息
+            permission: operate
             method: get
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
             formatone:
@@ -197,6 +216,7 @@ steam:
             modul: 微信微服务
             title: 创建微信菜单
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMenu
             formatone:
                 - weixinCreateMenuReq.json
@@ -207,6 +227,7 @@ steam:
             modul: 微信微服务
             title: 根据id查询菜单信息
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
             formatone:
                 - weixinQueryMenuByParentIdReq.json
@@ -217,6 +238,7 @@ steam:
             modul: 微信微服务
             title: 修改菜单
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMenuByParentId
             formatone:
                 - weixinQueryMenuByParentIdReq.json
@@ -227,6 +249,7 @@ steam:
             modul: 微信微服务
             title: 发布菜单
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/publishMenu
             formatone:
                 - weixinPublishMenuReq.json
@@ -237,6 +260,7 @@ steam:
             modul: 微信微服务
             title: 删除菜单
             method: delete
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMenu
             formatone:
                 - weixinDeleteMenuReq.json
@@ -248,6 +272,7 @@ steam:
             modul: 权限微服务
             title: 后台登录
             method: post
+            permission: kong
             url: https://uat-steam-api.opg.cn/operation-manage/permission/admin/login
             formatone:
                 - permissionLoginReq.json
@@ -258,6 +283,7 @@ steam:
             modul: 权限微服务
             title: 验证码
             method: post
+            permission: kong
             url: https://uat-steam-api.opg.cn/operation-manage/permission/admin/SmsCodeSend
             formatone:
                 - permissionSmsCodeSendReq.json
@@ -269,6 +295,7 @@ steam:
             modul: 赛事微服务
             title: 分页查询赛事
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/matchPage
             formatone:
                 - matchMatchPageReq.json
@@ -279,6 +306,7 @@ steam:
             modul: 赛事微服务
             title: 查询赛事场次-赛事场次列表接口
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/subMatchPage
             formatone:
                 - matchSubMatchPageReq.json
@@ -289,6 +317,7 @@ steam:
             modul: 赛事微服务
             title: 新增赛事
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/createMatch
             formatone:
                 - matchCreateMatchReq.json
@@ -304,6 +333,7 @@ steam:
             modul: 赛事微服务
             title: 修改赛事
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/updateMatchById
             formatone:
                 - matchUpdateMatchByIdReq.json
@@ -319,6 +349,7 @@ steam:
             modul: 赛事微服务
             title: 删除赛事
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/deleteMatch
             formatone:
                 - matchDeleteMatchReq.json
@@ -334,6 +365,7 @@ steam:
             modul: 赛事微服务
             title: 查询赛事详情
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/match/matchDetail
             formatone:
                 - matchMatchDetailReq.json
@@ -349,6 +381,7 @@ steam:
             modul: 赛事微服务
             title: 查询赛事报名列表
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/apply/page
             formatone:
                 - applyPageReq.json
@@ -360,6 +393,7 @@ steam:
             modul: 资源微服务
             title: 上传图片获取图片url
             method: file
+            permission: merchants
             url: https://uat-steam-api.opg.cn/steam-resource/resource/uploadImages
             formatone:
                 - resourceUploadImagesReq.json
@@ -370,6 +404,7 @@ steam:
             modul: 资源微服务
             title: 根据关键词分页查询标签
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/tag/queryTags
             formatone:
                 - tagQueryTagsReq.json
@@ -379,6 +414,7 @@ steam:
         /operation-manage/entry/queryEntries:
             modul: 资源微服务
             title: 查询分类入口
+            permission: merchants
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/entry/queryEntries
             formatone:
@@ -390,6 +426,7 @@ steam:
             modul: 资源微服务
             title: 新增标签
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/tag/addTag
             formatone:
                 - tagAddTagReq.json
@@ -400,6 +437,7 @@ steam:
             modul: 资源微服务
             title: 新增分类
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/entry/addEntry
             formatone:
                 - entryAddEntryReq.json
@@ -410,6 +448,7 @@ steam:
             modul: 资源微服务
             title: 修改分类
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/entry/modifyEntry
             formatone:
                 - entryModifyEntryReq.json
@@ -420,6 +459,7 @@ steam:
             modul: 资源微服务
             title: 删除分类
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/entry/removeEntry
             formatone:
                 - entryRemoveEntryReq.json
@@ -430,6 +470,7 @@ steam:
             modul: 资源微服务
             title: 删除标签
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/tag/removeTag
             formatone:
                 - tagRemoveTagReq.json
@@ -441,6 +482,7 @@ steam:
             modul: 课程管理
             title: 新增课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/createCourse
             formatone:
                 - courseCreateCourseReq.json
@@ -451,6 +493,7 @@ steam:
             modul: 课程管理
             title: 发布课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/publishCourse
             formatone:
                 - coursePublishCourseReq.json
@@ -461,6 +504,7 @@ steam:
             modul: 课程管理
             title: 下架课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/unpublishCourse
             formatone:
                 - courseUnpublishCourseReq.json
@@ -471,6 +515,7 @@ steam:
             modul: 课程管理
             title: 修改课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/modifyCourse
             formatone:
                 - courseModifyCourseReq.json
@@ -481,6 +526,7 @@ steam:
             modul: 课程管理
             title: 预览课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/resource-service/resource/visit
             formatone:
                 - resourceVisitReq.json
@@ -491,6 +537,7 @@ steam:
             modul: 课程管理
             title: 搜索课程
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/course/queryCourseByCondition
             formatone:
                 - courseQueryCourseByConditionReq.json
@@ -501,6 +548,7 @@ steam:
             modul: 课程管理
             title: 删除课程
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/removeCourse
             formatone:
                 - courseRemoveCourseReq.json
@@ -511,6 +559,7 @@ steam:
             modul: 课程管理
             title: 根据ID查询课程详情
             method: get
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/course/queryCourseById
             formatone:
                 - courseQueryCourseByIdReq.json
@@ -522,6 +571,7 @@ steam:
             modul: 媒资管理
             title: 新增素材
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/material/createMaterial
             formatone:
                 - materialCreateMaterialReq.json
@@ -532,6 +582,7 @@ steam:
             modul: 媒资管理
             title: 修改素材
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/material/modifyMaterial
             formatone:
                 - materialModifyMaterialReq.json
@@ -542,6 +593,7 @@ steam:
             modul: 媒资管理
             title: 预览素材
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunVideoAuth
             formatone:
                 - materialQueryAliyunVideoAuthReq.json
@@ -552,6 +604,7 @@ steam:
             modul: 媒资管理
             title: 搜索素材
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/material/queryMaterialByCondition
             formatone:
                 - merchantQueryMerchantInfoByCondtionReq.json
@@ -562,6 +615,7 @@ steam:
             modul: 媒资管理
             title: 获取阿里云视频上传凭证
             method: get
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/material/queryAliyunUpdateKey
             formatone:
                 - materialQueryAliyunUpdateKeyReq.json
@@ -572,6 +626,7 @@ steam:
             modul: 媒资管理
             title: 删除素材
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/material/removeMaterial
             formatone:
                 - materialRemoveMaterialReq.json
@@ -583,6 +638,7 @@ steam:
             modul: 推荐位CMS
             title: 获取首页配置分页信息
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/queryShowConfigs
             formatone:
                 - featuredQueryShowConfigsReq.json
@@ -593,6 +649,7 @@ steam:
             modul: 推荐位CMS
             title: 新增运营位
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/createConfig
             formatone:
                 - featuredCreateConfigReq.json
@@ -603,6 +660,7 @@ steam:
             modul: 推荐位CMS
             title: 根据资源类型搜索已发布资源
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/searchResource
             formatone:
                 - featuredSearchResourceReq.json
@@ -613,6 +671,7 @@ steam:
             modul: 推荐位CMS
             title: 修改运营位配置
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/modifyIndexConfig
             formatone:
                 - featuredModifyIndexConfigReq.json
@@ -623,6 +682,7 @@ steam:
             modul: 推荐位CMS
             title: 删除运营位配置
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/removeIndexConfig
             formatone:
                 - featuredRemoveIndexConfigReq.json
@@ -633,6 +693,7 @@ steam:
             modul: 推荐位CMS
             title: 运营位记录上移
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/moveUpRecord
             formatone:
                 - featuredMoveUpRecordReq.json
@@ -643,6 +704,7 @@ steam:
             modul: 推荐位CMS
             title: 运营位记录下移
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/moveDownRecord
             formatone:
                 - featuredMoveDownRecordReq.json
@@ -654,6 +716,7 @@ steam:
             modul: 活动管理
             title: 通过活动id搜索
             method: get
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/product/query
             formatone:
                 - productQueryReq.json
@@ -664,6 +727,7 @@ steam:
             modul: 活动管理
             title: 后台管理分页查询活动
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/product/queryProducts
             formatone:
                 - productQueryProductsReq.json
@@ -674,6 +738,7 @@ steam:
             modul: 活动管理
             title: 新增活动
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/product/add
             formatone:
                 - productAddReq.json
@@ -689,6 +754,7 @@ steam:
             modul: 活动管理
             title: 发布活动
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/product/publish
             formatone:
                 - productPublishReq.json
@@ -699,6 +765,7 @@ steam:
             modul: 活动管理
             title: 下架活动
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/product/unPublish
             formatone:
                 - productUnPublishReq.json
@@ -709,6 +776,7 @@ steam:
             modul: 活动管理
             title: 修改活动
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/product/update
             formatone:
                 - productUpdateReq.json
@@ -725,6 +793,7 @@ steam:
             modul: 内容管理
             title: 新增文章视频
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/media/addMedia
             formatone:
                 - mediaAddReq.json
@@ -735,6 +804,7 @@ steam:
             modul: 内容管理
             title: 修改文章视频
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/media/updateMedia
             formatone:
                 - mediaUpdateReq.json
@@ -745,6 +815,7 @@ steam:
             modul: 内容管理
             title: 删除文章视频
             method: post
+            permission: merchants
             url: https://uat-steam-api.opg.cn/operation-manage/media/deleteMedia
             formatone:
                 - mediaDeleteReq.json
@@ -755,6 +826,7 @@ steam:
             modul: 内容管理
             title: 搜索文章视频
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/media/queryMedias
             formatone:
                 - mediaSearchReq.json
@@ -764,6 +836,7 @@ steam:
         /operation-manage/media/resetMediaState:
             modul: 内容管理
             title: 上架下架文章视频
+            permission: merchants
             method: post
             url: https://uat-steam-api.opg.cn/operation-manage/media/resetMediaState
             formatone:
@@ -776,6 +849,7 @@ steam:
             modul: 抽奖管理
             title: 新增抽奖活动
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/createLotteryInfo
             formatone:
                 - lotteryCreateLotteryInfoReq.json
@@ -786,6 +860,7 @@ steam:
             modul: 抽奖管理
             title: 抽奖活动列表
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryLotteryList
             formatone:
                 - lotteryQueryLotteryListReq.json
@@ -796,6 +871,7 @@ steam:
             modul: 抽奖管理
             title: 上架下架抽奖活动
             method: post
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/releaseOrOfflineLottery
             formatone:
                 - lotteryReleaseOrOfflineLotteryReq.json
@@ -806,6 +882,7 @@ steam:
             modul: 抽奖管理
             title: 查看中奖名单
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeRoster
             formatone:
                 - lotteryQueryPrizeRosterReq.json
@@ -816,6 +893,7 @@ steam:
             modul: 抽奖管理
             title: 查看奖品库存
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryPrizeInventory
             formatone:
                 - lotteryQueryPrizeInventoryReq.json
@@ -826,6 +904,7 @@ steam:
             modul: 抽奖管理
             title: 查看抽奖活动详情信息
             method: get
+            permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/queryLotteryInfo
             formatone:
                 - lotteryQueryLotteryInfoReq.json
