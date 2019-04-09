@@ -911,7 +911,7 @@ steam:
                 - lotteryQueryLotteryInfoReq.txt
                 - lotteryQueryLotteryInfoRsp.json
                 - lotteryQueryLotteryInfoFmtRsp.json
-    user:
+    weixin:
       member:
         /passport/verifyCode:
             modul: 会员微服务
