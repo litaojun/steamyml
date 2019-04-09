@@ -1,0 +1,17 @@
+{
+   "certificateInfo": {
+      "certificateTime": 1551258359844,
+      "memberId": "68a30b8e-7dc2-46f5-89c4-c0894c0c3e68",
+      "ticketDTO": {
+         "orderId": "15508143302190000024827",
+         "price": 0.0,
+         "skuTitle": "IPTVåè´¹1ä¸ªæ",
+         "status": "UD",
+         "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190221165357_138079.jpg",
+         "ticketCode": "10578160003",
+         "title": "IPTVä¼æ å¸"
+      }
+   },
+   "code": "000000",
+   "message": "æå"
+}
