@@ -1,6 +1,5 @@
 {
     "id": 36,
-    "materialId": 36,
     "materialType": 1,
     "entryIdList": [7, 72, 75],
     "merchantId": 87,

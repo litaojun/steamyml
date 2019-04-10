@@ -1,7 +1,6 @@
 { 
     "materialType":2,
     "entryIdList":[72],
-    "merchantId":"53",
     "materialTitle":"%(materialTitle)s",
     "materialUrl":"c8eb7538aff34c4988b4214ef86822d7",
     "materialName":"3b5e9a808392f864d97308b523b5d9a3.mp4",
