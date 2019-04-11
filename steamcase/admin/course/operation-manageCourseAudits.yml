@@ -1,0 +1,21 @@
+testcases:
+- interfaceName: /operation-manage/course/audit
+  case:
+  - testPoint: 审核课程
+    preConditions:
+    - ''
+    operationSteps: compareRetcodeTest
+    testData:
+    - title: 美式外教科学营---1
+      subTitle: 美式外教科学营-活动副标题
+      reqjsonfile: formatone
+      caseid: activity_alert_1
+      testPoint: 修改活动正常
+      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+    expectedResult:
+      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

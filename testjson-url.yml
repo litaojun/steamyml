@@ -555,6 +555,17 @@ steam:
                 - courseRemoveCourseReq.txt
                 - courseRemoveCourseRsp.json
                 - courseRemoveCourseFmtRsp.json
+        /operation-manage/course/audit:
+            modul: 课程管理
+            title: 审核课程
+            method: post
+            permission: operate
+            url: https://uat-steam-api.opg.cn/operation-manage/course/audit
+            formatone:
+                - courseAuditReq.json
+                - courseAuditReq.txt
+                - courseAuditRsp.json
+                - courseAuditFmtRsp.json
         /operation-manage/course/queryCourseById: 
             modul: 课程管理
             title: 根据ID查询课程详情
@@ -633,6 +644,17 @@ steam:
                 - materialRemoveMaterialReq.txt
                 - materialRemoveMaterialRsp.json
                 - materialRemoveMaterialFmtRsp.json
+        /operation-manage/material/audit:
+            modul: 媒资管理
+            title: 删除素材
+            method: post
+            permission: operate
+            url: https://uat-steam-api.opg.cn/operation-manage/material/audit
+            formatone:
+                - materialAuditReq.json
+                - materialAuditReq.txt
+                - materialAuditRsp.json
+                - materialAuditFmtRsp.json
       operate:
         /operation-manage/featured/queryShowConfigs:
             modul: 推荐位CMS
@@ -711,7 +733,7 @@ steam:
                 - featuredMoveDownRecordReq.txt
                 - featuredMoveDownRecordRsp.json
                 - featuredMoveDownRecordFmtRsp.json
-      goods:
+      activity:
         /operation-manage/product/query:
             modul: 活动管理
             title: 通过活动id搜索
@@ -772,6 +794,17 @@ steam:
                 - productUnPublishReq.txt
                 - productUnPublishRsp.json
                 - productUnPublishFmtRsp.json
+        /operation-manage/product/audit:
+            modul: 活动管理
+            title: 审核活动
+            method: post
+            permission: operate
+            url: https://uat-steam-api.opg.cn/operation-manage/product/audit
+            formatone:
+                - productAuditReq.json
+                - productAuditReq.txt
+                - productAuditRsp.json
+                - productAuditFmtRsp.json
         /operation-manage/product/update:
             modul: 活动管理
             title: 修改活动
