@@ -2,7 +2,6 @@
 	"courseTitle": "%(courseTitle)s",
 	"content": "%(content)s",
 	"cornerMask": None,
-	"merchantId": 15,
 	"baseStudiedCount": 12,
 	"originPrice": 0,
 	"price": 0,

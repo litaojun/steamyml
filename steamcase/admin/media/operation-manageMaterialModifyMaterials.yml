@@ -8,7 +8,6 @@ testcases:
     testData:
     -  materialType: 2,
        entryIdList: [72]
-       merchantId: "53"
        materialTitle: 1023普通视频
        materialTitleAlert: 1023普通视频-修改
        caseid: add_material

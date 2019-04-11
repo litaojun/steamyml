@@ -1,0 +1,5 @@
+{
+   "pass": %(pass)s,
+   "auditReason": %(auditReason)s,
+   "id": %(resourceId)d
+}

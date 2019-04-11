@@ -833,7 +833,7 @@ steam:
                 - mediaSearchReq.txt
                 - mediaSearchRsp.json
                 - mediaSearchFmtRsp.json
-        /operation-manage/media/resetMediaState:
+        /operation-manage/media/resetMediaState-ddddel20190411:
             modul: 内容管理
             title: 上架下架文章视频
             permission: merchants
@@ -844,6 +844,39 @@ steam:
                 - mediaResetMediaReq.txt
                 - mediaResetMediaRsp.json
                 - mediaResetMediaFmtRsp.json
+        /operation-manage/media/publish:
+            modul: 内容管理
+            title: 上架文章视频
+            permission: merchants
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/publish
+            formatone:
+                - mediaPublishReq.json
+                - mediaPublishReq.txt
+                - mediaPublishRsp.json
+                - mediaPublishFmtRsp.json
+        /operation-manage/media/unpublish:
+            modul: 内容管理
+            title: 下架文章视频
+            permission: merchants
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/unpublish
+            formatone:
+                - mediaUnpublishReq.json
+                - mediaUnpublishReq.txt
+                - mediaUnpublishRsp.json
+                - mediaUnpublishFmtRsp.json
+        /operation-manage/media/audit:
+            modul: 内容管理
+            title: 审核文章视频
+            permission: operate
+            method: post
+            url: https://uat-steam-api.opg.cn/operation-manage/media/audit
+            formatone:
+                - mediaAuditReq.json
+                - mediaAuditReq.txt
+                - mediaAuditRsp.json
+                - mediaAuditFmtRsp.json
       lottery: 
         /operation-manage/lottery/createLotteryInfo: 
             modul: 抽奖管理
