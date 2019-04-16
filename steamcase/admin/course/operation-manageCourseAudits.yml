@@ -6,12 +6,268 @@ testcases:
     - ''
     operationSteps: compareRetcodeTest
     testData:
-    - title: 美式外教科学营---1
-      subTitle: 美式外教科学营-活动副标题
-      reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
-      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+      - resourceId: 6734
+        resourceTypeId: 13
+        courseTitle: ElasticSearch6.2.2视频教程ELK搭建日志采
+        content: <p>老师介绍<br>小D老师<br>小D老师<br>曾任职于1号外卖、阿里巴巴集团等，担任资深开发工程师；主导多个日均几亿流量...<br> 小C<br>小C<br>多年的开发架构经验，曾就职于国内一线互联网公司，资深开发工程师，现在是某创...<br>简　　介
+          2018年新录制的ELK日志分析系统课程，采用elasticSearch+Logstash+Kibana；6.2新版本, 阿里云服务器上安装部署，讲解性能优化等知识点;
+          ElasticSearch, Kibana, Logstash基础到项目实战 项目实战讲解ELK采集业务应用日志，整个流程配置，分析数据等</p>
+        cornerMask: ELK
+        merchantId: '105'
+        merchantName: 中国建筑集团
+        baseStudiedCount: None
+        baseScorePersonNum: 0
+        thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190329144038_100282.jpg
+        bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190329144042_67094.jpg
+        offShelfTime: None
+        charge: 0
+        price: 0
+        originPrice: 0
+        title: ElasticSearch6.2.2视频-分享标题
+        picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190329144536_447461.png
+        description: 018年新录制的ELK日志分析系统课程，采用elasticSearch+Logstash+Kibana；6.2新版本, 阿里云服务器上安装部署，讲解性能优化等知
+        tagIdList: [2]
+        tagList:
+        - {tagId: 2, tagName: 优选文章}
+        entryIdList: [72]
+        entryList:
+        - {entryId: 72, entryName: 实验室}
+        courseCategory:
+        - chapterId: 1785
+          chapterName: Kibana 6.2版本基础入门到实战
+          sections:
+          - sectionId: 5085
+            sectionName: 阿里云cenos服务器部署kibana6.2.2(9分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5086
+            sectionName: ' kibana基本介绍 elasticSearch版本兼容问'
+            supportTry: 1
+            materialInfo:
+              id: 322
+              materialId: 322
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: 合恩游艇俱乐部寄予了满感寄予了满感寄予了满感
+              materialUrl: None
+              materialName: aaa.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5087
+            sectionName: kibana面板讲解和功能使用说明(16分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+        - chapterId: 1786
+          chapterName: Logstash零基础入门到采集日志实战
+          sections:
+          - sectionId: 5088
+            sectionName: Logstash基本介绍和使用场景(10分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5089
+            sectionName: Logstash插件介绍(9分钟)
+            supportTry: 1
+            materialInfo:
+              id: 322
+              materialId: 322
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: 合恩游艇俱乐部寄予了满感寄予了满感寄予了满感
+              materialUrl: None
+              materialName: aaa.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5090
+            sectionName: 阿里云服务器部署Logstash 6.1.2(17分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5091
+            sectionName: Logstash采集日志input filter outpu
+            supportTry: 1
+            materialInfo:
+              id: 322
+              materialId: 322
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: 合恩游艇俱乐部寄予了满感寄予了满感寄予了满感
+              materialUrl: None
+              materialName: aaa.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+        - chapterId: 1787
+          chapterName: elasticSearch 6.2版本基础讲解到阿里云部署实
+          sections:
+          - sectionId: 5092
+            sectionName: 搜索引擎知识介绍和相关框架(14分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5093
+            sectionName: 新版本 elasticSearch 6.1.2介绍(17分钟
+            supportTry: 1
+            materialInfo:
+              id: 322
+              materialId: 322
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: 合恩游艇俱乐部寄予了满感寄予了满感寄予了满感
+              materialUrl: None
+              materialName: aaa.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5094
+            sectionName: windows安装启动ElasticSearch(7分钟)
+            supportTry: 1
+            materialInfo:
+              id: 323
+              materialId: 323
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: OMSCLUB是一家成立于2012年的成人英语口语俱乐部
+              materialUrl: None
+              materialName: bbb.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+          - sectionId: 5095
+            sectionName: 阿里云服务器 快速安装ElasticSearch(16分钟)
+            supportTry: 1
+            materialInfo:
+              id: 322
+              materialId: 322
+              materialType: None
+              entryIdList: None
+              merchantId: None
+              materialTitle: 合恩游艇俱乐部寄予了满感寄予了满感寄予了满感
+              materialUrl: None
+              materialName: aaa.mp4
+              materialTime: None
+              materialSize: None
+              coverUrl: None
+              useNum: None
+              createGmt: None
+              modifyGmt: None
+              status: None
+              auditReason: None
+        status: AW
+        skuId: 4061
+        supportRefund: false
+        accountDivisionRule: {commissionRate: 0, opgDivisionRate: 0}
+        prize: false
+        auditReason: gggg
     expectedResult:
       code: '000000'
       compare:
