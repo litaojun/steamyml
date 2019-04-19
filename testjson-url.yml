@@ -483,6 +483,7 @@ steam:
             title: 新增课程
             method: post
             permission: merchants
+            fileEnd: courseTitle
             url: https://uat-steam-api.opg.cn/operation-manage/course/createCourse
             formatone:
                 - courseCreateCourseReq.json
@@ -516,6 +517,7 @@ steam:
             title: 修改课程
             method: post
             permission: merchants
+            fileEnd: courseTitle
             url: https://uat-steam-api.opg.cn/operation-manage/course/modifyCourse
             formatone:
                 - courseModifyCourseReq.json
@@ -761,6 +763,7 @@ steam:
             title: 新增活动
             method: post
             permission: merchants
+            fileEnd: title
             url: https://uat-steam-api.opg.cn/operation-manage/product/add
             formatone:
                 - productAddReq.json
@@ -810,6 +813,7 @@ steam:
             title: 修改活动
             method: post
             permission: merchants
+            fileEnd: title
             url: https://uat-steam-api.opg.cn/operation-manage/product/update
             formatone:
                 - productUpdateReq.json
@@ -827,6 +831,7 @@ steam:
             title: 新增文章视频
             method: post
             permission: merchants
+            fileEnd: title
             url: https://uat-steam-api.opg.cn/operation-manage/media/addMedia
             formatone:
                 - mediaAddReq.json
@@ -838,6 +843,7 @@ steam:
             title: 修改文章视频
             method: post
             permission: merchants
+            fileEnd: title
             url: https://uat-steam-api.opg.cn/operation-manage/media/updateMedia
             formatone:
                 - mediaUpdateReq.json
@@ -916,12 +922,25 @@ steam:
             title: 新增抽奖活动
             method: post
             permission: operate
+            fileEnd: lotteryTitle
             url: https://uat-steam-api.opg.cn/operation-manage/lottery/createLotteryInfo
             formatone:
                 - lotteryCreateLotteryInfoReq.json
                 - lotteryCreateLotteryInfoReq.txt
                 - lotteryCreateLotteryInfoRsp.json
                 - lotteryCreateLotteryInfoFmtRsp.json
+        /operation-manage/lottery/modifyLotteryInfo: 
+            modul: 抽奖管理
+            title: 修改抽奖活动
+            method: post
+            permission: operate
+            fileEnd: lotteryTitle
+            url: https://uat-steam-api.opg.cn/operation-manage/lottery/modifyLotteryInfo
+            formatone:
+                - lotteryModifyLotteryInfoReq.json
+                - lotteryModifyLotteryInfoReq.txt
+                - lotteryModifyLotteryInfoRsp.json
+                - lotteryModifyLotteryInfoFmtRsp.json
         /operation-manage/lottery/queryLotteryList: 
             modul: 抽奖管理
             title: 抽奖活动列表
