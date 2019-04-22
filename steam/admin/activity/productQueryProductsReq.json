@@ -1,1 +1,12 @@
-?resourceTypeId=1&currentPage=1&pageSize=10
+{
+   "currentPage": null,
+   "pageSize": null,
+   "resourceTypeId": null,
+   "resourceId": null,
+   "title": null,
+   "vendorId": null,
+   "status": null,
+   "saleOut": null,
+   "overTime": null,
+   "prize": null
+}
