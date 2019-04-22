@@ -1109,10 +1109,10 @@ steam:
             method: post
             url: https://uat-steam-api.opg.cn/passport/changePhoneNo
             formatone:
-                - ChangePhoneNoReq.json
-                - ChangePhoneNoReq.txt
-                - ChangePhoneNoRsp.json
-                - ChangePhoneNoFmtRsp.json
+                - passportChangePhoneNoReq.json
+                - passportChangePhoneNoReq.txt
+                - passportChangePhoneNoRsp.json
+                - passportChangePhoneNoFmtRsp.json
         /member/collection/queryPage:
             modul: 会员微服务
             title: 分页查询会员收藏列表
@@ -1180,10 +1180,10 @@ steam:
             method: get
             url: https://uat-steam-api.opg.cn/steam-resource/index/configs/searchByEntry
             formatone:
-                - indexConfigSearchByEntryReq.json
-                - indexConfigSearchByEntryReq.txt
-                - indexConfigSearchByEntryRsp.json
-                - indexConfigSearchByEntryFmtRsp.json
+                - configSearchByEntryReq.json
+                - configSearchByEntryReq.txt
+                - configSearchByEntryRsp.json
+                - configSearchByEntryFmtRsp.json
       match:
         /match-service/member/apply:
             modul: 赛事报名微服务
@@ -1339,10 +1339,10 @@ steam:
             method: post
             url: https://uat-steam-api.opg.cn/order-service/order
             formatone:
-                - orderReq.json
-                - orderReq.txt
-                - orderRsp.json
-                - orderFmtRsp.json
+                - order-serviceOrderReq.json
+                - order-serviceOrderReq.txt
+                - order-serviceOrderRsp.json
+                - order-serviceOrderFmtRsp.json
         /order-service/order/cancel:
             modul: 微信端订单微服务
             title: 取消订单
