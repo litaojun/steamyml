@@ -1431,10 +1431,10 @@ steam:
             method: get
             url: https://uat-steam-api.opg.cn/featured/index/configs/queryShowConfigs
             formatone:
-                - indexConfigsQueryShowConfigsReq.json
-                - indexConfigsQueryShowConfigsReq.txt
-                - indexConfigsQueryShowConfigsRsp.json
-                - ndexConfigsQueryShowConfigsFmtRsp.json
+                - configsQueryShowConfigsReq.json
+                - configsQueryShowConfigsReq.txt
+                - configsQueryShowConfigsRsp.json
+                - configsQueryShowConfigsFmtRsp.json
         /featured/index/configs/pageQueryPositionShows:
             modul: 推荐位展示
             title: 获取各种运营位配置数据展示
