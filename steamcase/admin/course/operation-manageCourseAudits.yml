@@ -8,6 +8,8 @@ testcases:
     testData:
       - resourceId: 6734
         resourceTypeId: 13
+        caseid: course_audit_1
+        testPoint: 审核课程
         courseTitle: ElasticSearch6.2.2视频教程ELK搭建日志采
         content: <p>老师介绍<br>小D老师<br>小D老师<br>曾任职于1号外卖、阿里巴巴集团等，担任资深开发工程师；主导多个日均几亿流量...<br> 小C<br>小C<br>多年的开发架构经验，曾就职于国内一线互联网公司，资深开发工程师，现在是某创...<br>简　　介
           2018年新录制的ELK日志分析系统课程，采用elasticSearch+Logstash+Kibana；6.2新版本, 阿里云服务器上安装部署，讲解性能优化等知识点;
