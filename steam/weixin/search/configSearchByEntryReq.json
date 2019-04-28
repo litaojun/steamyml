@@ -1,1 +1,6 @@
-?entryId=%(entryId)d&currentPage=1&pageSize=10
+{
+   "entryId": "89",
+   "memberId": "12f11cda-d2e0-4774-b25a-a03c30a47738",
+   "currentPage": "1",
+   "pageSize": "10"
+}

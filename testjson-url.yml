@@ -113,23 +113,23 @@ steam:
                 - merchantQueryMerchantInfoByCondtionRsp.json
                 - merchantQueryMerchantInfoByCondtionFmtRsp.json
       weixin:
-        /operation-manage/weixin/queryTemplateConfig:
+        /operation-manage/weixin/queryTemplateConfigs:
             modul: 微信微服务
             title: 根据id查询模板消息
             permission: operate
             method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryTemplateConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryTemplateConfigs
             formatone:
                 - weixinQueryTemplateConfigReq.json
                 - weixinQueryTemplateConfigReq.txt
                 - weixinQueryTemplateConfigRsp.json
                 - weixinQueryTemplateConfigFmtRsp.json
-        /operation-manage/weixin/modifyTemplateConfig:
+        /operation-manage/weixin/modifyTemplateConfigs:
             modul: 微信微服务
             title: 根据id修改模板消息配置
             method: put
             permission: operate
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyTemplateConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyTemplateConfigs
             formatone:
                 - weixinModifyTemplateConfigReq.json
                 - weixinModifyTemplateConfigReq.txt
@@ -146,45 +146,45 @@ steam:
                 - weixinQueryMessageConfigsReq.txt
                 - weixinQueryMessageConfigsRsp.json
                 - weixinQueryMessageConfigsFmtRsp.json
-        /operation-manage/weixin/createMessageConfig:
+        /operation-manage/weixin/createMessageConfigs:
             modul: 微信微服务
             title: 创建消息配置
             method: post
             permission: operate
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMessageConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/createMessageConfigs
             formatone:
                 - weixinCreateMessageConfigReq.json
                 - weixinCreateMessageConfigReq.txt
                 - weixinCreateMessageConfigRsp.json
                 - weixinCreateMessageConfigFmtRsp.json
-        /operation-manage/weixin/deleteMessageConfig:
+        /operation-manage/weixin/deleteMessageConfigs:
             modul: 微信微服务
             title: 删除消息配置
             method: delete
             permission: operate
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMessageConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/deleteMessageConfigs
             formatone:
                 - weixinDeleteMessageConfigReq.json
                 - weixinDeleteMessageConfigReq.txt
                 - weixinDeleteMessageConfigRsp.json
                 - weixinDeleteMessageConfigFmtRsp.json
-        /operation-manage/weixin/queryMessageConfig:
+        /operation-manage/weixin/queryMessageConfigs:
             modul: 微信微服务
             title: 根据id查询消息配置
             permission: operate
             method: get
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/queryMessageConfigs
             formatone:
                 - weixinQueryMessageConfigReq.json
                 - weixinQueryMessageConfigReq.txt
                 - weixinQueryMessageConfigRsp.json
                 - weixinQueryMessageConfigFmtRsp.json
-        /operation-manage/weixin/modifyMessageConfig:
+        /operation-manage/weixin/modifyMessageConfigs:
             modul: 微信微服务
             title: 修改消息配置
             permission: operate
             method: put
-            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyMessageConfig
+            url: https://uat-steam-api.opg.cn/operation-manage/weixin/modifyMessageConfigs
             formatone:
                 - weixinModifyMessageConfigReq.json
                 - weixinModifyMessageConfigReq.txt
@@ -1069,10 +1069,10 @@ steam:
             method: post
             url: https://uat-steam-api.opg.cn/member-service/address
             formatone:
-                - AddressAddReq.json
-                - AddressAddReq.txt
-                - AddressAddRsp.json
-                - AddressAddFmtRsp.json
+                - member-serviceAddressReq.json
+                - member-serviceAddressReq.txt
+                - member-serviceAddressRsp.json
+                - member-serviceAddressFmtRsp.json
         /member-service/address-del:
             modul: 会员微服务
             title: 会员修改收货地址
