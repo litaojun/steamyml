@@ -1,21 +1,21 @@
 {
-    "lotteryTitle": "¶«·½Ã÷Öé2019Äê»á³é½±",
+    "lotteryTitle": "ä¸œæ–¹æ˜ç 2019å¹´ä¼šæŠ½å¥–",
     "lotteryType": "01001",
     "startTime": 1548149240000,
     "endTime": 1548926843000,
     "pointCosts": "99",
-    "describing": "1   ½±Æ·11¸ö\n2  ÈËÈËÓĞ·Ö\n3  ²âÊÔÊı¾İ",
+    "describing": "1   å¥–å“11ä¸ª\n2  äººäººæœ‰åˆ†\n3  æµ‹è¯•æ•°æ®",
     "baseVolume": "5",
     "prizeProbability": "100",
     "backgroundUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172709_514810.jpg",
     "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172711_227384.jpg",
     "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172714_775244.png",
-    "shareTitle": "Äê»á³é½±ÁË",
+    "shareTitle": "å¹´ä¼šæŠ½å¥–äº†",
     "shareIcon": "http://uat-steam.opg.cn/_static/admin/images/resource/20190122172716_790885.jpg",
-    "shareDescription": "¿ìÀ´",
+    "shareDescription": "å¿«æ¥",
     "prizeList": [{
         "resourceTypeId": 13,
-        "prizeTitle": "¿Î³Ì½±Æ·1",
+        "prizeTitle": "è¯¾ç¨‹å¥–å“1",
         "prizeIcon": null,
         "inventoryCount": 0,
         "skuId": 3214,
@@ -27,7 +27,7 @@
          "prizeWeight": "0.3"
     }, {
         "resourceTypeId": 11,
-        "prizeTitle": "Æ»¹û£¨½±Æ·£©",
+        "prizeTitle": "è‹¹æœï¼ˆå¥–å“ï¼‰",
         "prizeIcon": null,
         "inventoryCount": 56,
         "skuId": 2949,
@@ -39,13 +39,13 @@
        "prizeWeight": "0.3"
     }, {
         "resourceTypeId": 11,
-        "prizeTitle": "ÉÌÆ·½±Æ·£¨ÒÑ½ûÓÃ£©",
+        "prizeTitle": "å•†å“å¥–å“ï¼ˆå·²ç¦ç”¨ï¼‰",
         "prizeIcon": null,
         "inventoryCount": 1,
         "skuId": 3194,
         "skuList": [{
             "id": 3194,
-            "name": "skuÃû³Æ(0/15)",
+            "name": "skuåç§°(0/15)",
             "inventoryCount": 1
          }],
        "prizeWeight": "0.4"

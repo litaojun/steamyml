@@ -12,13 +12,44 @@ testcases:
     - tearDBdel_t_luck_draw_record
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 美式外教科学营---1
-      reqjsonfile: formatone
-      currentPage: 1
-      pageSize: 50
-      caseid: lottery_add_1
+    - caseid: activity_alert_1
       testPoint: 新增抽奖活动
-      assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
+      reqjsonfile: formatone
+      lotteryTitle: 美式外教科学营---1
+      lotteryType: '01001'
+      startTime: 1556467200000
+      endTime: 1557504000000
+      pointCosts: '22'
+      describing: "1.用户进入OM后台管理，运营位管理\n2.选择已售罄、已结束的商品和活动，新增到运营位"
+      baseVolume: '22'
+      prizeProbability: '100'
+      backgroundUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190429164007_391088.jpg
+      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190429164009_196843.jpg
+      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190429164014_219765.png
+      shareTitle: 五一抽奖活动测试-分享标题
+      shareIcon: http://uat-steam.opg.cn/_static/admin/images/resource/20190429164013_897706.jpg
+      shareDescription: 五一抽奖活动测试-分享描述
+      prizeList:
+      - resourceTypeId: 12
+        prizeTitle: 迪士尼抵扣券
+        prizeIcon:
+        inventoryCount: 0
+        skuId: 3476
+        skuList:
+        - id: 3476
+          name: 抵扣券100元
+          inventoryCount: 0
+        prizeWeight: '0.5'
+      - resourceTypeId: 11
+        prizeTitle: 奖品-智慧妈妈认真娃
+        prizeIcon:
+        inventoryCount: 1
+        skuId: 4064
+        skuList:
+        - id: 4064
+          name: 接纳幸福系列
+          inventoryCount: 1
+        prizeWeight: '0.5'
     expectedResult:
       code: '000000'
       compare:

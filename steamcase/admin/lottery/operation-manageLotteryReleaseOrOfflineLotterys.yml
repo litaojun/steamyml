@@ -7,7 +7,7 @@ testcases:
     - setupStateToStart
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 腊八节活动来了
+    - lotteryTitle: 腊八节活动来了
       reqjsonfile: formatone
       state: '2'
       startState: '0'
@@ -16,7 +16,7 @@ testcases:
       caseid: lottery_down_1
       testPoint: 下架抽奖活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
-    - lotyName: 腊八节活动来了
+    - lotteryTitle: 腊八节活动来了
       reqjsonfile: formatone
       state: '0'
       startState: '2'

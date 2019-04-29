@@ -1,32 +1,83 @@
 {
-     "resourceId":4785 ,	
-	"courseTitle": "JAVA开发高级入门篇-修改",
-	"content": "<p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>",
-	"cornerMask": null,
-	"merchantId": 15,
-	"baseStudiedCount": 12,
-	"originPrice": 0,
-	"price": 0,
-	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180102_661297.png",
-	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180109_503755.jpg",
-	"title": "java开发课程",
-	"description": "编程入门到实战",
-	"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180114_855402.png",
-	"tagIdList": [],
-	"entryIdList": [],
-	"resourceTypeId": null,
-	"offShelfTime": null,
-	"charge": 0,
-	"courseCategory": [{
-		"chapterName": "第一章",
-		"sections": [{
-			"supportTry": 1,
-			"sectionName": "第一小节",
-			"materialInfo": {
-				"materialTitle": "巴拿马（）",
-				"materialId": 14
-			}
-		}]
-	}],
-	"status": "W"
+   "resourceId": 4543,
+   "resourceTypeId": 13,
+   "courseTitle": "北师大小学一年级语文上册",
+   "content": "<p>来 源： 北京师范大学出版社 种 类： 精品课程</p><p><br></p>",
+   "cornerMask": "课程",
+   "merchantId": "87",
+   "merchantName": "上海道客网络科技有限公司",
+   "baseStudiedCount": null,
+   "baseScorePersonNum": 0,
+   "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012145740_499872.jpg",
+   "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012145746_126046.jpg",
+   "offShelfTime": null,
+   "charge": 0,
+   "price": 0,
+   "originPrice": 0,
+   "title": "北师大小学一年级语文上册",
+   "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181012145834_102450.jpg",
+   "description": "北京师范大学出版社   精品课程 ",
+   "tagIdList": [
+      25,
+      32
+   ],
+   "tagList": [
+      {
+         "tagId": 25,
+         "tagName": "test标签"
+      },
+      {
+         "tagId": 32,
+         "tagName": "课程"
+      }
+   ],
+   "entryIdList": [
+      72
+   ],
+   "entryList": [
+      {
+         "entryId": 72,
+         "entryName": "实验室"
+      }
+   ],
+   "courseCategory": [
+      {
+         "chapterId": 1886,
+         "chapterName": "01 上学了",
+         "sections": [
+            {
+               "sectionId": 5225,
+               "sectionName": "01 上学了",
+               "supportTry": 1,
+               "materialInfo": {
+                  "id": 21,
+                  "materialId": 21,
+                  "materialType": null,
+                  "entryIdList": null,
+                  "merchantId": null,
+                  "materialTitle": "素材s",
+                  "materialUrl": null,
+                  "materialName": "时间都去哪了.mp4",
+                  "materialTime": null,
+                  "materialSize": null,
+                  "coverUrl": null,
+                  "useNum": null,
+                  "createGmt": null,
+                  "modifyGmt": null,
+                  "status": null,
+                  "auditReason": null
+               }
+            }
+         ]
+      }
+   ],
+   "status": "AW",
+   "skuId": 2449,
+   "supportRefund": false,
+   "accountDivisionRule": {
+      "commissionRate": 0,
+      "opgDivisionRate": 0
+   },
+   "prize": false,
+   "auditReason": null
 }

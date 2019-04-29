@@ -682,7 +682,7 @@ steam:
                 - featuredCreateConfigFmtRsp.json
         /operation-manage/featured/searchResource:
             modul: 推荐位CMS
-            title: 根据资源类型搜索已发布资源
+            title: 新增运营位内容，根据名称和资源类型，查询已发布资源
             method: get
             permission: operate
             url: https://uat-steam-api.opg.cn/operation-manage/featured/searchResource

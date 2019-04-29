@@ -10,7 +10,7 @@
       resourceTypeId: 2
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: search_resource_1
       testPoint: 根据资源类型搜索已发布文章
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
@@ -29,7 +29,7 @@
       resourceTypeId: 1
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: search_resource_2
       testPoint: 根据资源类型搜索已发布视频
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
@@ -48,7 +48,7 @@
       resourceTypeId: 11
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: search_resource_3
       testPoint: 根据资源类型搜索已发布商品
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
@@ -67,7 +67,7 @@
       resourceTypeId: 12
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: search_resource_4
       testPoint: 根据资源类型搜索已发布活动
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
@@ -86,7 +86,7 @@
       resourceTypeId: 13
       subTitle: 美式外教科学营-活动副标题
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: search_resource_5
       testPoint: 根据资源类型搜索已发布课程
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:

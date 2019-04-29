@@ -1,31 +1,44 @@
 {
-	"courseTitle": "post新增课程",
-	"content": "<p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>",
-	"cornerMask": null,
-	"merchantId": 15,
-	"baseStudiedCount": 12,
-	"originPrice": 0,
-	"price": 0,
-	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180102_661297.png",
-	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180109_503755.jpg",
-	"title": "java开发课程",
-	"description": "编程入门到实战",
-	"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181018180114_855402.png",
-	"tagIdList": [],
-	"entryIdList": [],
-	"resourceTypeId": null,
-	"offShelfTime": null,
-	"charge": 0,
-	"courseCategory": [{
-		"chapterName": "1232",
-		"sections": [{
-			"supportTry": 1,
-			"sectionName": "32312",
-			"materialInfo": {
-				"materialTitle": "巴拿马（）",
-				"materialId": 14
-			}
-		}]
-	}],
-	"status": "W"
+   "courseTitle": "测试删除",
+   "content": "<p>fffffffffffffffffffff<img class=\"wscnph\" src=\"http://uat-steam.opg.cn/_static/admin/images/resource/20190429113236_703686.jpg\" data-mce-src=\"../_static/admin/images/resource/20190429113236_703686.jpg\"></p>",
+   "cornerMask": "课程",
+   "originPrice": 222,
+   "price": 11,
+   "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190429113215_447071.png",
+   "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20190429113214_621982.jpg",
+   "title": "测试删除",
+   "description": "ff测试删除",
+   "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190429113244_398021.jpg",
+   "tagIdList": [
+      5
+   ],
+   "entryIdList": [
+      76
+   ],
+   "resourceTypeId": 5,
+   "offShelfTime": null,
+   "charge": 1,
+   "courseCategory": [
+      {
+         "chapterName": "ffff",
+         "sections": [
+            {
+               "supportTry": 0,
+               "sectionName": "fffs",
+               "materialInfo": {
+                  "materialTitle": "OMSCLUB是一家成立于2012年的成人英语口语俱乐部",
+                  "materialId": 323
+               }
+            }
+         ]
+      }
+   ],
+   "supportRefund": false,
+   "accountDivisionRule": {
+      "commissionRate": "11"
+   },
+   "prize": false,
+   "status": "AW",
+   "merchantId": null,
+   "baseStudiedCount": 0
 }

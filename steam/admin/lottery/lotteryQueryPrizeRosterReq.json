@@ -1,3 +1,5 @@
 {
-   "resourceId": "7067"
- ,"":1,"pageSize":10 }
+   "resourceId": "7067",
+   "currentPage": 1,
+   "pageSize": 10
+}
