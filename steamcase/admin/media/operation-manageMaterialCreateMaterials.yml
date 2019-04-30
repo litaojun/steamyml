@@ -7,12 +7,19 @@ testcases:
     - tearDownRemoveMeterial
     operationSteps: compareRetcodeTest
     testData:
-    -  materialType: 2,
-       entryIdList: [72]
-       merchantId: "53"
-       materialTitle: 发的发
-       caseid: add_material
-       testPoint: 新增素材
+    - caseid: material_create_1
+      testPoint: 新增素材
+      reqjsonfile: formatone
+      materialType: 2
+      entryIdList:
+      - 72
+      merchantId: '53'
+      materialTitle: 发的发
+      materialUrl: d3ffc509ea114a82b13141183f0331ac
+      materialName: 1.mp4
+      materialTime: 9500
+      materialSize: 1566
+      coverUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20181019140036_520261.jpg
     expectedResult:
       code: '000000'
       compare:

@@ -15,7 +15,6 @@ testcases:
       title: java开发课程
       description: 编程入门到实战
       materialTitle: 巴拿马（）
-      materialId: 14
     expectedResult:
       code: '000000'
       compare:

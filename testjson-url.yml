@@ -1441,10 +1441,10 @@ steam:
             method: get
             url: https://uat-steam-api.opg.cn/featured/index/configs/pageQueryPositionShows
             formatone:
-                - indexConfigsPageQueryPositionShowsReq.json
-                - indexConfigsPageQueryPositionShowsReq.txt
-                - indexConfigsPageQueryPositionShowsRsp.json
-                - ndexConfigsPageQueryPositionShowsFmtRsp.json
+                - configsPageQueryPositionShowsReq.json
+                - configsPageQueryPositionShowsReq.txt
+                - configsPageQueryPositionShowsRsp.json
+                - configsPageQueryPositionShowsFmtRsp.json
       lottery: 
         /steam-lottery/lottery/detail: 
             modul: 用户抽奖

@@ -6,7 +6,7 @@ testcases:
     - setupGetResourceIdByLotyTitle
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 东方明珠2019年会抽奖
+    - lotteryTitle: 东方明珠2019年会抽奖
       reqjsonfile: formatone
       currentPage: 1
       pageSize: 50
