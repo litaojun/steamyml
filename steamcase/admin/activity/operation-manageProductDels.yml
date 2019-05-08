@@ -1,7 +1,7 @@
 testcases:
-- interfaceName: /operation-manage/course/audit
+- interfaceName: /operation-manage/product/del
   case:
-  - testPoint: 审核课程
+  - testPoint: 删除活动商品
     preConditions:
     - ''
     operationSteps: compareRetcodeTest

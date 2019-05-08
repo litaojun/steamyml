@@ -5,6 +5,7 @@ testcases:
     preConditions:
     - setupAddCourse
     - setupGetFrsIdFromQryRst
+    - setupGetAuditCourse
     - tearDownRemoveCourse
     operationSteps: compareRetcodeTest
     testData:

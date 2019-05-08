@@ -512,9 +512,9 @@ steam:
                 - courseUnpublishCourseReq.txt
                 - courseUnpublishCourseRsp.json
                 - courseUnpublishCourseFmtRsp.json
-        /operation-manage/course/modifyCourse:
+        /operation-manage/course/modifyCourse---del:
             modul: 课程管理
-            title: 修改课程
+            title: 修改课程--删除该接口
             method: post
             permission: merchants
             fileEnd: courseTitle
@@ -825,6 +825,18 @@ steam:
                 - goodsUpdateReq.txt
                 - goodsUpdateRsp.json
                 - goodsUpdateFmtRsp.json
+        /operation-manage/product/del:
+            modul: 活动管理
+            title: 删除活动商品
+            method: post
+            permission: merchants
+            fileEnd: title
+            url: https://uat-steam-api.opg.cn/operation-manage/product/del
+            formatone:
+                - productDelReq.json
+                - productDelReq.txt
+                - productDelRsp.json
+                - productDelFmtRsp.json
       article: 
         /operation-manage/media/addMedia: 
             modul: 内容管理
