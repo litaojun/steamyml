@@ -10,7 +10,7 @@ testcases:
     - setupGetTicketNo
     operationSteps: compareRetcodeTest
     testData:
-    - lotyName: 百视通抽奖大派送
+    - lotteryTitle: 百视通抽奖大派送
       phoneNo: '18916899938'
       currentPage: 1
       pageSize: 50
