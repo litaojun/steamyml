@@ -7,7 +7,6 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - title: 高校寒假时长为何相差近20天？
-      status: D
       resourceTypeId: 2
       reqjsonfile: formatone
       caseid: activity_alert_1
@@ -26,7 +25,6 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - title: 让MakeX成为青少年释放自我的舞台
-      status: A
       resourceTypeId: 1
       reqjsonfile: formatone
       caseid: activity_alert_1
