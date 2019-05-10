@@ -1,37 +1,111 @@
 {
-	"resourceId": null,
-	"title": "test",
-	"subTitle": "商品副标题",
-	"deliverType": 0,
-	"vendorIdList": [18],
-	"resourceTypeId": 11,
-	"baseVisits": 10000,
-	"content": "<p>商品详情</p>",
-	"shareInfoList": [{
-		"id": null,
-		"shareType": 1,
-		"title": "分享标题",
-		"description": "分享描述",
-		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174347_923050.jpg"
-	}],
-	"thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174314_395938.jpg",
-	"bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174317_419419.jpg",
-	"imageList": [{
-		"picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180822174320_335164.jpg",
-		"order": 1
-	}],
-	"cornerMask": "1111",
-	"entryIdList": [],
-	"tagIdList": [],
-	"skuList": [{
-		"skuName": "sku名称",
-		"order": 1,
-		"skuId": null,
-		"price": "2",
-		"originPrice": "3",
-		"inventory": "4",
-		"limitCount": "5",
-		"postPrice": 0.01
-	}],
-	"status": "W"
+   "resourceTypeId": 12,
+   "title": "早鸟价接口自动化-勿动",
+   "subTitle": "66亲子旅行",
+   "cornerMask": "呼伦贝尔",
+   "baseVisits": 5703,
+   "vendorIdList": [
+      105
+   ],
+   "vendorList": [
+      {
+         "vendorId": 105,
+         "vendorName": "中国建筑集团"
+      }
+   ],
+   "content": "<!DOCTYPE html><html><head></head><body><p><font size=\"3\">至今我们已经带着<font style=\"background-color: rgb(255, 255, 255);\" data-mce-style=\"background-color: #ffffff;\" color=\"#FF0000\"><b>1500多位</b></font>宝贝来呼伦贝尔看过美丽的大草原~</font></p><p><font size=\"3\"><img class=\"wscnph\" src=\"http://uat-steam.opg.cn/_static/admin/images/resource/20180521162906_528419.jpg\" data-mce-src=\"../_static/admin/images/resource/20180521162906_528419.jpg\"></font></p><p><font size=\"3\">2018我们的夏令营重磅升级，再次归来！</font><font size=\"3\">我们要带你去的是平常游人很难去到的地方，那里充满原生态，是人间仙境是一方净土；</font></p><p><br></p><p><font size=\"3\">我们不光是欣赏美景，拍拍照发朋友圈，更多是让孩子们动手体验、感受当地的民风民俗，增加孩子的阅历，加强团队合作，在活动中认识更好的小朋友们；</font></p><p><br></p><p><font size=\"3\">我们的心愿是：</font><font size=\"3\">让您的呼伦贝尔环北线之旅见到绝美的草原，原始的森林，超全的亲子体验项目，有一个美好的回忆，让您的亲子旅行物超所值......</font></p><p><br></p><p><font size=\"3\"><b><font color=\"#FF0000\">行程安排&nbsp;</font></b>&nbsp;</font></p><p><font size=\"3\" color=\"#000000\">【第一天】</font></p><p><font size=\"2\">前往呼伦贝尔东山机场，我们会安排车辆到机场接送，也可以自行打车入住酒店(找领队报销)</font></p><p><font size=\"2\">晚上自由逛夜市，夜市的羊肉小串是当地一道亮丽的风景，呼伦贝尔的羊肉非常的好吃，所以在海拉尔品尝下涮羊肉、羊肉串、烤羊腿都是不错的选择。</font></p><p><font size=\"2\">有时间还可以在海拉尔桥上吹着伊敏河的夏风看看夜景，也是非常爽的一件事。</font></p><p><font size=\"2\">住：海拉尔高档酒店</font></p><p><br></p><p><font color=\"#000000\" size=\"3\">【第二天】&nbsp;“赛白努”草原礼仪，草原任你耍，做一回蒙古人</font></p><p><font size=\"2\">餐：早中晚餐</font></p><p><font size=\"2\">住：诺敏塔拉蒙古包&nbsp;，全天路程168公里</font></p><p><font size=\"2\">07：00－07：30 &nbsp;叫早、洗簌、整理</font></p><p><font size=\"2\">为了节省大家的时间，大家在吃早餐的时候领队会办理统一退房。大家去吃饭的时候需要整理行李带出来哦，带队老师会统一收房卡办理退房</font></p><p><font size=\"2\">07：30－08：00&nbsp; &nbsp;早餐</font></p><p><font size=\"2\">08：00－09：00 &nbsp;&nbsp;前往私家牧场，学习蒙古礼仪</font></p><p><font size=\"2\">出发前往私家牧场，一路上都是成群的牛、羊.&nbsp;车上我们的领队老师会布置活动任务，学习蒙古族的礼仪，抵达后接受“蒙古族草原下马酒”礼仪迎宾。路上有一个小时车程，我们在车上认识下彼此。进入没有公路的草原就进入了牧场，全部自然路，我们可以下车徒步穿越草原。</font></p><p><font size=\"2\">10：00－11：30 &nbsp;祭敖包、辨识中草药、植物标本DIY</font></p><p><font size=\"2\">一起去祭祀神圣的草原敖包，把小小的愿望留在草原上；</font></p><p><font size=\"2\">一起认识大草原上的中草药、摘下自己喜欢的植物制作成植物标本.</font></p><p><font size=\"2\">路上我们会偶遇出来溜达的牛群和羊群，悠闲的在草原上吃着草，孩子们在路个可以捡些烧火做饭用的牛粪</font></p><p><font size=\"2\">11：30 &nbsp; 准备午餐&nbsp;</font></p><p><font size=\"2\">牧场的叔叔和阿姨们杀羊、制作手扒肉、血肠、一切都是原生态的煮手扒肉，孩子们还可以亲手穿制羊肉串，烤制新鲜美味的肉串，那是一个鲜、美、绝！</font></p><p><font size=\"2\">12：30－13：30 &nbsp; 草原蒙古包午餐</font></p><p><font size=\"2\">13：30－14：00 &nbsp;&nbsp;私家牧场开营仪式&nbsp;</font></p><p><font size=\"2\">打破陌生、自我展示、学会沟通</font></p><p><font size=\"2\">1、孩子们穿上蒙古袍</font></p><p><font size=\"2\">2、领队选派一人组织活动，致开营词</font></p><p><font size=\"2\">3、亲子活动代表讲话，合影留念</font></p><p><font size=\"2\">14：20－15：30&nbsp;射箭、采野花、做植物标本</font></p><p><font size=\"2\">采摘野花，编制花蓝，草原射箭亲子竞技活动（分组），在领队老师带领下认识中草药材，采集植物标本，制作美丽的图画</font></p><p><font size=\"2\">15：30左右下山去挤牛奶、熬奶茶</font></p><p><font size=\"2\">孩子们学习挤牛奶，亲自动手熬制新鲜的牛奶，给爸爸、妈妈端上一碗自已的劳动成果，心里一定美美哒</font></p><p><font size=\"2\">16：30－18：30 &nbsp;前往额尔古纳&nbsp;路程需2小时</font></p><p><font size=\"2\">18：30 &nbsp;前往田园风格的蒙古包内品尝农家菜</font></p><p><font size=\"2\">20：00 &nbsp;入住蒙古包&nbsp;</font></p><p><font size=\"2\">入住纯正的蒙古包，有时间的话，还可以用纸和笔记录下今天的所见所闻。</font></p><p><br></p><p><font color=\"#000000\" size=\"3\">【第三天】&nbsp;喂萌萌的驯鹿，探访敖鲁古雅使鹿部落</font></p><p><font size=\"2\">餐：早中晚餐</font></p><p><font size=\"2\">住：莫尔道嘎</font></p><p><font size=\"2\">7：00 &nbsp;叫早、洗簌、整理</font></p><p><font size=\"2\">7：30 &nbsp;酒店内早餐</font></p><p><font size=\"2\">8：00 -09:00 前往油菜花田</font></p><p><font size=\"2\">出发前往根河，这是一条新修的公路，路两旁是当地最富裕的农业生产队，两旁的麦田和油菜花地一望无际</font></p><p><font size=\"2\">9：00－10：30 &nbsp;让我们徒步探秘一半小时</font></p><p><font size=\"2\">穿行于麦田和油菜花地之间，尽情享受大自然的神奇</font></p><p><font size=\"2\">10：30－12：00 &nbsp;继续前往根河</font></p><p><font size=\"2\">12：00－13：00 &nbsp;根河午餐</font></p><p><font size=\"2\">&nbsp;13：00- 15：00 &nbsp;探访敖鲁古雅使鹿部落&nbsp;</font></p><p><font size=\"2\">&nbsp;我们乘车去探访敖鲁古雅使鹿部落，去喂那萌萌的驯鹿、兔子。去森林里了解敖鲁古雅的鄂温克族猎民的生产、生活方式（吃兽肉、穿兽皮，住的是冬不防寒、夏不避雨的“撮罗子”——一种用桦树皮搭成的尖顶帐蓬）。</font></p><p><font size=\"2\">感受一下从原始社会过渡到社会主义社会</font></p><p><font size=\"2\">品尝当地的特色中草药——茯灵茶，在森林的吊床上尽情的享受森林的清香和人与鹿共存的宁静。</font></p><p><font size=\"2\">15：00－18：00 &nbsp;前往莫尔道嘎镇</font></p><p><font size=\"2\">莫尔道嘎镇是当地一个林区小小镇，路上需要2小时，被山森环抱，空气非常的好，非常适合晨练，当地的居民也多为林业工人，民风淳朴，当地的治安也非常的好</font></p><p><font size=\"2\">18：00－19：00 &nbsp; 莫尔道嘎镇晚餐</font></p><p><font size=\"2\">莫尔道嘎这个地名译为“上马出征”一代天骄成吉思汗，成吉思汗曾经在这里出征过。</font></p><p><font size=\"2\">19：00 入住当地酒店，之后开展一场小型亲子趣味运动会</font></p><p><font size=\"2\">饭后让我们来一场激烈的比拼吧，胜利的伙伴们是会有礼物的..</font></p><p><font size=\"2\">20：30&nbsp; &nbsp; 莫尔道嘎晚安&nbsp;</font></p><p><br></p><p><font size=\"3\" color=\"#000000\">【第四天】</font><font size=\"2\"><font size=\"3\" color=\"#000000\">森林奇遇记，探访“苍狼白鹿”的传说</font>&nbsp;</font></p><p><font size=\"2\">餐：早中晚餐</font></p><p><font size=\"2\">住：白鹿岛环岛酒店</font></p><p><font size=\"2\">7：00 &nbsp;叫早、洗簌、整理&nbsp;</font></p><p><font size=\"2\">7：30 &nbsp;酒店内早餐</font></p><p><font size=\"2\">8：00－10：00&nbsp;苍狼、白鹿岛</font></p><p><font size=\"2\">早餐后经森林外环前往被称为世外桃源的白鹿岛，路程需要2小时。</font></p><p><font size=\"2\">这里有着苍狼、白鹿的传说，&nbsp;途中茂密的原始森林、美丽的激流河，各种形态的樟子松，让我们领队老师给大家讲那森林和苍狼、白鹿的故事吧</font></p><p><font size=\"2\">10：00－11：30 &nbsp;&nbsp;森林奇遇记</font></p><p><font size=\"2\">在当地向导的引导下，徒步穿越原始森林，探密森林植物，让我们开启一堂自然科学。</font></p><p><font size=\"2\">11：30－12：30 &nbsp;白鹿岛午餐</font></p><p><font size=\"2\">12：00- &nbsp;14：30 &nbsp;午休</font></p><p><font size=\"2\">14：30－16：30&nbsp;白鹿岛漂流&nbsp;</font></p><p><font size=\"2\">到达白鹿岛后参加原始森林“激流河”漂流亲子竞技比赛，最先到达终点的团队会有奖励哦，全程5.2公里（1.5小时）</font></p><p><font size=\"2\">16：30－18：00 &nbsp;激流河旁森林野炊</font></p><p><font size=\"2\">孩子们一起动手洗菜&nbsp;、洗碗、搭灶炕、劈柴生火，做二道当地的特色林区炖菜，在如同仙境的激流河旁，开启我们的晚餐，一生都是难忘的回忆</font></p><p><font size=\"2\">18：00－19：00 &nbsp;自由活动</font></p><p><font size=\"2\">19：00－21：00 &nbsp;森林篝火、烟花晚会</font></p><p><font size=\"2\">森林篝火，森林燃放烟花等着大家哦~孩子可以进行才艺表演，让我们在森林中狂欢吧，好好庆祝下我们的收获，共度一个美丽的夜晚</font></p><p><br></p><p><font size=\"3\" color=\"#000000\">【第五天】&nbsp;走进恩和俄罗斯民族乡，跟着俄罗斯老妈妈学习制作列巴</font></p><p><font size=\"2\">餐：早中晚餐</font></p><p><font size=\"2\">住：木刻楞</font></p><p><font size=\"2\">7：30 &nbsp; 叫早、洗簌、整理</font></p><p><font size=\"2\">08：00－08：30 &nbsp; 酒店内早餐</font></p><p><font size=\"2\">08：30 - 11：30 前往室韦</font></p><p><font size=\"2\">11：30 - 12：30 室韦午餐</font></p><p><font size=\"2\">中午我们的午餐是地道的家常菜，就是木刻楞家庭用餐，昨天的日程太辛苦了，下午我们好好的休整一下体力，准备接待下面的旅程哦</font></p><p><font size=\"2\">12：30 - 13：30 &nbsp;恩和俄罗斯民族乡</font></p><p><font size=\"2\">恩和是中俄边线上哈乌尔河旁的一个俄罗斯小村庄，这里是唯一块没有被大量开发的世外桃源。</font></p><p><font size=\"2\">这里一半的人都有俄罗斯血统，蓝眼睛黄皮肤的华俄后裔仍保留着俄罗斯文化和生活习俗，每个人家都住着木刻楞，院子里都有那美丽的格桑花</font></p><p><font size=\"2\">13：00－15：00 &nbsp; 趣味分房、休整</font></p><p><font size=\"2\">俄罗斯的木刻楞是最具有特色的建筑结构，我们会在每个房间准备具有特色的小礼物，我们会通过趣味的小游戏分房，优胜者可以优先选房哦</font></p><p><font size=\"2\">15：00－16：00 &nbsp; 亲子骑行游览俄罗斯小镇</font></p><p><font size=\"2\">让我们一起骑着自行车参观这个魅力小镇吧，不只骑行参观哦，我们还有任务等待着大家</font></p><p><font size=\"2\">16：00－17：00 &nbsp; 制作俄罗斯大列巴</font></p><p><font size=\"2\">俄罗斯烤列巴的技术一代一代流传至今，声声不息，只有那土制的炉子才能烤制出喷香的大列巴。</font></p><p><font size=\"2\">今天我们会给大家准备一些材料和道具，由当地列巴师傅给我们讲解和示范后，孩子们就自已动手来完成一个个造型各异的小面点了。大人是不许帮忙的哦，最后是要考核的，造型最美的那个是有奖品的哦！</font></p><p><font size=\"2\">17：00－18：00&nbsp;俄式手风琴烛光晚宴</font></p><p><font size=\"2\">中西合壁的俄式大餐，尽情享受木刻楞里俄罗斯女主人的热情，孩子们可以在这里欢歌跳舞&nbsp;</font></p><p><br></p><p><font size=\"3\" color=\"#000000\">【第六天】</font><font size=\"2\"><font size=\"3\" color=\"#000000\">策马扬鞭在草原 异国风情满洲里</font>&nbsp;</font></p><p><font size=\"2\">餐：早中餐、晚餐自理</font></p><p><font size=\"2\">住：满洲里</font></p><p><font size=\"2\">6：30 &nbsp;叫早、洗簌、整理</font></p><p><font size=\"2\">7：00－7：30 &nbsp;酒店内早餐</font></p><p><font size=\"2\">07：30－11：30 &nbsp; 前往黑山头镇+马场骑马</font></p><p><font size=\"2\">我们沿着边防公路一路前往满洲里，途经黑山头镇，这里有成片的草原和专业的骑马设备，我们大小朋友穿上装备畅游草原一个小时，感受一下马背民族，骑马驰骋草原的快感</font></p><p><font size=\"2\">11：30－12：30 &nbsp;黑山头午餐</font></p><p><font size=\"2\">12：30－16：00 &nbsp;前往满洲里国门</font></p><p><font size=\"2\">满洲里国门为国家4A级景区，景区内主要包括第五代国门、仿制的一至四代国门、41号界碑、和平之门广场的主体雕塑和浮雕、绝色国际秘密交通线遗址、红色展厅。</font></p><p><font size=\"2\">国门对面是俄罗斯后贝尔加尔斯克区的建筑、街道、行人等异国风情尽收眼底。国门对面不远处是俄罗斯的国门和界碑和俄方嘹望台</font></p><p><font size=\"2\">16：00 -17：30 &nbsp;参观满洲里国门</font></p><p><font size=\"2\">17:30 &nbsp;入住酒店</font></p><p><font size=\"2\">抵达办理入住后自由活动，休整、逛街、看看城市夜景，晚上我们就不安排晚餐了，可以依照我们个人喜好自由安排哦。</font></p><p><font size=\"2\">推荐在满洲里吃个正宗“卢布里”西餐,当地人都很喜欢的俄式餐厅；大家还可以去套娃广场逛逛哦</font></p><p><br></p><p><font size=\"3\" color=\"#000000\">【第七天】&nbsp;我们回家了</font></p><p><font size=\"2\">餐：早中餐</font></p><p><font size=\"2\">7:30－08:30 酒店洗漱、早餐、退房</font></p><p><font size=\"2\">08:30 &nbsp;猛犸象公园</font></p><p><font size=\"2\">猛犸公园位于内蒙古呼伦贝尔市扎赉诺尔新区、301国道扎赉诺尔至满洲里7公里处以北。与中国最大陆路口岸满洲里相邻。</font></p><p><font size=\"2\">猛犸公园以扎赉诺尔\"猛犸故乡\"文化为主题，2013年被授予国家AAAA级景区，2013年荣获上海大世界基尼斯总部\"规模最大的猛犸雕塑群\"</font></p><p><font size=\"2\">09:30 前往达永山滑雪场</font></p><p><font size=\"2\">炎炎夏日，在北国的边境我们去体验一小时滑雪。</font></p><p><font size=\"2\">11:00-13:00 送行宴</font></p><p><font size=\"2\">行程中最后一顿午餐，宴会结束后我们会送大家到海拉尔机场。</font></p><p><font size=\"2\">13:00-15:30 送机、散团</font></p><p><font size=\"2\">将大家送往海拉尔机场，愉快的旅程结束</font></p><p><br></p><p><br></p><p><font size=\"3\">活动时间：7天6晚</font></p><p><font size=\"3\">6月28日—7月04日</font></p><p><font size=\"3\">7月03日—7月09日</font></p><p><font size=\"3\">7月10日—7月16日</font></p><p><font size=\"3\">7月17日—7月23日</font></p><p><font size=\"3\">7月24日—7月30日</font></p><p><font size=\"3\">8月01日—8月07日</font></p><p><font size=\"3\">8月07日—8月13日</font></p><p><font size=\"3\">8月14日—8月20日</font></p><p><font size=\"3\">8月16日—8月22日</font></p><p><font size=\"3\">8月21日—8月27日</font></p><p><br></p><p><font size=\"3\">活动地点：呼伦贝尔</font></p><p><font size=\"3\">集合地点：海拉尔东山机场66亲子旅行大旗处</font></p><p><font size=\"3\">参与对象：适合4-16岁亲子家庭，20-40人，活动前7天截止报名（注：返程机票定在15:00后）</font></p><p><br></p><p><b><font size=\"3\" color=\"#FF0000\">费用说明&nbsp;</font></b></p><p><font size=\"3\" color=\"#FF0000\">活动费用：4980元／人， 儿童不占床4080元／人&nbsp;</font></p><p><br></p><p><font size=\"3\" color=\"#FF0000\"><strong>早鸟优惠：</strong></font></p><p><font size=\"3\" color=\"#FF0000\">3月31日前报名，立减200元/人</font></p><p><br></p><p><font size=\"2\">费用包括：</font></p><p><font size=\"2\">1、餐食：</font></p><p><font size=\"2\">行程第二天至最后一天午餐（第六天晚餐自理），共6次早餐，6次午餐，4次晚餐，其中特色民族风味餐3顿：俄式风味、杀羊煮手扒肉、森林野炊，餐标为45元/人/顿；每天配有一次餐后水果，都是当在民间餐厅；</font></p><p><font size=\"2\">2、&nbsp;住宿：</font></p><p><font size=\"2\">全程6晚住宿，保证清洁、卫生、舒适、安全,&nbsp;</font></p><p><font size=\"2\">海拉尔高档酒店1晚，诺敏塔拉纯正蒙古包1晚，莫尔道嘎1晚，白鹿岛森林环绕的岛上酒店1晚，俄罗斯风情木刻楞1晚，满洲里高档酒店1晚；</font></p><p><font size=\"2\">3、具有资质的旅游大巴，根据每团人数选择33坐/45座/54座大巴，有专门的行李箱；</font></p><p><font size=\"2\">4、领队或导游全程服务、安全员在野外全程服务（露营用品、防蚊帽、常用医药用品等专业设备）；</font></p><p><font size=\"2\">5、行程中所列景点的门票</font></p><p><font size=\"2\">6、“下马酒”草原迎宾礼及各类特色体验（下马酒、祭敖包、射箭、植物标本、穿蒙古袍、挤牛奶、自助烧烤、制作俄罗斯列包、篝火、焰火晚会、漂流、趣味运动会、亲子骑行游览、森林探密、骑马1小时、滑雪一小时费用等）；</font></p><p><font size=\"2\">7、全程旅行社责任险、旅游意外伤害险，保额30万；</font></p><p><font size=\"2\">8、赠送1份少数民族纪念品、每天二瓶水、一次性雨衣。</font></p><p><br></p><p><font size=\"2\"><img src=\"../_static/admin/images/resource/20180524182116_509216.png\" data-mce-src=\"../_static/admin/images/resource/20180524182116_509216.png\"></font></p></body></html>",
+   "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180523113427_419296.jpg",
+   "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180523113458_334476.jpg",
+   "deliverType": 1,
+   "shareInfoList": [
+      {
+         "id": 3090,
+         "shareType": 1,
+         "title": "早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇ff",
+         "description": "早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇\t\t\t\t\t\n早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇\t\t\t\t\t\n",
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20180523113515_891339.jpg"
+      }
+   ],
+   "province": "内蒙古自治区",
+   "city": "呼伦贝尔市",
+   "addressDetail": "海拉尔区 额尔古纳市 莫尔道嘎镇 白鹿岛 恩和俄罗斯民族乡 满洲里市\t\t\t\t\t",
+   "startTime": 1526890223000,
+   "endTime": 1556784624000,
+   "offShelfTime": 1557417600000,
+   "tagIdList": [
+      2
+   ],
+   "tagList": [],
+   "entryIdList": [
+      7,
+      76
+   ],
+   "entryList": [
+      {
+         "entryId": 7,
+         "entryName": "优选"
+      },
+      {
+         "entryId": 76,
+         "entryName": "游学"
+      }
+   ],
+   "skuList": [
+      {
+         "skuId": 458,
+         "skuName": "价格（成人）",
+         "price": 4980,
+         "originPrice": null,
+         "postPrice": 0,
+         "limitCount": 233,
+         "inventory": 852,
+         "order": 1,
+         "validPeriod": 1560009540000
+      },
+      {
+         "skuId": 459,
+         "skuName": "价格（儿童）",
+         "price": 3980,
+         "originPrice": null,
+         "postPrice": 0,
+         "limitCount": 233,
+         "inventory": 1000,
+         "order": 2,
+         "validPeriod": 1560009540000
+      }
+   ],
+   "imageList": [
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152843_592335.jpg",
+         "order": 1
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152845_577722.jpg",
+         "order": 2
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152848_322128.jpg",
+         "order": 3
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152850_89025.jpg",
+         "order": 6
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152852_976031.jpg",
+         "order": 5
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510152855_979422.jpg",
+         "order": 4
+      }
+   ],
+   "supportRefund": false,
+   "accountDivisionRule": {
+      "commissionRate": 2.34,
+      "opgDivisionRate": 2
+   },
+   "prize": false,
+   "status": "AW",
+   "auditReason": null
 }

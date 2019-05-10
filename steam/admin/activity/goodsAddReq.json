@@ -1,0 +1,104 @@
+{
+   "resourceTypeId": 11,
+   "title": "创客教育儿童早教学习接口自动化-商品-勿动",
+   "subTitle": "makeblock Ultimat创客教育儿童早教学习 ",
+   "cornerMask": "机器人",
+   "baseVisits": 0,
+   "vendorIdList": [
+      105
+   ],
+   "vendorList": [
+      {
+         "vendorId": 105,
+         "vendorName": "中国建筑集团"
+      }
+   ],
+   "content": "<p><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">作为一款高级可编程机器人套件，Ultimate 2.0拥有的机械零件和电子模块总数超过</span><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">160个，可搭建出至少10种创意形态。搭配积木式编程软件mBlock 3，使编程不再有门</span><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">槛。 Ultimate 2.0还兼容DIY平台、Arduino和树莓派，具有强大的创造和扩展属性，不管</span><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">是学生、老师、创客还是工程师，都能用它实现有趣实用的项目开发，尽享让脑洞变为现</span><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">实的创造乐趣！</span></p><table width=\"460\" class=\"mce-item-table\"><tbody><tr><td colspan=\"4\" width=\"460\"><p><img class=\"wscnph\" src=\"http://uat-steam.opg.cn/_static/admin/images/resource/20180502110433_686074.jpg\" data-mce-src=\"../_static/admin/images/resource/20180502110433_686074.jpg\"></p></td></tr></tbody></table>",
+   "thumbUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180502110352_637515.jpg",
+   "bannerUrl": "http://uat-steam.opg.cn/_static/admin/images/resource/20180502110400_690919.jpg",
+   "deliverType": 0,
+   "shareInfoList": [
+      {
+         "id": 1,
+         "shareType": 1,
+         "title": "发发发",
+         "description": "发发发",
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20181010134441_821121.jpg"
+      }
+   ],
+   "province": null,
+   "city": null,
+   "addressDetail": null,
+   "startTime": null,
+   "endTime": null,
+   "offShelfTime": null,
+   "tagIdList": [
+      5
+   ],
+   "tagList": [],
+   "entryIdList": [
+      67
+   ],
+   "entryList": [
+      {
+         "entryId": 67,
+         "entryName": "小码童"
+      }
+   ],
+   "skuList": [
+      {
+         "skuId": 16,
+         "skuName": "红色创客教育儿童早教学习",
+         "price": 2299,
+         "originPrice": 2299,
+         "postPrice": 0,
+         "limitCount": 55,
+         "inventory": 240,
+         "order": 1,
+         "validPeriod": null
+      },
+      {
+         "skuId": 2126,
+         "skuName": "体验课",
+         "price": 0.01,
+         "originPrice": 333,
+         "postPrice": 0,
+         "limitCount": 255,
+         "inventory": 229,
+         "order": 2,
+         "validPeriod": null
+      }
+   ],
+   "imageList": [
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151341_218553.jpg",
+         "order": 1
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151344_341735.jpg",
+         "order": 4
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151348_84033.jpg",
+         "order": 2
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151352_779018.jpg",
+         "order": 5
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151354_749983.jpg",
+         "order": 3
+      },
+      {
+         "picturePath": "http://uat-steam.opg.cn/_static/admin/images/resource/20190510151356_730218.jpg",
+         "order": 6
+      }
+   ],
+   "supportRefund": false,
+   "accountDivisionRule": null,
+   "prize": true,
+   "status": "AW",
+   "auditReason": null,
+   "commissionRate": 0
+}

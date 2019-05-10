@@ -11,48 +11,84 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - resourceId: ''
-      title: QUEENS PALACE高级定制馆1-自动化
-      subTitle: QUEEN'S PALACE高级定制馆-活动副标题
-      deliverType: 0
-      vendorIdList:
-      - 3
       resourceTypeId: 12
-      content: <!DOCTYPE html><html><head></head><body><p>fQueen’s Palace于2011年9月创立，是一家国内高级定制婚纱礼服奢侈品牌。自品牌创立以来，Queen’s
-        Palace在沪上高定婚纱品牌的殿堂一直雄踞顶端，专注于婚纱定制的每一处细节。</p></body></html>
-      shareType: 1
-      shareTitle: QUEEN'S PALACE高级定制馆-分享标题
-      shareDescription: QUEEN'S PALACE高级定制馆-分享描述
-      sharePicturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101830_796382.jpg
-      province: 重庆市
-      city: 重庆郊县
-      addressDetail: 肇嘉浜路356号(襄阳南路路口)
-      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101738_928360.jpg
-      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101741_710087.jpg
-      imgListpicturePath1: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101747_909470.jpg
-      imgListpicturePath2: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101749_880315.jpg
-      cornerMask: 商品
-      offShelfTime: 2764800000
-      entryIdList:
-      - 7
+      title: 早鸟价接口自动化-勿动
+      subTitle: 66亲子旅行
+      cornerMask: 呼伦贝尔
+      baseVisits: 5703
+      vendorIdList:
+      - 105
+      vendorList:
+      - vendorId: 105
+        vendorName: 中国建筑集团
+      content: '<!DOCTYPE html><html><head></head><body><p>fQueen’s Palace于2011年9月创立，是一家国内高级定制婚纱礼服奢侈品牌。自品牌创立以来，Queen’s
+        Palace在沪上高定婚纱品牌的殿堂一直雄踞顶端，专注于婚纱定制的每一处细节。</p></body></html>'
+      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180523113427_419296.jpg
+      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180523113458_334476.jpg
+      deliverType: 1
+      shareInfoList:
+      - id: 3090
+        shareType: 1
+        title: 早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇ff
+        description: "早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇\t\t\t\t\t\n早鸟价！呼伦贝尔｜私家牧场任你驰骋策马，原始森林徒步猎奇\t\
+          \t\t\t\t\n"
+        picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20180523113515_891339.jpg
+      province: 内蒙古自治区
+      city: 呼伦贝尔市
+      addressDetail: "海拉尔区 额尔古纳市 莫尔道嘎镇 白鹿岛 恩和俄罗斯民族乡 满洲里市\t\t\t\t\t"
+      startTime: 1526890223000
+      endTime: 1556784624000
+      offShelfTime: 1557417600000
       tagIdList:
       - 2
-      skuName1: 套餐1
-      skuId1:
-      order1: 1
-      price1: '0.01'
-      originPrice1: '1000'
-      inventory1: '1000'
-      limitCount1: '2'
-      postPrice1: '0.01'
-      skuName2: 套餐2
-      skuId2:
-      order2: 2
-      price2: '0.02'
-      originPrice2: '1200'
-      inventory2: '2000'
-      limitCount2: '3'
-      postPrice2: '0.01'
-      state: 1
+      tagList: []
+      entryIdList:
+      - 7
+      - 76
+      entryList:
+      - entryId: 7
+        entryName: 优选
+      - entryId: 76
+        entryName: 游学
+      skuList:
+      - skuId: 458
+        skuName: 价格（成人）
+        price: 4980
+        originPrice:
+        postPrice: 0
+        limitCount: 233
+        inventory: 852
+        order: 1
+        validPeriod: 1560009540000
+      - skuId: 459
+        skuName: 价格（儿童）
+        price: 3980
+        originPrice:
+        postPrice: 0
+        limitCount: 233
+        inventory: 1000
+        order: 2
+        validPeriod: 1560009540000
+      imageList:
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152843_592335.jpg
+        order: 1
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152845_577722.jpg
+        order: 2
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152848_322128.jpg
+        order: 3
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152850_89025.jpg
+        order: 6
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152852_976031.jpg
+        order: 5
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510152855_979422.jpg
+        order: 4
+      supportRefund: false
+      accountDivisionRule:
+        commissionRate: 2.34
+        opgDivisionRate: 2
+      prize: false
+      status: AW
+      auditReason: null
       caseid: activity_add_1
       testPoint: 新增一个活动正常
       reqjsonfile: formatone
@@ -68,48 +104,86 @@ testcases:
     operationSteps: compareRetcodeTest
     testData:
     - resourceId: ''
-      title: QUEENS PALACE高级定制馆1-自动化
-      subTitle: QUEEN'S PALACE高级定制馆-活动副标题
-      deliverType: 0
-      vendorIdList:
-      - 3
       resourceTypeId: 11
-      content: <!DOCTYPE html><html><head></head><body><p>fQueen’s Palace于2011年9月创立，是一家国内高级定制婚纱礼服奢侈品牌。自品牌创立以来，Queen’s
-        Palace在沪上高定婚纱品牌的殿堂一直雄踞顶端，专注于婚纱定制的每一处细节。</p></body></html>
-      shareType: 1
-      shareTitle: QUEENSPALACE高级定制馆-分享标题
-      shareDescription: QUEEN'S PALACE高级定制馆-分享描述
-      sharePicturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101830_796382.jpg
-      province: 重庆市
-      city: 重庆郊县
-      addressDetail: 肇嘉浜路356号(襄阳南路路口)
-      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101738_928360.jpg
-      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101741_710087.jpg
-      imgListpicturePath1: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101747_909470.jpg
-      imgListpicturePath2: http://uat-steam.opg.cn/_static/admin/images/resource/20180507101749_880315.jpg
-      cornerMask: 商品
-      offShelfTime: 2764800000
-      entryIdList:
-      - 7
+      title: 创客教育儿童早教学习接口自动化-商品-勿动
+      subTitle: 'makeblock Ultimat创客教育儿童早教学习 '
+      cornerMask: 机器人
+      baseVisits: 0
+      vendorIdList:
+      - 105
+      vendorList:
+      - vendorId: 105
+        vendorName: 中国建筑集团
+      content: '<p><span style="font-size: 12pt;" data-mce-style="font-size: 12pt;">作为一款高级可编程机器人套件，Ultimate
+        2.0拥有的机械零件和电子模块总数超过</span><span style="font-size: 12pt;" data-mce-style="font-size:
+        12pt;">160个，可搭建出至少10种创意形态。搭配积木式编程软件mBlock 3，使编程不再有门</span><span style="font-size:
+        12pt;" data-mce-style="font-size: 12pt;">槛。 Ultimate 2.0还兼容DIY平台、Arduino和树莓派，具有强大的创造和扩展属性，不管</span><span
+        style="font-size: 12pt;" data-mce-style="font-size: 12pt;">是学生、老师、创客还是工程师，都能用它实现有趣实用的项目开发，尽享让脑洞变为现</span><span
+        style="font-size: 12pt;" data-mce-style="font-size: 12pt;">实的创造乐趣！</span></p><table
+        width="460" class="mce-item-table"><tbody><tr><td colspan="4" width="460"><p><img
+        class="wscnph" src="http://uat-steam.opg.cn/_static/admin/images/resource/20180502110433_686074.jpg"
+        data-mce-src="../_static/admin/images/resource/20180502110433_686074.jpg"></p></td></tr></tbody></table>'
+      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180502110352_637515.jpg
+      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20180502110400_690919.jpg
+      deliverType: 0
+      shareInfoList:
+      - id: 1
+        shareType: 1
+        title: 发发发
+        description: 发发发
+        picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20181010134441_821121.jpg
+      province:
+      city:
+      addressDetail:
+      startTime:
+      endTime:
+      offShelfTime:
       tagIdList:
-      - 2
-      skuName1: 套餐1
-      skuId1:
-      order1: 1
-      price1: '0.01'
-      originPrice1: '1000'
-      inventory1: '1000'
-      limitCount1: '2'
-      postPrice1: '0.01'
-      skuName2: 套餐2
-      skuId2:
-      order2: 2
-      price2: '0.02'
-      originPrice2: '1200'
-      inventory2: '2000'
-      limitCount2: '3'
-      postPrice2: '0.01'
-      state: 1
+      - 5
+      tagList: []
+      entryIdList:
+      - 67
+      entryList:
+      - entryId: 67
+        entryName: 小码童
+      skuList:
+      - skuId: 16
+        skuName: 红色创客教育儿童早教学习
+        price: 2299
+        originPrice: 2299
+        postPrice: 0
+        limitCount: 55
+        inventory: 240
+        order: 1
+        validPeriod:
+      - skuId: 2126
+        skuName: 体验课
+        price: 0.01
+        originPrice: 333
+        postPrice: 0
+        limitCount: 255
+        inventory: 229
+        order: 2
+        validPeriod:
+      imageList:
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151341_218553.jpg
+        order: 1
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151344_341735.jpg
+        order: 4
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151348_84033.jpg
+        order: 2
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151352_779018.jpg
+        order: 5
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151354_749983.jpg
+        order: 3
+      - picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190510151356_730218.jpg
+        order: 6
+      supportRefund: false
+      accountDivisionRule:
+      prize: true
+      status: AW
+      auditReason:
+      commissionRate: 0
       caseid: goods_add_1
       testPoint: 新增一个商品正常
       reqjsonfile: goodsAddReqjson
