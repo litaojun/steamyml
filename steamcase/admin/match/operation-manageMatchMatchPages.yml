@@ -9,8 +9,8 @@ testcases:
     - pageSize: 50
       matchId: 22
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 修改活动正常
+      caseid: match_find_1
+      testPoint: 分页查询赛事
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:
       code: '000000'

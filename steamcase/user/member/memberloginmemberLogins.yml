@@ -11,6 +11,7 @@ testcases:
       resourceTypeId: 11
       keyword: 早教学习儿童编程机器人套件益智智能机器人
       phoneNo: '18916899938'
+      loginName: '18916899938'
       scenes: OTP
       caseid: user_login_1
       testPoint: 登录

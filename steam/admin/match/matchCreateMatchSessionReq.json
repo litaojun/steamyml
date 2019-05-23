@@ -1,0 +1,10 @@
+{
+	"matchId"   : "10000",
+	"matchName" : "测试",
+	"applyStartTime": null,
+	"applyEndTime"  : null,
+	"limitCount"    : null,
+	"parentId"      : null,
+	"state"         : 1,
+	"applyNum"      : 0
+}

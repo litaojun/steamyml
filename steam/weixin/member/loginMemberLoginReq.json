@@ -3,10 +3,7 @@
 	"loginType": "NM",
 	"password": "000000",
 	"inviterId": "",
-	"partnerInfo": {
-		"partnerName": "WX",
-		"partnerMemberId": "oJ3wwxO7th7tBYDVGTbZWkqdLt2A"
-	},
+	"partnerInfo": null,
 	"adInfo": {
 		"source": "",
 		"medium": "",
