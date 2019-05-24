@@ -12,7 +12,7 @@ testcases:
     - courseTitle: 彩虹小白马20章20节
       content: <p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>
       reqjsonfile: formatone
-      caseid: activity_publish_1
+      caseid: course_publish_1
       testPoint: 发布课程
       title: java开发课程
       description: 编程入门到实战

@@ -3,16 +3,24 @@ testcases:
   case:
   - testPoint: 修改素材
     preConditions:
+    - setupCreateOneMaterial
     - setupGetFirstMerchant
+    - tearDownRemoveMeterial
     operationSteps: compareRetcodeTest
     testData:
-    -  materialType: 2,
-       entryIdList: [72]
-       materialTitle: 1023普通视频
-       materialTitleAlert: 1023普通视频-修改
-       caseid: add_material
-       testPoint: 删除一个素材
-       resourceId: 46
+    -  materialType: 2
+       caseid: alert_material_01
+       testPoint: 修改素材
+       status: AW
+       entryIdList:
+       - 72
+       merchantId: '53'
+       materialTitle: 发的发
+       materialUrl: d3ffc509ea114a82b13141183f0331ac
+       materialName: 1.mp4
+       materialTime: 9500
+       materialSize: 1566
+       coverUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20181019140036_520261.jpg
     expectedResult:
       code: '000000'
       compare:

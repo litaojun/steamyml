@@ -3,7 +3,9 @@ testcases:
   case:
   - testPoint: 审核课程
     preConditions:
-    - ''
+    - setupAddCourse
+    - setupGetFrsIdFromQryRst
+    - tearDownRemoveCourse
     operationSteps: compareRetcodeTest
     testData:
     - title: 美式外教科学营---1
