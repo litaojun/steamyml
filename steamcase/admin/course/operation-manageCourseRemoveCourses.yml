@@ -7,19 +7,137 @@ testcases:
     - setupGetFrsIdFromQryRst
     operationSteps: compareRetcodeTest
     testData:
-    - courseTitle: post新增课程
-      content: <p>1-1并发编程入门到实战课程简介并发编程入门到实战课程简介</p>
+    - caseid: activity_remove_1
+      testPoint: 删除课程
       reqjsonfile: formatone
-      caseid: activity_alert_1
-      testPoint: 新增课程
-      title: java开发课程
-      description: 编程入门到实战
-      materialTitle: 巴拿马（）
-      materialId: 14
+      currentPage: 1
+      pageSize: 10
+      resourceTypeId: 13
+      courseTitle: 武汉大学AutoCAD技术视频
+      content: <p>通过对本课程的学习，使得学生基本了解我国民法的基本内容，掌握公民享有的基本民事权利，能够利用所学的理论知识分析和解决民事纠纷。</p>
+      cornerMask: 课程
+      merchantId: '105'
+      merchantName: 中国建筑集团
+      baseStudiedCount:
+      baseScorePersonNum: 3
+      thumbUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150116_254045.jpg
+      bannerUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150118_631486.jpg
+      offShelfTime:
+      charge: 1
+      price: 33
+      originPrice: 553
+      title: 武汉理工大学民法学-分享标题
+      picturePath: http://uat-steam.opg.cn/_static/admin/images/resource/20190108150234_478202.jpg
+      description: 武汉理工大学民法学-分享描述
+      tagIdList:
+      - 2
+      tagList:
+      - tagId: 2
+        tagName: 优选文章
+      entryIdList:
+      - 73
+      entryList:
+      - entryId: 73
+        entryName: 赛事
+      courseCategory:
+      - chapterId: 1114
+        chapterName: 第一章 AutoCAD2007入门基础
+        sections:
+        - sectionId: 4385
+          sectionName: AutoCAD 的基本功能
+          supportTry: 1
+          materialInfo:
+            id: 41
+            materialId: 41
+            materialType:
+            entryIdList:
+            merchantId:
+            materialTitle: 新增
+            materialUrl:
+            materialName: 飘落的花瓣动态视频背景素材.mov
+            materialTime:
+            materialSize:
+            coverUrl:
+            useNum:
+            createGmt:
+            modifyGmt:
+            status:
+            auditReason:
+        - sectionId: 4386
+          sectionName: 民法的调整对象及其产生
+          supportTry: 0
+          materialInfo:
+            id: 40
+            materialId: 40
+            materialType:
+            entryIdList:
+            merchantId:
+            materialTitle: 标题！
+            materialUrl:
+            materialName: 月亮之上.mp4
+            materialTime:
+            materialSize:
+            coverUrl:
+            useNum:
+            createGmt:
+            modifyGmt:
+            status:
+            auditReason:
+      - chapterId: 1115
+        chapterName: 民法的基本原则
+        sections:
+        - sectionId: 4387
+          sectionName: 平等原则、意思自治原则、诚信原则
+          supportTry: 0
+          materialInfo:
+            id: 27
+            materialId: 27
+            materialType:
+            entryIdList:
+            merchantId:
+            materialTitle: 回归_新增收费视频
+            materialUrl:
+            materialName: Wildlife.wmv
+            materialTime:
+            materialSize:
+            coverUrl:
+            useNum:
+            createGmt:
+            modifyGmt:
+            status:
+            auditReason:
+        - sectionId: 4388
+          sectionName: 意思自治原则、诚信原则
+          supportTry: 0
+          materialInfo:
+            id: 21
+            materialId: 21
+            materialType:
+            entryIdList:
+            merchantId:
+            materialTitle: 素材s
+            materialUrl:
+            materialName: 时间都去哪了.mp4
+            materialTime:
+            materialSize:
+            coverUrl:
+            useNum:
+            createGmt:
+            modifyGmt:
+            status:
+            auditReason:
+      status: AW
+      skuId: 3028
+      supportRefund: false
+      accountDivisionRule:
+        commissionRate: 55
+        opgDivisionRate: 55
+      prize: false
+      auditReason:
     expectedResult:
       code: '000000'
       compare:
-        - comparePoint: 验证返回码为'000000'
-          expectData: '000000'
-          actualData: getRetcodeByRsp
-          fun: assertEqual
+      - comparePoint: 验证返回码为'000000'
+        expectData: '000000'
+        actualData: getRetcodeByRsp
+        fun: assertEqual

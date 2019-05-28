@@ -7,12 +7,19 @@ testcases:
     - setupGetFirstMerchant
     operationSteps: compareRetcodeTest
     testData:
-    -  materialType: 2,
-       entryIdList: [72]
-       merchantId: "53"
+    -  materialType: 2
+       caseid: audit_del_01
+       testPoint: 删除素材
+       status: AW
+       entryIdList:
+       - 72
+       merchantId: '53'
        materialTitle: 发的发
-       caseid: add_material
-       testPoint: 删除一个素材
+       materialUrl: d3ffc509ea114a82b13141183f0331ac
+       materialName: 1.mp4
+       materialTime: 9500
+       materialSize: 1566
+       coverUrl: http://uat-steam.opg.cn/_static/admin/images/resource/20181019140036_520261.jpg
     expectedResult:
       code: '000000'
       compare:

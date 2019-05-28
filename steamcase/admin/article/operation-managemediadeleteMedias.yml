@@ -26,6 +26,7 @@ testcases:
       matchId: 20
       resourceTypeId: 2
       state: W
+      status: AW
       caseid: article_del_1
       testPoint: 删除一个文章正常
     expectedResult:
@@ -55,7 +56,8 @@ testcases:
       matchId: 20
       resourceTypeId: 1
       state: W
-      caseid: media_del_1
+      status: AW
+      caseid: media_del_2
       testPoint: 删除一个作品视频正常
     expectedResult:
       code: '000000'

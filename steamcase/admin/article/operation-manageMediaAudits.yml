@@ -31,6 +31,7 @@ testcases:
       testPoint: 审核文章通过
       pass: True
       auditReason: None
+      status: AW
     expectedResult:
       code: '000000'
   - testPoint: 审核视频通过
@@ -63,5 +64,6 @@ testcases:
       auditReason: None
       caseid: media_audits_1
       testPoint: 审核视频通过
+      status: AW
     expectedResult:
       code: '000000'
