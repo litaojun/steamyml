@@ -6,7 +6,8 @@ testcases:
     - setupGetFirstSearchResource
     - setupAddOperPosition
     - setupGetFirstConfigResource
-    - setupGetFirstSearchAlertResource
+    - setupSetAlertResource
+    - setupGetFirstSearchResource
     - tearDownDelOneOperpsn
     operationSteps: compareRetcodeTest
     testData:
@@ -16,7 +17,9 @@ testcases:
       alertPicPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
       position: '01'
       resourceTypeId: 2
+      resourceType: 2
       displayType: '2'
+      ids: []
       caseid: operpsn_add_1
       testPoint: 新增一个运营位配置-首页banner-文章
     expectedResult:

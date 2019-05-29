@@ -10,6 +10,8 @@ testcases:
     - caseid: activity_alert_1
       testPoint: 修改活动正常
       reqjsonfile: formatone
+      currentPage: 1
+      pageSize: 10
       resourceTypeId: 13
       courseTitle: 武汉大学AutoCAD技术视频
       content: <p>通过对本课程的学习，使得学生基本了解我国民法的基本内容，掌握公民享有的基本民事权利，能够利用所学的理论知识分析和解决民事纠纷。</p>

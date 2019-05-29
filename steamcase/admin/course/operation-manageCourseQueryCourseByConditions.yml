@@ -8,7 +8,7 @@
     testData:
     - courseTitle: 武汉大学AutoCAD技术视频
       reqjsonfile: formatone
-      caseid: activity_alert_1
+      caseid: query_course_1
       testPoint: 搜索课程
       description: 编程入门到实战
       materialTitle: 巴拿马（）
@@ -25,4 +25,4 @@
         - comparePoint: 验证搜索的个数大于1条
           expectData: 1
           actualData: getQryRstCount
-          fun: assertGreaterEqual
+          fun: assertLessEqual

@@ -3,9 +3,11 @@ testcases:
   case:
   - testPoint: 修改手机号
     preConditions:
+    - setupSetPhoneNoToNewphoneNo
     - setupSendVerifyCode
     - setupSetRspToNone
     - tearDownExchangeOldNewPhoneNo
+    - setupSetPhoneNoToNewphoneNo
     - tearDownSendVerifyCode
     - tearDownChangePhone
     operationSteps: compareRetcodeTest
@@ -15,9 +17,9 @@ testcases:
       newPhoneNo: '18516099506'
       alertScenes: MP
       reqjsonfile: formatone
-      scenes: OTP
+      scenes: MP
       alterPhoneReqFile: alertPhoneFormat
-      caseid: activity_alert_1
+      caseid: alert_PhoneNo_1
       testPoint: 修改手机号
       assertFun: https://blog.csdn.net/qq_29699799/article/details/79947882
     expectedResult:

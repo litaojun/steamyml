@@ -13,7 +13,9 @@ testcases:
       listOrder: 1
       position: '01'
       resourceTypeId: 2
+      resourceType: 2
       displayType: '2'
+      ids: []
       caseid: operpsn_add_1
       testPoint: 新增一个运营位配置-首页banner-文章
     expectedResult:
@@ -29,8 +31,10 @@ testcases:
       picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
       listOrder: 1
       resourceTypeId: 1
+      resourceType: 1
       position: '01'
       displayType: '1'
+      ids: []
       caseid: operpsn_add_2
       testPoint: 新增一个运营位配置-首页banner-视频
     expectedResult:
@@ -46,8 +50,10 @@ testcases:
       picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
       listOrder: 1
       resourceTypeId: 11
+      resourceType: 11
       position: '01'
       displayType: '1'
+      ids: []
       caseid: operpsn_add_3
       testPoint: 新增一个运营位配置-首页banner-商品
     expectedResult:
@@ -63,8 +69,10 @@ testcases:
       picPath: http://uat-steam.opg.cn/_static/admin/images/resource/20180425150543_430837.jpg
       listOrder: 1
       resourceTypeId: 12
+      resourceType: 12
       position: '01'
       displayType: '1'
+      ids: []
       caseid: operpsn_add_4
       testPoint: 新增一个运营位配置-首页banner-活动
     expectedResult:
