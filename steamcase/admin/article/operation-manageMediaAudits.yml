@@ -62,7 +62,7 @@ testcases:
       state: A
       pass: True
       auditReason: None
-      caseid: media_audits_1
+      caseid: media_audits_2
       testPoint: 审核视频通过
       status: AW
     expectedResult:
