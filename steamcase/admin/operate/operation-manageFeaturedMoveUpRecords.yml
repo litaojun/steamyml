@@ -17,6 +17,7 @@
       resourceTypeId: 2
       specificTypeName: 文章
       displayType: '2'
+      resourceType: 2
       caseid: operpsn_add_1
       testPoint: 运营位记录上移
     expectedResult:

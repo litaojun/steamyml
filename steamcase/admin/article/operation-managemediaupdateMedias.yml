@@ -27,6 +27,7 @@ testcases:
       matchId: 20
       resourceTypeId: 2
       state: A
+      status: AW
       caseid: article_alert_1
       testPoint: 修改文章正常
     expectedResult:
@@ -57,6 +58,7 @@ testcases:
       matchId: 20
       resourceTypeId: 1
       state: A
+      status: AW
       caseid: media_alert_1
       testPoint: 修改一个作品视频正常
     expectedResult:
