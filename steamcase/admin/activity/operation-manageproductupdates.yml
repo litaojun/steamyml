@@ -24,4 +24,8 @@ testcases:
       caseid: goods_alert_1
       testPoint: 修改商品正常
     expectedResult:
-      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

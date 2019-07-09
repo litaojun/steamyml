@@ -16,7 +16,11 @@ testcases:
       caseid: match_add_1
       testPoint: 新增一个赛事正常
     expectedResult:
-      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual
   - testPoint: 修改一个亲子赛场次标题成功
     preConditions:
     - setupAddMatchOrSession
@@ -36,4 +40,8 @@ testcases:
       caseid: matchSession_alert_1
       testPoint: 修改一个亲子赛场次标题成功
     expectedResult:
-      code: '000000'
+      compare:
+        - comparePoint: 验证返回码为'000000'
+          expectData: '000000'
+          actualData: getRetcodeByRsp
+          fun: assertEqual

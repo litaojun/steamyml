@@ -1046,7 +1046,7 @@ steam:
                 - loginQueryMemberInfoRsp.json
                 - loginQueryMemberInfoFmtRsp.json
         /member-service/members/personalCenter:
-            modul: 会员微服务
+            modul: 会员微服务-删除
             title: 个人中心接口
             method: get
             url: https://uat-steam-api.opg.cn/member-service/members/personalCenter
